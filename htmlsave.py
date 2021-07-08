@@ -6,6 +6,11 @@ import sys
 import requests
 from datetime import date 
 
+def createfilename():
+    filename = (authorID + "-" + str(today) + "-" + str("%04d" % begin_value) + \
+                         "-" + str("%04d" % end_value) + ".html")
+    return filename
+
 #Import author IDs from command line and download Google Scholar webpages
 arguments = len(sys.argv)
 today = date.today()
@@ -25,8 +30,7 @@ for a in range(1,arguments):
     statuscode = page.status_code
     if statuscode == 200:
         begin_value = begin_value + 1
-        new_filename = (authorID + "-" + str(today) + "-" + str("%04d" % begin_value) + \
-                         "-" + str("%04d" % end_value) + ".html")
+        new_filename = createfilename()
         if os.path.exists(new_filename):
             sys.stdout.write("Overwriting existing file with same name ...\n")
         else:
