@@ -14,7 +14,7 @@ for a in range(1,arguments):
     sys.stdout.write("Importing \"" + file_name + "\"...\n")
     soup = BeautifulSoup(html_file, "lxml")
 
-    #Specific table elements are extracted from the Beautiful Soup contents
+    #Specific table elements extracted from the Beautiful Soup contents
     gs_results = soup.find_all('tr', class_= 'gsc_a_tr')
 
     #Obtain authorID from filename
