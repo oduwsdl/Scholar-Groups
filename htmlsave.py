@@ -11,6 +11,12 @@ def createfilename():
                          "-" + str("%04d" % end_value) + ".html")
     return filename
 
+def createURL():
+    captureURL = ("https://scholar.google.com/citations?hl=en&user=" + authorID + \
+                 "&view_op=list_works&sortby=pubdate&cstart=" + str(begin_value) + \
+                 "&pagesize=" + str(end_value))
+    return captureURL
+
 #Import author IDs from command line and download Google Scholar webpages
 arguments = len(sys.argv)
 today = date.today()
@@ -21,10 +27,7 @@ for a in range(1,arguments):
     #Loop through the program to download author ID webpages
     begin_value = 0
     end_value = 100 
-    url = ("https://scholar.google.com/citations?hl=en&user=" + authorID + \
-           "&view_op=list_works&sortby=pubdate&cstart=" + str(begin_value) + \
-           "&pagesize=" + str(end_value))
-    page = requests.get(url)
+    page = requests.get(createURL())
     
     #Program checks status code to verify a valid page was received
     statuscode = page.status_code
