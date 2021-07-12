@@ -3,8 +3,16 @@
 
 import os
 import sys
+import urllib
 import hashlib
 from bs4 import BeautifulSoup
+
+def findinitiallink(i):
+    if 'data-href' in i:
+        initial_link = i.a['data-href']
+    else:
+        initial_link = i.select_one('.gsc_a_t a')['href']
+    return initial_link
 
 #Import the html file contents and open it with Beautiful Soup
 arguments = len(sys.argv)
@@ -25,17 +33,12 @@ for a in range(1,arguments):
     gs_lists = []
     for i in gs_results:
         item = i
-        initial_link = i.a['data-href']
+        initial_link = findinitiallink(i)
         prefaceURL = "https://scholar.google.com"
     
         #Create the necessary link information to cause a popup of the article
-        adj_string = initial_link
-        adj_string = adj_string.replace('/', '%2F')
-        adj_string = adj_string.replace('?', '%3F')
-        adj_string = adj_string.replace('=', '%3D')
-        adj_string = adj_string.replace(':', '%3A')
-        adj_string = adj_string.replace('&', '%26')
-        popupURL = "/citations?user=" + author_ID + "#d=gs_md_cita-d&u=" + adj_string
+        encoded_link = urllib.parse.quote(initial_link, safe='')
+        popupURL = "/citations?user=" + author_ID + "#d=gs_md_cita-d&u=" + encoded_link
 
         #Extract the specific elements of the HTML page contents
         directURL = prefaceURL + i.a['data-href']
