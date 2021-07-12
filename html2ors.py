@@ -14,6 +14,11 @@ def findinitiallink(i):
         initial_link = i.select_one('.gsc_a_t a')['href']
     return initial_link
 
+def createpopupURL(initial_link):
+    encoded_link = urllib.parse.quote(initial_link, safe='')
+    popupURL = prefaceURL + "/citations?user=" + authorID + "#d=gs_md_cita-d&u=" + encoded_link)
+    return popupURL
+
 #Import the html file contents and open it with Beautiful Soup
 arguments = len(sys.argv)
 for a in range(1,arguments):
@@ -36,13 +41,9 @@ for a in range(1,arguments):
         initial_link = findinitiallink(i)
         prefaceURL = "https://scholar.google.com"
     
-        #Create the necessary link information to cause a popup of the article
-        encoded_link = urllib.parse.quote(initial_link, safe='')
-        popupURL = "/citations?user=" + author_ID + "#d=gs_md_cita-d&u=" + encoded_link
-
         #Extract the specific elements of the HTML page contents
         directURL = prefaceURL + i.a['data-href']
-        popURL = prefaceURL + popupURL
+        #popURL = createpopupURL(initial_link)  #Used previously to create popup URL link
         title = i.a.text
         authors = i.select_one('.gs_gray').text
         source = i.select('.gs_gray')[-1].text
@@ -57,7 +58,7 @@ for a in range(1,arguments):
         gs_lists.append((
         hashID + ' ' + pageYear + ' { ' + \
         '"DirectURL":"' + directURL + '", ' + \
-        '"PopURL":"' + popURL + '", ' + \
+        #'"PopURL":"' + popURL + '", ' + \  #Usable when popup URL link is included
         '"Title":"' + title + '", ' + \
         '"Authors":"' + authors + '", ' + \
         '"Source":"' + source + '", ' + \
