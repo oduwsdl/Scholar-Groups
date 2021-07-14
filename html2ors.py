@@ -16,30 +16,30 @@ def findinitiallink(i):
 
 def createpopupURL(initial_link):
     encoded_link = urllib.parse.quote(initial_link, safe='')
-    popupURL = prefaceURL + "/citations?user=" + authorID + "#d=gs_md_cita-d&u=" + encoded_link)
+    popupURL = prefaceURL + '/citations?user=' + authorID + '#d=gs_md_cita-d&u=' + encoded_link)
     return popupURL
 
 #Import the html file contents and open it with Beautiful Soup
 arguments = len(sys.argv)
 for a in range(1,arguments):
-    html_file = open(sys.argv[a], "rb")
+    html_file = open(sys.argv[a], 'rb')
     file_name = html_file.name
-    sys.stdout.write("Importing \"" + file_name + "\"...\n")
-    soup = BeautifulSoup(html_file, "lxml")
+    sys.stdout.write('Importing "' + file_name + '" . . .\n')
+    soup = BeautifulSoup(html_file, 'lxml')
 
     #Specific table elements extracted from the Beautiful Soup contents
     gs_results = soup.find_all('tr', class_= 'gsc_a_tr')
 
     #Obtain authorID from filename
-    file_string = file_name.split("-")
-    author_ID = file_string[0]
+    file_string = file_name.split('XXXXXXX')
+    author_ID = file_string[1]
 
     #An array is created for each item in the Beautiful Soup file
     gs_lists = []
     for i in gs_results:
         item = i
         initial_link = findinitiallink(i)
-        prefaceURL = "https://scholar.google.com"
+        prefaceURL = 'https://scholar.google.com'
     
         #Extract the specific elements of the HTML page contents
         directURL = prefaceURL + i.a['data-href']
@@ -69,9 +69,9 @@ for a in range(1,arguments):
          
         #Save the contents as an ORS file with the same name as the original HTML file
         f_name, f_ext = os.path.splitext(html_file.name)        
-        with open((f_name + ".ors"), "w") as new_file:
+        with open((f_name + '.ors'), 'w') as new_file:
             for line in gs_lists:
-                new_file.write("".join(line) + "\n") 
+                new_file.write(''.join(line) + '\n') 
     sys.stdout.write('Saving as "' + new_file.name + '" ...\n') 
     html_file.close()
  
