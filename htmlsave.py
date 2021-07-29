@@ -11,7 +11,10 @@ The "createfilename()" function uses a specific ID separator of 'XXXXXXX' before
 after the author ID value. Originally, the file would start with the author ID and 
 have the date string appended to it. However, some author IDs in Google Scholar will 
 contain hyphens '-' and underscores '_' that create significant errors when trying 
-to process commands from the Command Line Interface. Therefore, a regular character 
+to process commands from the Command Line Interface. For example, one author in the 
+WSDL group has an ID in the form "-eRx..." that is read as an optional argument in 
+Linux. Prefacing it with \ can work with manually-entered commands, but this is not 
+as easily implemented when using automated scripts. Therefore, a regular character 
 separator was added. Currently, 7 sets of 'X' is used as that is unlikely to be seen 
 in an actual author ID field. The date field is added to identify when the content 
 has been downloaded from Google Scholar. This provides a record to reflect changes 
@@ -33,8 +36,9 @@ a separate function facilitates future changes to the URL to be captured..
 # The file has the structure XXXXXXXauthorIDvalueXXXXXXX2021-08-14-0001-1000.html
 def createfilename():
     id_separator = 'XXXXXXX'
-    filename = (id_separator + authorID + id_separator + str(today) + '-' + str('%04d' % begin_value) + \
-                         '-' + str('%04d' % end_value) + '.html')
+    end_value = (begin_value + 99)
+    filename = (id_separator + authorID + id_separator + '-' + str(today) + '-' + \
+                str('%04d' % begin_value) + '-' + str('%04d' % end_value) + '.html')
     return filename
 
 # This function formats the URL that is used to capture the HTML content. 
@@ -42,7 +46,7 @@ def createfilename():
 def createURL():
     captureURL = ('https://scholar.google.com/citations?hl=en&user=' + authorID + \
                  '&view_op=list_works&sortby=pubdate&cstart=' + str(begin_value) + \
-                 '&pagesize=' + str(end_value))
+                 '&pagesize=' + str(page_size))
     return captureURL
 
 """
@@ -65,8 +69,9 @@ for a in range(1,arguments):
 
     # Loop through the program to download author ID webpages. Currently, the
     # Google Scholar website allows capturing of up to 100 articles at a time.
-    begin_value = 0
-    end_value = 100 
+    start_value = 0
+    begin_value = start_value
+    page_size = 100 
     page = requests.get(createURL())
     
     """
@@ -90,8 +95,10 @@ for a in range(1,arguments):
     # Program checks status code to verify a valid page was received. A status code 
     # of '200' is valid. A '302' redirect to a '200' is normally accepted as well.
     statuscode = page.status_code
-    if statuscode == 200:
-        begin_value = begin_value + 1
+    x = 1
+    qualifier = '>There are no articles in this profile.<'
+    article_test = True
+    while statuscode == 200 and article_test == True:
         new_filename = createfilename()
         if os.path.exists(new_filename):
             sys.stdout.write('Overwriting existing file with same name ...\n')
@@ -100,7 +107,16 @@ for a in range(1,arguments):
         html_file = open(new_filename, 'wb')
         html_file.write(page.content)
         html_file.close()
-        sys.stdout.write('File saved as '" + html_file.name + '"\n')
+        sys.stdout.write('File saved as "' + html_file.name + '"\n')
+        begin_value = begin_value + 100
+        page = requests.get(createURL())
+        new_test = page.text
+        if qualifier in new_test:
+            article_test = False 
+        statuscode = page.status_code
+        x = x+1
+    if statuscode == 200 and article_test == False:
+        sys.stdout.write('There are no more articles to capture ...\n')
     if statuscode != 200:
         sys.stderr.write('Incorrect author ID or inaccessible webpage.\n')
         continue
