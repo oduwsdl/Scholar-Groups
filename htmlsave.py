@@ -22,7 +22,7 @@ to the website and content over time. The beginning and ending strings are used 
 capture a range of articles due to pagination issues where GS only displays some of 
 the articles at any time. Originally, GS showed only a certain range of pages, then 
 the code was revised to display all articles, then it reverted back to showing only
-a range of articles/page. These are now set to 4 digits to capture from 0001 - 1000 
+a range of articles/page. These are now set to 4 digits to capture from 0001 - 9999 
 articles. The decision to use 4 digits instead of 3 digits was to prepare for the 
 possibility that any user had more than 999 articles listed. 
 
@@ -35,8 +35,8 @@ a separate function facilitates future changes to the URL to be captured..
 # This function provides the format of the filename for saving the HTML content
 # The file has the structure XXXXXXXauthorIDvalueXXXXXXX2021-08-14-0001-1000.html
 def createfilename():
-    id_separator = 'XXXXXXX'
-    end_value = (begin_value + 99)
+    id_separator = 'XXXXXXX' 
+    end_value = (begin_value + 99) 
     filename = (id_separator + authorID + id_separator + '-' + str(today) + '-' + \
                 str('%04d' % begin_value) + '-' + str('%04d' % end_value) + '.html')
     return filename
@@ -45,8 +45,8 @@ def createfilename():
 # The URL captures articles sorted according to most recent publication date.
 def createURL():
     captureURL = ('https://scholar.google.com/citations?hl=en&user=' + authorID + \
-                 '&view_op=list_works&sortby=pubdate&cstart=' + str(begin_value) + \
-                 '&pagesize=' + str(page_size))
+                  '&view_op=list_works&sortby=pubdate&cstart=' + str(begin_value) + \
+                  '&pagesize=' + str(page_size))
     return captureURL
 
 """
@@ -89,15 +89,21 @@ for a in range(1,arguments):
     IDs would not be useful because the new page shows only the first 20 articles 
     irrespective of the range provided in the original URL link. Therefore, it is 
     beneficial for the user to receive an error and be responsible for identifying 
-    the author's updated ID. 
+    the author's updated ID. Additionally, the program uses a while loop to capture 
+    additional pages of articles until it finds a specific qualifier string. The
+    string ">There are no articles in this profile.<" is currently the qualifier. 
     """
-    
+    # Program requests further pages of articles until the qualifier string is found
+    qualifier = '>There are no articles in this profile.<'
+    article_test = True
+
     # Program checks status code to verify a valid page was received. A status code 
     # of '200' is valid. A '302' redirect to a '200' is normally accepted as well.
     statuscode = page.status_code
     x = 1
-    qualifier = '>There are no articles in this profile.<'
-    article_test = True
+
+    # Program loops to capture articles as long as qualifier is not found and the 
+    # status code of '200' is registered.
     while statuscode == 200 and article_test == True:
         new_filename = createfilename()
         if os.path.exists(new_filename):
@@ -115,9 +121,13 @@ for a in range(1,arguments):
             article_test = False 
         statuscode = page.status_code
         x = x+1
+
+    # Program notifies user when no further articles are found within valid GS page
     if statuscode == 200 and article_test == False:
         sys.stdout.write('There are no more articles to capture ...\n')
+
+    # Program notifies user when an invalid page is returned
     if statuscode != 200:
         sys.stderr.write('Incorrect author ID or inaccessible webpage.\n')
         continue
-    
+
