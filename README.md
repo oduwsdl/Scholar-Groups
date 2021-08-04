@@ -45,6 +45,10 @@ The createURL() function provides the format of the URL to be captured by the pr
 
 * web_preface_html_code + authorID + article_selection_html_code + begin range + page_size_html_code + page size
 
+And example initial webpage URL is as follows: 
+
+https://scholar.google.com/citations?hl=en&user=oWQaPnwAAAAJ&view_op=list_works&sortby=pubdate&cstart=0&pagesize=100
+
 The page size is set to capture 100 articles per page as that is the maximum presently allowable. 
 
 ### htmlsave.py examples
@@ -95,11 +99,20 @@ There are no more articles to capture ...
 $                                     
 ```
 
+
 ## html2ors.py
 
-The html2ors.py program uses Beautiful Soup to extract article contents from the previously downloaded HTML file. Elements are extracted on a line-by-line basis. Currently, the program runs from the Command Line Interface. The user must specify the name of the HTML file to convert to ORS type. The program can convert one or multiple HTML files. Additionally, the program saves the ORS file in the same naming convention as the name of the original HTML file, so it is relatively easy to identify which HTML files have been converted. 
+The html2ors.py program uses Beautiful Soup to extract article contents from the previously downloaded HTML files. Elements are extracted on a line-by-line basis. Currently, the program runs from the Command Line Interface. The user must specify the name of the HTML file to convert to ORS type. The program can convert one or multiple HTML files. Additionally, the program saves the ORS file in the same naming convention as the name of the original HTML file, so it is relatively easy to identify which HTML files have been converted. 
 
-The findinitiallink() function is used to search the saved HTML file for the URL for each article. Originally, this was simply included in the main code. However, Google Scholar had revised their code 3 weeks after the project began, which required this to be revised as well. This was now converted to a separate function so that it is easier to identify and revise as necessary. The function is currently set to capture the link according to either the previous GS coding or the current GS coding. It finds the link and returns it to the main program where it was called. 
+* XXXXXXX-eRxYs8AAAAJXXXXXXX-2021-08-01-0000-0099.html &#8594;&#8594; XXXXXXX-eRxYs8AAAAJXXXXXXX-2021-08-01-0000-0099.ors
+
+The program uses two specific functions as part of its operation: [findinitiallink]() and [createpopupURL](). 
+
+### findinitiallink
+
+This function is used to search the saved HTML file for the URL for each article. Originally, this was simply included in the main code. However, Google Scholar had revised their code 3 weeks after the project began, which required this to be revised as well. This was now converted to a separate function so that it is easier to identify and revise as necessary. The function is currently set to capture the link according to either the previous GS coding or the current GS coding. It finds the link and returns it to the main program where it was called. 
+
+### createpopupURL
 
 The createpopupURL() function is used to create the link necessary to cause the GS article link to open the article in a popup window instead of just in a separate window. Originally, this was part of the main code but has been converted to a called function. It currently does not work as Google Scholar has removed that functionality from the webpage. However, the function has been left intact in case the ability again becomes available through the GS website.
 
