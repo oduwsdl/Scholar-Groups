@@ -100,6 +100,7 @@ $
 ```
 
 
+
 ## html2ors.py
 
 The html2ors.py program uses Beautiful Soup to extract article contents from the previously downloaded HTML files. Elements are extracted on a line-by-line basis. Currently, the program runs from the Command Line Interface. The user must specify the name of the HTML file to convert to ORS type. The program can convert one or multiple HTML files. Additionally, the program saves the ORS file in the same naming convention as the name of the original HTML file, so it is relatively easy to identify which HTML files have been converted. 
@@ -122,6 +123,9 @@ Here, the **"/citations?view_op=view_citation&amp;hl=en&amp;oe=ASCII&amp;user=-e
 ### createpopupURL
 
 The createpopupURL() function is used to create the link necessary to cause the GS article link to open the article in a popup window instead of just in a separate window. Originally, this was part of the main code but has been converted to a called function. It currently does not work as Google Scholar has removed that functionality from the webpage. However, the function has been left intact in case the ability again becomes available through the GS website.
+
+### html2ors.py examples
+
 
 
 ## dedup.py
