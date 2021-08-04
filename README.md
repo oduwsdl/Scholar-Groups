@@ -1,4 +1,4 @@
-# WSDL Google Scholar
+# Scholar Groups
 
 The attached programs are designed to scrape specific pages from Google Scholar to extract a comprehensive list of articles, remove duplicate entries when multiple authors work on the same paper, and save the entries into a specified format. All programs were designed to operate from the Command Line Interface in a Bash shell. Although these programs are designed to work together, than can certainly be used individually. Currently, the 4 programs are 
 
