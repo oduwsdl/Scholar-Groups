@@ -17,6 +17,8 @@ Python was used as it was easier to coordinate it with the Command Line Interfac
 
 The htmlsave.py program simply allows the user to enter specific author IDs for a Google Scholar page and, using those IDs, downloads the HTML pages associated with the author. The 'sys.argv' library function is used to capture the author IDs from the command line, and a loop allows the program to capture 100 articles at a time until all articles have been downloaded. This does 100 articles at a time and saves each webpage individually as its own file. 
 
+The htmlsave.py program is extremely basic, so it does not allow optional arguments. Every argument after the executable is considered an author ID value to be captured from the Google Scholar site. If '-h' is entered, the program will interpret that argument as an author ID and attempt to download a page associated with that value. This is a regrettable consequence of Google Scholar actually having some author IDs actually begin with the ' - ' character. 
+
 ```
 $ ./htmlsave.py authorID1 authorID2 authorID3 ...
 ```
