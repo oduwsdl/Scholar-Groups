@@ -49,6 +49,8 @@ The page size is set to capture 100 articles per page as that is the maximum pre
 
 ### htmlsave.py examples
 
+The program processes a single author ID as follows:
+
 ```
 $ ./htmlsave.py QjHw7ugAAAAJ
 Processing Author ID QjHw7ugAAAAJ ...
