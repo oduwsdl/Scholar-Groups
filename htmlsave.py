@@ -64,10 +64,10 @@ within a single URL link. Capturing more would require additional automation.
 arguments = len(sys.argv)
 today = date.today()
 if arguments == 1:
-    sys.stdout.write('No author IDs provided to process . . .\n')
+    sys.stdout.write('No author IDs provided to process ...\n')
 for a in range(1,arguments):
     authorID = sys.argv[a]
-    sys.stdout.write('Processing Author ID ' + authorID + ' . . .\n')
+    sys.stdout.write('Processing Author ID ' + authorID + ' ...\n')
 
     # Loop through the program to download author ID webpages. Currently, the
     # Google Scholar website allows capturing of up to 100 articles at a time.
