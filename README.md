@@ -25,21 +25,73 @@ $ htmlsave.py [authorID]
 ```
 The program will process one or more author IDs and save a page with up to 100 articles for each author. When an author has more than 100 articles, the remaining articles are saved in new files. The program uses the requests.get function to obtain the HTML content. The status code is used to verify if a valid webpage has been received. If an invalid author ID is entered, a status code '404' is received, and the HTML page is not downloaded. A simple '302' redirect is allowed when the final page has the correct '200' status code. The one limitation is that the user must know the current author ID in order to download articles. In cases where an author's ID has been changed, the page will redirect in a way that gives a '302' redirect for users who are logged into the Google Scholar service but gives a '404' for unknown users. Because this program will not be recognized as a known user, it cannot capture the redirected page even when entering the URL in a browser would redirect successfully. However, successfully navigating a redirect for changed author IDs would not be useful because the new page shows only the first 20 articles irrespective of the range provided in the original URL link. Therefore, it is beneficial for the user to receive an error and be responsible for identifying the author's updated ID. Additionally, the program uses a while loop to capture additional pages of articles until it finds a specific qualifier string. The string ">There are no articles in this profile.<" is currently the qualifier to identify when all articles have been captured.
 
-The htmlsave.py program uses two functions for accessing Google Scholar: [createfilename()]() and [createURL](). 
+To assist the user, the htmlsave.py program will advise the user when a new HTML file is overwriting another file by the same name, when an author ID is invalid, and when no further articles are available for download. 
 
-### createfilename()
+The htmlsave.py program uses two functions for accessing Google Scholar: [createfilename](https://github.com/mdign002/WSDL-Google-Scholar/blob/main/README.md#createfilename) and [createURL](https://github.com/mdign002/WSDL-Google-Scholar/blob/main/README.md#createURL). 
 
-The createfilename() function uses a specific ID separator of 'XXXXXXX' before and after the author ID value. Originally, the file would start with the author ID and have the date string appended to it. 
+### createfilename
+
+The createfilename() function defines the format of the filename for the saved HTML pages. Originally, it was decided that the file would start with the author ID and have the date string and range of articles appended to it: 
+
+* oWQaPnwAAAAJ-2021-08-01-001-100.html
+
+However, some author IDs in Google Scholar will contain hyphens " - " and underscores " _ " that create significant errors when trying to process commands from the Command Line Interface. For example, one author in the WSDL group had an ID in the form "-eRsYx8AAAAJ" that was read as an optional argument in Linux. Prefacing it with \ would work with manually-entered commands, but this is not as easily implemented when using automated scripts. Therefore, a character separator string was added. Currently, a set of 7 'X's are used as that is unlikely to be seen in an actual author ID field; the separator is immediately before and after the authorID. The date field is then added to identify when the content has been downloaded from Google Scholar. This provides a record to reflect changes to the website and content over time. The beginning and ending strings are used to capture a range of articles due to pagination issues where GS only displays some of the articles at any time. Originally, GS showed only a certain range of pages, then the code was revised to display all articles, then it reverted back to showing only a range of articles/page. The range identifier in the filename is now set to 4 digits to the possibility to capture from 0001 - 9999 articles. The decision to use 4 digits instead of 3 digits was to prepare for the possibility that any user had more than 999 articles listed. The result is that filenames are saved as follows:
+
+* XXXXXXX-eRxYs8AAAAJXXXXXXX-2021-08-01-0000-0099.html
+
+### createURL
+
+The createURL() function provides the format of the URL to be captured by the program.  Originally, this was within the main code. However, ongoing changes in the HTML code for the Google Scholar webpage made it necessary to revise the code. Having this as a separate function facilitates future changes to the URL to be captured. Currently, specific web fields precede and follow the authorID before the article range fields. 
+
+* web_preface_html_code + authorID + article_selection_html_code + begin range + page_size_html_code + page size
+
+The page size is set to capture 100 articles per page as that is the maximum presently allowable. 
+
+### htmlsave.py examples
 
 ```
-$ ./html2ors.py aBcD12DefGHIj 
+$ ./htmlsave.py QjHw7ugAAAAJ
+Processing Author ID QjHw7ugAAAAJ ...
+Creating new file ...
+File saved as "XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.html"
+There are no more articles to capture ...
+$   
 ```
 
-However, some author IDs in Google Scholar will contain hyphens " - " and underscores " _ " that create significant errors when trying to process commands from the Command Line Interface. For example, one author in the WSDL group had an ID in the form "-eRx..." that was read as an optional argument in Linux. Prefacing it with \ would work with manually-entered commands, but this is not as easily implemented when using automated scripts. Therefore, a character separator string was added. Currently, a set of 7 'X's are used as that is unlikely to be seen in an actual author ID field. The date field is then added to identify when the content has been downloaded from Google Scholar. This provides a record to reflect changes to the website and content over time. The beginning and ending strings are used to capture a range of articles due to pagination issues where GS only displays some of the articles at any time. Originally, GS showed only a certain range of pages, then the code was revised to display all articles, then it reverted back to showing only a range of articles/page. The range identifier in the filename is now set to 4 digits to the possibility to capture from 0001 - 9999 articles. The decision to use 4 digits instead of 3 digits was to prepare for the possibility that any user had more than 999 articles listed. 
+The process is similar when multiple author IDs are included: 
 
-### createURL()
-
-The createURL() function provides the format of the URL to be captured by the program.  Originally, this was within the main code. However, ongoing changes in the HTML code for the Google Scholar webpage made it necessary to revise the code. Having this as a separate function facilitates future changes to the URL to be captured.
+```
+$ ./htmlsave.py oWQaPnwAAAAJ OkEoChMAAAAJ -eRsYx8AAAAJ Lfu3j30AAAAJ QjHw7ugAAAAJ
+Processing Author ID oWQaPnwAAAAJ ...
+Creating new file ...
+File saved as "XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0000-0099.html"
+Creating new file ...
+File saved as "XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0100-0199.html"
+Creating new file ...
+File saved as "XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0200-0299.html"
+Creating new file ...
+File saved as "XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0300-0399.html"
+Creating new file ...
+File saved as "XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0400-0499.html"
+Creating new file ...
+File saved as "XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0500-0599.html"
+There are no more articles to capture ...
+Processing Author ID OkEoChMAAAAJ ...
+Creating new file ...
+File saved as "XXXXXXXOkEoChMAAAAJXXXXXXX-2021-08-04-0000-0099.html"
+There are no more articles to capture ...
+Processing Author ID -eRsYx8AAAAJ ...
+Creating new file ...
+File saved as "XXXXXXX-eRsYx8AAAAJXXXXXXX-2021-08-04-0000-0099.html"
+There are no more articles to capture ...
+Processing Author ID Lfu3j30AAAAJ ...
+Incorrect author ID or inaccessible webpage.
+Processing Author ID QjHw7ugAAAAJ ...
+Overwriting existing file with same name ...
+File saved as "XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.html"
+There are no more articles to capture ...
+$                                     
+```
 
 ## html2ors.py
 
