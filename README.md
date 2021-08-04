@@ -1,6 +1,8 @@
+# WSDL Google Scholar
+
 The attached programs are designed to scrape specific pages from Google Scholar to extract a comprehensive list of articles, remove duplicate entries when multiple authors work on the same paper, and save the entries into a specified format. All programs were designed to operate from the Command Line Interface in a Bash shell. Although these programs are designed to work together, than can certainly be used individually. Currently, the 4 programs are 
 
-htmlsave.py
+[htmlsave.py](#htmlsave.py)
 
 html2ors.py
 
@@ -11,7 +13,7 @@ orsconvert.py
 Python was used as it was easier to coordinate it with the Command Line Interface as a scripting language. 
 
 
-**htmlsave.py**
+# htmlsave.py
 
 The htmlsave.py program simply allows the user to enter specific author IDs for a Google Scholar page and, using those IDs, downloads the HTML pages associated with the author. The 'sys.argv' library function is used to capture the author IDs from the command line, and a loop allows the program to capture 100 articles at a time until all articles have been downloaded. This does 100 articles at a time and saves each webpage individually as its own file. 
 
