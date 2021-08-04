@@ -2,13 +2,13 @@
 
 The attached programs are designed to scrape specific pages from Google Scholar to extract a comprehensive list of articles, remove duplicate entries when multiple authors work on the same paper, and save the entries into a specified format. All programs were designed to operate from the Command Line Interface in a Bash shell. Although these programs are designed to work together, than can certainly be used individually. Currently, the 4 programs are 
 
-[htmlsave.py](https://github.com/mdign002/WSDL-Google-Scholar/blob/main/README.md#htmlsavepy)
+[htmlsave.py](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#htmlsavepy)
 
-[html2ors.py](https://github.com/mdign002/WSDL-Google-Scholar/blob/main/README.md#html2orspy)
+[html2ors.py](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#html2orspy)
 
-[dedup.py](https://github.com/mdign002/WSDL-Google-Scholar/blob/main/README.md#deduppy)
+[dedup.py](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#deduppy)
 
-[orsconvert.py](https://github.com/mdign002/WSDL-Google-Scholar/blob/main/README.md#orsconvertpy)
+[orsconvert.py](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#orsconvertpy)
 
 Python was used as it was easier to coordinate it with the Command Line Interface as a scripting language. 
 
@@ -27,7 +27,7 @@ The program will process one or more author IDs and save a page with up to 100 a
 
 To assist the user, the htmlsave.py program will advise the user when a new HTML file is overwriting another file by the same name, when an author ID is invalid, and when no further articles are available for download. 
 
-The htmlsave.py program uses two functions for accessing Google Scholar: [createfilename](https://github.com/mdign002/WSDL-Google-Scholar/blob/main/README.md#createfilename) and [createURL](https://github.com/mdign002/WSDL-Google-Scholar/blob/main/README.md#createURL). 
+The htmlsave.py program uses two functions for accessing Google Scholar: [createfilename](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#createfilename) and [createURL](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#createURL). 
 
 ### createfilename
 
