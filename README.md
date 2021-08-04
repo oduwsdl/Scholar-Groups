@@ -106,11 +106,18 @@ The html2ors.py program uses Beautiful Soup to extract article contents from the
 
 * XXXXXXX-eRxYs8AAAAJXXXXXXX-2021-08-01-0000-0099.html &#8594;&#8594; XXXXXXX-eRxYs8AAAAJXXXXXXX-2021-08-01-0000-0099.ors
 
-The program uses two specific functions as part of its operation: [findinitiallink]() and [createpopupURL](). 
+The program uses two specific functions as part of its operation: [findinitiallink](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#findinitiallink) and [createpopupURL](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#createpopupURL). 
 
 ### findinitiallink
 
-This function is used to search the saved HTML file for the URL for each article. Originally, this was simply included in the main code. However, Google Scholar had revised their code 3 weeks after the project began, which required this to be revised as well. This was now converted to a separate function so that it is easier to identify and revise as necessary. The function is currently set to capture the link according to either the previous GS coding or the current GS coding. It finds the link and returns it to the main program where it was called. 
+The findinitiallink() function is used to search the saved HTML file for the URL for each article. Originally, this was simply included in the main code. However, Google Scholar had revised their code 3 weeks after the project began, which required this to be revised as well. This is now converted to a separate function so that it is easier to identify and revise as necessary. The function is currently set to capture the link according to either the previous GS coding or the current GS coding. It finds the link and returns it to the main program where it was called. 
+
+An example of the current HTML code containing a link is as follows: 
+
+```
+<tr class="gsc_a_tr"><td class="gsc_a_t"><a href="/citations?view_op=view_citation&amp;hl=en&amp;oe=ASCII&amp;user=-eRsYx8AAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=-eRsYx8AAAAJ:qsWQJNntlusC" class="gsc_a_at">...</a>
+```
+Here, the **"/citations?view_op=view_citation&amp;hl=en&amp;oe=ASCII&amp;user=-eRsYx8AAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=-eRsYx8AAAAJ:qsWQJNntlusC"** portion must be extracted before it can be appended to an initial HTTP phrase to be used in the remainder of the program.  
 
 ### createpopupURL
 
