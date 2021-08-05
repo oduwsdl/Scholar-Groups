@@ -17,8 +17,6 @@ Python was used as it was easier to coordinate it with the Command Line Interfac
 
 The htmlsave.py program simply allows the user to enter specific author IDs for a Google Scholar page and, using those IDs, downloads the HTML pages associated with the author. The 'sys.argv' library function is used to capture the author IDs from the command line, and a loop allows the program to capture 100 articles at a time until all articles have been downloaded. This does 100 articles at a time and saves each webpage individually as its own file. 
 
-The htmlsave.py program is extremely basic, so it does not allow optional arguments. Every argument after the executable is considered an author ID value to be captured from the Google Scholar site. If '-h' is entered, the program will interpret that argument as an author ID and attempt to download a page associated with that value. This is a regrettable consequence of Google Scholar actually having some author IDs actually begin with the ' - ' character. 
-
 ### htmlsave.py usage
 ```
 $ htmlsave.py [authorID]
@@ -99,6 +97,9 @@ There are no more articles to capture ...
 $                                     
 ```
 
+### htmlsave.py caveats
+
+The htmlsave.py program is extremely basic, so it does not allow optional arguments. Every argument after the executable is considered an author ID value to be captured from the Google Scholar site. If '-h' is entered, the program will interpret that argument as an author ID and attempt to download a page associated with that value. This is a regrettable consequence of Google Scholar actually having some author IDs actually begin with the ' - ' character. 
 
 
 ## html2ors.py
@@ -123,8 +124,6 @@ Here, the **"/citations?view_op=view_citation&amp;hl=en&amp;oe=ASCII&amp;user=-e
 ### createpopupURL
 
 The createpopupURL() function is used to create the link necessary to cause the GS article link to open the article in a popup window instead of just in a separate window. Originally, this was part of the main code but has been converted to a called function. It currently does not work as Google Scholar has removed that functionality from the webpage. However, the function has been left intact in case the ability again becomes available through the GS website.
-
-The html2ors.py program is extremely basic, importing one or more HTML files for conversion. Although it runs from the Command Line Interface, it does not recognize any optional arguments. All arguments following the executable are interpreted as HTML files to be imported and converted. If no file is listed after the executable, the program will display "No HTML files were identified for conversion ..." 
 
 ### html2ors.py examples
 
@@ -181,24 +180,78 @@ The ORS entry uses an MD5 hash of the title to assign a unique identifier to eac
 2990027422b3de81a5abf997c5c94c18 2018 { "DirectURL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:2osOgNQ5qMEC", "Title":"How perceptions of web resource boundaries differ for institutional and personal archives", "Authors":"F Poursardar, F Shipman", "Source":"2018 IEEE international conference on information reuse and integration (iri …, 2018", "CitedBy":"https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10120194878620841447", "Citations":"4", "PageYear":"2018"}        
 ```
 
-It should be noted that some fields in the ORS entries may contain no information, such as when an article has not been cited, or may contain missing information, such as when ellipses " ... " replace author or source information. Because the program is capturing information from a Google Scholar page, it cannot provide information not listed there. 
+### html2ors.py caveats
 
+The html2ors.py program is extremely basic, importing one or more HTML files for conversion. Although it runs from the Command Line Interface, it does not recognize any optional arguments. All arguments following the executable are interpreted as HTML files to be imported and converted. If no file is listed after the executable, the program will display "No HTML files were identified for conversion ..." to the output. Additionally, it should be noted that some fields in the ORS entries may contain no information, such as when an article has not been cited, or may contain missing information, such as when ellipses " ... " replace author or source information. Because the program is capturing information from a Google Scholar page, it cannot provide information not listed there. 
 
 
 ## dedup.py
 
-This program examines entries in an ORS file to remove duplicates. The program is designed to take a filename as input or to read lines from the Command Line Interface. Currently, it displays unique entries using the STDOUT function. However, it can easily be revised to display those entries that are duplicates. The program functions by examining the first key in the ORS file, which is a hash of the title, and storing it in an array. After that first entry is stored, the hash key value is extracted from each line and compared with the array. If no duplicate entry is found, the line is sent to the STDOUT function, and the hash key is added to the array. If the hash is already found in the array, the link is skipped. 
+This program examines entries in an ORS file to remove duplicates. The program is designed to take a filename as input or to read lines from the Command Line Interface. Currently, it displays unique entries using the STDOUT function. However, it can easily be revised to display those entries that are duplicates. The program functions by examining the first key in the ORS file, which is the MD5 hash of the title, and storing it in an array. After the initial entry is stored, the hash key value is extracted from each line and compared with the array. If no duplicate entry is found, the line is sent to the STDOUT function, and the hash key is added to the array. If the hash is already found in the array, the program goes to the next line instead of sending the line to STDOUT. 
+
+The dedup.py program is designed to filter out duplicate entries in a large list of articles. This is especially useful when compiling a database of articles by specific authors in which some articles are co-authored by members of the group. As such, the program works best when operating on multiple ORS files; however, it can evaluate entries in a single ORS file. 
+
+### dedup.py examples
+
+The dedup.py program operates as follows for a single ORS file input:
 
 ```
-$ ./dedup.py file1.ors file2.ors file3.ors > allfiles.ors
+$ ./dedup.py XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.ors
+2990027422b3de81a5abf997c5c94c18 2018 { "DirectURL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:2osOgNQ5qMEC", "Title":"How perceptions of web resource boundaries differ for institutional and personal archives", "Authors":"F Poursardar, F Shipman", "Source":"2018 IEEE international conference on information reuse and integration (iri …, 2018", "CitedBy":"https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10120194878620841447", "Citations":"4", "PageYear":"2018"}
+9798710764b5dc4be9f4f939dd81bafc 2017 { "DirectURL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:d1gkVwhDpl0C", "Title":"What is part of that resource? User expectations for personal archiving", "Authors":"F Poursardar, F Shipman", "Source":"2017 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 1-4, 2017", "CitedBy":"https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7218373487757862233", "Citations":"2", "PageYear":"2017"}
+fddd44ed2cc7ec48cbc88a638cef0704 2016 { "DirectURL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:9yKSN-GCB0IC", "Title":"Change detection and classification of digital collections", "Authors":"S Jayarathna, F Poursardar", "Source":"2016 IEEE International Conference on Big Data (Big Data), 1750-1759, 2016", "CitedBy":"https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7900897310654772711", "Citations":"5", "PageYear":"2016"}
+c421fc1c175e9e92e7a300d7760f8bf7 2016 { "DirectURL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:u-x6o8ySG0sC", "Title":"On Identifying the Bounds of an Internet Resource", "Authors":"F Poursardar, F Shipman", "Source":"Proceedings of the 2016 ACM on Conference on Human Information Interaction …, 2016", "CitedBy":"https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6645370427951648573", "Citations":"2", "PageYear":"2016"}
+1700afdae114a0d1e43ff023e27d6a97 2011 { "DirectURL":"https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:u5HHmVD_uO8C", "Title":"WPv4: a re-imagined Walden’s paths to support diverse user communities", "Authors":"PL Bogen, D Pogue, F Poursardar, Y Li, R Furuta, F Shipman", "Source":"International Conference on Theory and Practice of Digital Libraries, 159-168, 2011", "CitedBy":"https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5669856937027101623", "Citations":"8", "PageYear":"2011"}
+$    
 ```
+
+When using the program to remove duplicates from multiple ORS files, it is expected that the output will be pipelined to a file instead of displayed on the screen. 
+
+```
+$ ./dedup.py *.ors > comprehensive.ors
+$
+$ wc *.ors
+83   2804  44096 XXXXXXX-eRsYx8AAAAJXXXXXXX-2021-08-04-0000-0099.ors
+58   1890  32305 XXXXXXXOkEoChMAAAAJXXXXXXX-2021-08-04-0000-0099.ors
+5    166   2846 XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.ors
+100   2865  51103 XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0000-0099.ors
+100   2791  52788 XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0100-0199.ors
+100   2670  53349 XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0200-0299.ors
+100   2752  53807 XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0300-0399.ors
+100   2313  49950 XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0400-0499.ors
+45   1083  21616 XXXXXXXoWQaPnwAAAAJXXXXXXX-2021-08-04-0500-0599.ors
+661  18568 346337 comprehensive.ors
+1352  37902 708197 total
+$           
+```
+
+In the above example, all the ORS files were processed by the dedup.py program, and unique entries were stored in the "comprehensive.ors" file. The "wc" function shows that there are a total of 691 entries before duplicates were removed (i.e., all ORS files excluding the comprehensive.ors file), and 661 unique entries were stored in the comprehensive.ors file. This indicates that 30 articles were identified as duplicates. 
+
+### html2ors.py caveats
+
+The dedup.py program is very basic, examining the hash values to identify duplicates. As such, it does not recognize optional arguments, and if no input it provided, it will simply wait. It uses the fileinput.input function to allow processing from a file or from STDIN, and it sends the results to STDOUT. It can process a single ORS file or multiple ORS files. Additionally, it should be noted that the program operates on the hash of the title as provided by Google Scholar. Therefore, the program is limited in its scope as it cannot differentiate beyond the hash of the title string. When different articles have the same title--such as conference presentations or papers with different years--or when the same article differs by a single character--such as a colon or comma--the program results may not be accurate. 
+
 
 ## orsconvert.py
 
-This program imports entries structured in a dictionary-type key/value format and converts the entries to JSON, BIBTEX, or HTML. The program is run from the Command Line Interface. It can read from STDIN or accept a designated file as input, and it can read to STDOUT or be redirected to a file. The Argparse library is imported to define and recognize arguments. Currently, --json, --bibtex, and --html are the three options for exported formats. Although convention indicates that "--" on the front of an argument makes it optional, these three formats are configured so that one argument is required, and only one may be selected. An optional "--title" argument is included so that the user may designate the title of the page; this is only useful when the --html option is selected. 
+This program imports entries structured in a dictionary-type key/value format and converts the entries to JSON, BIBTEX, or HTML. The program is run from the Command Line Interface. It can read from STDIN or accept a designated file as input, and it can read to STDOUT or be redirected to a file. The Argparse library is imported to define and recognize arguments. Currently, --json, --bibtex, and --html are the three options for exported formats. Although convention indicates that "--" on the front of an argument makes it optional, these three formats are configured so that one argument is required, and only one may be selected. An optional "--title" argument is included so that the user may designate the title of the page; this is only useful when the --html option is selected. The results are displayed to the STDOUT output or can be pipelined to a file specified by the user. 
 
 ```
-$ ./orsconvert.py --html --title "This is the page title" comprehensivefile.ors
+$ ./orsconvert.py -h
+usage: orsconvert.py [-h] (--json | --bibtex | --html) [--title TITLE] [inputfile]
+
+Converts ORS file to selected filetype
+
+positional arguments:
+  inputfile      enter the ORS file name
+  
+optional arguments:
+  -h, --help     show this help message and exit
+  --json         Converts to JSON format
+  --bibtex       Converts to BIBTEX format
+  --html         Converts to HTML format
+  --title TITLE  Provides title for HTML page if desired
+$    
 ```
 
 The createjson() function is designed to import the ORS entries and convert them into a JSON recognized format. Normal JSON conventions are used, such as brackets [] for an array, and a space after the colon in the "Key": "Value" pairings. The function is separated from the main portion of code to facilitate any future need for revision. Currently, the function uses simple string replacement to extract and format the information. Originally, the attempt was made to parse the items with a dictionary library, but this created errors if quotation marks were part of a title, which was the case in at least one instance. For example, an article title of "Why are some files "lost" in the cloud?" would be identified as two fields instead of one. Because titles and source information listings often contain quotation marks and colons, it seemed that a dictionary parser was not a good choice. 
