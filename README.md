@@ -236,7 +236,7 @@ $
 
 In the above example, all the ORS files were processed by the dedup.py program, and unique entries were stored in the "comprehensive.ors" file. The "wc" function shows that there are a total of 691 entries before duplicates were removed (i.e., all ORS files excluding the comprehensive.ors file), and 661 unique entries were stored in the comprehensive.ors file. This indicates that 30 articles were identified as duplicates. 
 
-### html2ors.py caveats
+### dedup.py caveats
 
 The dedup.py program is very basic, examining the hash values to identify duplicates. As such, it does not recognize optional arguments, and if no input it provided, it will simply wait. It uses the fileinput.input function to allow processing from a file or from STDIN, and it sends the results to STDOUT. It can process a single ORS file or multiple ORS files. Additionally, it should be noted that the program operates on the hash of the title as provided by Google Scholar. Therefore, the program is limited in its scope as it cannot differentiate beyond the hash of the title string. When different articles have the same title--such as conference presentations or papers with different years--or when the same article differs by a single character--such as a colon or comma--the program results may not be accurate. 
 
