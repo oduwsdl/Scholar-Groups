@@ -14,11 +14,11 @@ Python was used as it was easier to coordinate it with the Command Line Interfac
 
 
 ## htmlsave.py
-* [usage]()
-* [createfilename]()
-* [createurl]()
-* [examples]()
-* [caveats]()
+* [usage](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#htmlsavepy-usage)
+* [createfilename](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#createfilename)
+* [createurl](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#createURL)
+* [examples](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#htmlsavepy-examples)
+* [caveats](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#htmlsavepy-caveats)
 
 The htmlsave.py program simply allows the user to enter specific author IDs for a Google Scholar page and, using those IDs, downloads the HTML pages associated with the author. The 'sys.argv' library function is used to capture the author IDs from the command line, and a loop allows the program to capture 100 articles at a time until all articles have been downloaded. This does 100 articles at a time and saves each webpage individually as its own file. 
 
