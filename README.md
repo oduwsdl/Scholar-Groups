@@ -281,7 +281,7 @@ The createbibtex() function imports the ORS entries and converts them to BIBTEX 
 The createhtml() function imports the ORS entries and converts them to an HTML style list. Because HTML files require lines of code before and after a list to identify document type, style, title, head, and body, the function is more involved than the other functions. The program does not currently use a specified style, but the line in the code remains, being commented out, so that a user can easily include that functionality. Additionally, the program allows the user to specify the title for the webpage if desired using the optional "--title" argument with a subsequent title. All list entries are enclosed within < ol > tags to identify them as an ordered list. Because of the structure of HTML code, line breaks and indents are NOT included within individual entries. 
 
 
-### orsconvert examples
+### orsconvert.py examples
 
 The following is an example of the orsconvert.py program converting an ORS entry into JSON format:
 
