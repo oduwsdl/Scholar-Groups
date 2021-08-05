@@ -107,9 +107,9 @@ The htmlsave.py program is extremely basic, so it does not allow optional argume
 ## html2ors.py
 * [findinitiallink](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#findinitiallink)
 * [createpopupURL](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#createpopupURL)
-* [examples](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#html2ors.py-examples)
+* [examples](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#html2orspy-examples)
 * [ORS file structure](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#ORS-file-structure)
-* [caveats](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#html2ors.py-caveats)
+* [caveats](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#html2orspy-caveats)
 
 The html2ors.py program uses Beautiful Soup to extract article contents from the previously downloaded HTML files. Elements are extracted on a line-by-line basis. Currently, the program runs from the Command Line Interface. The user must specify the name of the HTML file to convert to ORS type. The program can convert one or multiple HTML files. Additionally, the program saves the ORS file in the same naming convention as the name of the original HTML file, so it is relatively easy to identify which HTML files have been converted. 
 
@@ -193,8 +193,8 @@ The html2ors.py program is extremely basic, importing one or more HTML files for
 
 
 ## dedup.py
-* [examples](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#dedup.py-examples)
-* [caveats](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#dedup.py-caveats)
+* [examples](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#deduppy-examples)
+* [caveats](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#deduppy-caveats)
 
 This program examines entries in an ORS file to remove duplicates. The program is designed to take a filename as input or to read lines from the Command Line Interface. Currently, it displays unique entries using the STDOUT function. However, it can easily be revised to display those entries that are duplicates. The program functions by examining the first key in the ORS file, which is the MD5 hash of the title, and storing it in an array. After the initial entry is stored, the hash key value is extracted from each line and compared with the array. If no duplicate entry is found, the line is sent to the STDOUT function, and the hash key is added to the array. If the hash is already found in the array, the program goes to the next line instead of sending the line to STDOUT. 
 
@@ -245,8 +245,8 @@ The dedup.py program is very basic, examining the hash values to identify duplic
 * [createjson](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#createjson)
 * [createbibtex](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#createbibtex)
 * [createhtml](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#createhtml)
-* [examples](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#orsconvert.py-examples)
-* [caveats](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#orsconvert.py-caveats)
+* [examples](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#orsconvertpy-examples)
+* [caveats](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#orsconvertpy-caveats)
 
 This program imports entries structured in a dictionary-type key/value format and converts the entries to JSON, BIBTEX, or HTML. The program is run from the Command Line Interface. It can read from STDIN or accept a designated file as input, and it can read to STDOUT or be redirected to a file. The Argparse library is imported to define and recognize arguments. Currently, --json, --bibtex, and --html are the three options for exported formats. Although convention indicates that "--" on the front of an argument makes it optional, these three formats are configured so that one argument is required, and only one may be selected. An optional "--title" argument is included so that the user may designate the title of the page; this is only useful when the --html option is selected. The results are displayed to the STDOUT output or can be pipelined to a file specified by the user. 
 
