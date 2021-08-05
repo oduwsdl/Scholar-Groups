@@ -49,10 +49,12 @@ of the original HTML file.
 # Import the html file contents and open it with Beautiful Soup. The HTML file is read by 
 # byte and uses the 'lxml' conversion parser. This uses Beautiful Soup version 4.
 arguments = len(sys.argv)
+if arguments == 1:
+    sys.stdout.write('No HTML articles were identified for conversion ...\n')
 for a in range(1,arguments):
     html_file = open(sys.argv[a], 'rb')
     file_name = html_file.name
-    sys.stdout.write('Importing "' + file_name + '" . . .\n')
+    sys.stdout.write('Importing "' + file_name + '" ...\n')
     soup = BeautifulSoup(html_file, 'lxml')
 
     # Specific table elements extracted from the BS contents. Although most of the useful 
