@@ -254,9 +254,97 @@ optional arguments:
 $    
 ```
 
-The createjson() function is designed to import the ORS entries and convert them into a JSON recognized format. Normal JSON conventions are used, such as brackets [] for an array, and a space after the colon in the "Key": "Value" pairings. The function is separated from the main portion of code to facilitate any future need for revision. Currently, the function uses simple string replacement to extract and format the information. Originally, the attempt was made to parse the items with a dictionary library, but this created errors if quotation marks were part of a title, which was the case in at least one instance. For example, an article title of "Why are some files "lost" in the cloud?" would be identified as two fields instead of one. Because titles and source information listings often contain quotation marks and colons, it seemed that a dictionary parser was not a good choice. 
+### createjson
 
-The createbibtex() function imports the ORS entries and converts them to BIBTEX format. In this case, all entries are specified as "@misc" types as there is no easy way to identify the actual type of entry from the often-abbreviated notation used by Google Scholar. There are two deviations from normal BIBTEX conventions: (1) Instead of only having one set of curly braces around all authors, each author is also in braces. This was done so that any BIBTEX interpreter would not convert initials to lowercase as if they were a full name. Thus, the field entry is "author = {{ML Nelson} and {MC Weigle} and {SM Jones}}" here. (2) A comma is provided at the end of every entry even though this is not required as it provided better identification if added fields are appended. 
+The createjson() function is designed to import the ORS entries and convert them into a JSON recognized format. Normal JSON conventions are used, such as brackets [] for an array, and a space after the colon in the "Key": "Value" pairings. The function is separated from the main portion of code to facilitate any future need for revision. Currently, the function uses simple string replacement to extract and format the information. Originally, the attempt was made to parse the items with a dictionary library, but this created errors if quotation marks were part of a title, which was the case in at least one instance. For example, an article title of "Why are some files "lost" in the cloud?" would be identified as two fields instead of one. Because titles and source information listings often contain quotation marks and colons, it seemed that a dictionary parser was not a good choice. The output includes line breaks and indents to facilitate a user scanning the results. 
 
-The createhtml() function imports the ORS entries and converts them to an HTML style list. Because HTML files require lines of code before and after a list to identify document type, style, title, head, and body, the function is more involved than the other functions. The program does not currently use a specified style, but the line in the code remains, being commented out, so that a user can easily include that functionality. Additionally, the program allows the user to specify the title for the webpage if desired using the optional "--title" argument with a subsequent title. All list entries are enclosed within <ol> tags to identify them as an ordered list. 
+### createbibtex
+
+The createbibtex() function imports the ORS entries and converts them to BIBTEX format. In this case, all entries are specified as "@misc" types as there is no easy way to identify the actual type of entry from the often-abbreviated notation used by Google Scholar. There are two deviations from normal BIBTEX conventions: (1) Instead of only having one set of curly braces around all authors, each author is also in braces. This was done so that any BIBTEX interpreter would not convert initials to lowercase as if they were a full name. Thus, the field entry is "author = {{ML Nelson} and {MC Weigle} and {SM Jones}}" here. (2) A comma is provided at the end of every entry even though this is not required as it provided better identification if added fields are appended. The output includes line breaks and indents to facilitate a user scanning the results. 
+
+### createhtml
+
+The createhtml() function imports the ORS entries and converts them to an HTML style list. Because HTML files require lines of code before and after a list to identify document type, style, title, head, and body, the function is more involved than the other functions. The program does not currently use a specified style, but the line in the code remains, being commented out, so that a user can easily include that functionality. Additionally, the program allows the user to specify the title for the webpage if desired using the optional "--title" argument with a subsequent title. All list entries are enclosed within < ol > tags to identify them as an ordered list. Because of the structure of HTML code, line breaks and indents are NOT included within individual entries. 
+
+
+### orsconvert examples
+
+The following is an example of the orsconvert.py program converting an ORS entry into JSON format:
+
+```
+$ ./orsconvert.py --json XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.ors
+2990027422b3de81a5abf997c5c94c18 2018
+{     
+     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:2osOgNQ5qMEC",
+     "Title": "How perceptions of web resource boundaries differ for institutional and personal archives",
+     "Authors": [
+     "F Poursardar",
+     "F Shipman"
+     ],
+     "Source": "2018 IEEE international conference on information reuse and integration (iri …, 2018",
+     "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10120194878620841447",
+     "Citations": 4,
+     "PageYear": 2018
+}                                                                                                                             
+```
+
+The following is an example of the orsconvert.py program converting an ORS entry into BIBTEX format:
+
+```
+$ ./orsconvert.py --bibtex XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.ors
+@misc{2990027422b3de81a5abf997c5c94c18:2018,
+     title = {How perceptions of web resource boundaries differ for institutional and personal archives},
+     author = {{F Poursardar} and {F Shipman}},
+     date = {2018},
+     howpublished = {2018 IEEE international conference on information reuse and integration (iri …, 2018},
+     url = {https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:2osOgNQ5qMEC},
+},                                                                                                                          
+```
+
+The following is an example of the orsconvert.py program converting an ORS entry into HTML format: 
+
+
+```
+$ ./orsconvert.py --html --title "Article Results" XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.ors
+<html>
+<head>
+<title>Article Results</title>
+<body bgcolor="white">
+<h2>Article Results</h2>
+<p> </p>
+<ol>
+<li>F Poursardar, F Shipman, <b><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:2osOgNQ5qMEC">How perceptions of web resource boundaries differ for institutional and personal archives</a></b>, 2018 IEEE international conference on information reuse and integration (iri …, 2018.<p> </p></li>
+</ol>
+</body>
+</html>   
+```
+
+As expected, the converted results can be saved as a file specified by the user: 
+
+```
+$ ./orsconvert.py --html --title "Article Results" XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.ors > results.html
+$
+$ cat results.html
+<html>
+<head>
+<title>Article Results</title>
+<body bgcolor="white">
+<h2>Article Results</h2>
+<p> </p>
+<ol>
+<li>F Poursardar, F Shipman, <b><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:2osOgNQ5qMEC">How perceptions of web resource boundaries differ for institutional and personal archives</a></b>, 2018 IEEE international conference on information reuse and integration (iri …, 2018.<p> </p></li>
+</ol>
+</body>
+</html>
+$    
+```
+
+### orsconvert.py caveats
+
+The orsconvert.py program processes basic entries within an ORS file. As much as possible, it distinguishes the fields according to what has been saved from the HTML page and converted by the html2ors.py program. However, the process is limited by the accuracy of each step according to the information provided by Google Scholar. The program was designed to recognize certain uncommon entries in the fields in the GS webpage, such as quotation marks in titles or missing entries in sources, but unexpected entries may result in the program incorrectly processing information. 
+
+These programs are not guaranteed to operate with 100% accuracy in all conditions, so the developer maintains no liability.
+
+  
+  
 
