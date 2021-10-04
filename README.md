@@ -1,13 +1,13 @@
 # Scholar Groups
 
-The attached programs are designed to scrape specific pages from Google Scholar to extract a comprehensive list of articles, remove duplicate entries when multiple authors work on the same paper, and save the entries into a specified format. All programs were designed to operate from the Command Line Interface in a Bash shell. Although these programs are designed to work together, than can certainly be used individually. Currently, the 4 programs are 
+The attached programs are designed to scrape specific pages from Google Scholar to extract a comprehensive list of articles, remove duplicate entries when multiple authors work on the same paper, and save the entries into a specified format. All programs were designed to operate from the Command Line Interface in a Bash shell. The collection of (4) Python scripts are designed to work together as a group:
 * [htmlsave.py](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#htmlsavepy)
 * [html2ors.py](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#html2orspy)
 * [dedup.py](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#deduppy)
 * [orsconvert.py](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#orsconvertpy)
 * [Disclaimer](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#disclaimer)
 
-Python was used as it was easier to coordinate it with the Command Line Interface as a scripting language. 
+The final result is a single file in a specified (JSON, BibTeX, or HTML) format containing the processed group of Google Scholar articles. 
 
 
 ## htmlsave.py
@@ -111,7 +111,7 @@ The htmlsave.py program is extremely basic, so it does not allow optional argume
 * [ORS file structure](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#ORS-file-structure)
 * [caveats](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#html2orspy-caveats)
 
-The html2ors.py program uses Beautiful Soup to extract article contents from the previously downloaded HTML files. Elements are extracted on a line-by-line basis. Currently, the program runs from the Command Line Interface. The user must specify the name of the HTML file to convert to ORS type. The program can convert one or multiple HTML files. Additionally, the program saves the ORS file in the same naming convention as the name of the original HTML file, so it is relatively easy to identify which HTML files have been converted. 
+The html2ors.py program uses Beautiful Soup to extract article contents from the previously downloaded HTML files. Elements are extracted on a line-by-line basis. Currently, the program runs from the Command Line Interface. The user must specify the name of the HTML file to convert to ORS type. The program is designed to convert multiple HTML files. Additionally, the program saves the ORS file in the same naming convention as the name of the original HTML file, so it is relatively easy to identify which HTML files have been converted. 
 
 * XXXXXXX-eRxYs8AAAAJXXXXXXX-2021-08-01-0000-0099.html &#8594;&#8594; XXXXXXX-eRxYs8AAAAJXXXXXXX-2021-08-01-0000-0099.ors
 
@@ -234,7 +234,15 @@ $ wc *.ors
 $           
 ```
 
-In the above example, all the ORS files were processed by the dedup.py program, and unique entries were stored in the "comprehensive.ors" file. The "wc" function shows that there are a total of 691 entries before duplicates were removed (i.e., all ORS files excluding the comprehensive.ors file), and 661 unique entries were stored in the comprehensive.ors file. This indicates that 30 articles were identified as duplicates. 
+In the above example, all the ORS files were processed by the dedup.py program, and unique entries were stored in the "comprehensive.ors" file. The "wc" function shows that there are a total of 691 entries before duplicates were removed (i.e., all ORS files excluding the comprehensive.ors file), and 661 unique entries were stored in the comprehensive.ors file. This indicates that 30 articles were identified as duplicates.
+
+
+The data in an ORS file can be sorted by "year of publication" and displayed in descending order by using a combination of the sort by key "-k" and reverse results of comparison "-r" bash arguments as shown below.
+
+```
+$ ./dedup.py *ors | sort -k2 -r > comprehensive.ors
+$ 
+```
 
 ### dedup.py caveats
 
@@ -248,7 +256,7 @@ The dedup.py program is very basic, examining the hash values to identify duplic
 * [examples](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#orsconvertpy-examples)
 * [caveats](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#orsconvertpy-caveats)
 
-This program imports entries structured in a dictionary-type key/value format and converts the entries to JSON, BIBTEX, or HTML. The program is run from the Command Line Interface. It can read from STDIN or accept a designated file as input, and it can read to STDOUT or be redirected to a file. The Argparse library is imported to define and recognize arguments. Currently, --json, --bibtex, and --html are the three options for exported formats. Although convention indicates that "--" on the front of an argument makes it optional, these three formats are configured so that one argument is required, and only one may be selected. An optional "--title" argument is included so that the user may designate the title of the page; this is only useful when the --html option is selected. The results are displayed to the STDOUT output or can be pipelined to a file specified by the user. 
+This program imports entries structured in a dictionary-type key/value format and converts the entries to JSON, BibTeX, or HTML. The program is run from the Command Line Interface. It can read from STDIN or accept a designated file as input, and it can read to STDOUT or be redirected to a file. The Argparse library is imported to define and recognize arguments. Currently, --json, --bibtex, and --html are the three options for exported formats. Although convention indicates that "--" on the front of an argument makes it optional, these three formats are configured so that one argument is required, and only one may be selected. An optional "--title" argument is included so that the user may designate the title of the page; this is only useful when the --html option is selected. The results are displayed to the STDOUT output or can be pipelined to a file specified by the user. 
 
 ```
 $ ./orsconvert.py -h
@@ -262,7 +270,7 @@ positional arguments:
 optional arguments:
   -h, --help     show this help message and exit
   --json         Converts to JSON format
-  --bibtex       Converts to BIBTEX format
+  --bibtex       Converts to BibTeX format
   --html         Converts to HTML format
   --title TITLE  Provides title for HTML page if desired
 $    
@@ -274,7 +282,7 @@ The createjson() function is designed to import the ORS entries and convert them
 
 ### createbibtex
 
-The createbibtex() function imports the ORS entries and converts them to BIBTEX format. In this case, all entries are specified as "@misc" types as there is no easy way to identify the actual type of entry from the often-abbreviated notation used by Google Scholar. There are two deviations from normal BIBTEX conventions: (1) Instead of only having one set of curly braces around all authors, each author is also in braces. This was done so that any BIBTEX interpreter would not convert initials to lowercase as if they were a full name. Thus, the field entry is "author = {{ML Nelson} and {MC Weigle} and {SM Jones}}" here. (2) A comma is provided at the end of every entry even though this is not required as it provided better identification if added fields are appended. The output includes line breaks and indents to facilitate a user scanning the results. 
+The createbibtex() function imports the ORS entries and converts them to BibTeX format. In this case, all entries are specified as "@misc" types as there is no easy way to identify the actual type of entry from the often-abbreviated notation used by Google Scholar. There are two deviations from normal BibTeX conventions: (1) Instead of only having one set of curly braces around all authors, each author is also in braces. This was done so that any BibTeX interpreter would not convert initials to lowercase as if they were a full name. Thus, the field entry is "author = {{ML Nelson} and {MC Weigle} and {SM Jones}}" here. (2) A comma is provided at the end of every entry even though this is not required as it provided better identification if added fields are appended. The output includes line breaks and indents to facilitate a user scanning the results. 
 
 ### createhtml
 
@@ -299,10 +307,11 @@ $ ./orsconvert.py --json XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.ors
      "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10120194878620841447",
      "Citations": 4,
      "PageYear": 2018
-}                                                                                                                             
+}     
+$                                                                                                                        
 ```
 
-The following is an example of the orsconvert.py program converting an ORS entry into BIBTEX format:
+The following is an example of the orsconvert.py program converting an ORS entry into BibTeX format:
 
 ```
 $ ./orsconvert.py --bibtex XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.ors
@@ -312,7 +321,8 @@ $ ./orsconvert.py --bibtex XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.ors
      date = {2018},
      howpublished = {2018 IEEE international conference on information reuse and integration (iri …, 2018},
      url = {https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:2osOgNQ5qMEC},
-},                                                                                                                          
+},   
+$                                                                                                                       
 ```
 
 The following is an example of the orsconvert.py program converting an ORS entry into HTML format: 
@@ -330,27 +340,14 @@ $ ./orsconvert.py --html --title "Article Results" XXXXXXXQjHw7ugAAAAJXXXXXXX-20
 <li>F Poursardar, F Shipman, <b><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:2osOgNQ5qMEC">How perceptions of web resource boundaries differ for institutional and personal archives</a></b>, 2018 IEEE international conference on information reuse and integration (iri …, 2018.<p> </p></li>
 </ol>
 </body>
-</html>   
+</html> 
+$  
 ```
 
-As expected, the converted results can be saved as a file specified by the user: 
+The final solution is a converted comprehensive list of results that can be saved as a file specified by the user:
 
 ```
-$ ./orsconvert.py --html --title "Article Results" XXXXXXXQjHw7ugAAAAJXXXXXXX-2021-08-04-0000-0099.ors > results.html
-$
-$ cat results.html
-<html>
-<head>
-<title>Article Results</title>
-<body bgcolor="white">
-<h2>Article Results</h2>
-<p> </p>
-<ol>
-<li>F Poursardar, F Shipman, <b><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:2osOgNQ5qMEC">How perceptions of web resource boundaries differ for institutional and personal archives</a></b>, 2018 IEEE international conference on information reuse and integration (iri …, 2018.<p> </p></li>
-</ol>
-</body>
-</html>
-$    
+$ ./orsconvert.py --html --title "Article Results" comprehensive.ors > results.html
 ```
 
 ### orsconvert.py caveats
