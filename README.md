@@ -237,10 +237,10 @@ $
 In the above example, all the ORS files were processed by the dedup.py program, and unique entries were stored in the "comprehensive.ors" file. The "wc" function shows that there are a total of 691 entries before duplicates were removed (i.e., all ORS files excluding the comprehensive.ors file), and 661 unique entries were stored in the comprehensive.ors file. This indicates that 30 articles were identified as duplicates.
 
 
-The data in an ORS file can be sorted by "year of publication" and displayed in descending order by using a combination of the sort by key "-k" and reverse results of comparison "-r" bash arguments as shown below.
+The data in an ORS file can be sorted by "year of publication" and displayed in descending order by using a combination of the sort by key "-k", reverse results of comparison "-r", and "-n" compare according to string numerical value bash arguments as shown below.
 
 ```
-$ ./dedup.py *ors | sort -k2 -r > comprehensive.ors
+$ ./dedup.py *ors | sort -k2 -rn > comprehensive.ors
 $ 
 ```
 
@@ -256,11 +256,11 @@ The dedup.py program is very basic, examining the hash values to identify duplic
 * [examples](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#orsconvertpy-examples)
 * [caveats](https://github.com/mdign002/Scholar-Groups/blob/main/README.md#orsconvertpy-caveats)
 
-This program imports entries structured in a dictionary-type key/value format and converts the entries to JSON, BibTeX, or HTML. The program is run from the Command Line Interface. It can read from STDIN or accept a designated file as input, and it can read to STDOUT or be redirected to a file. The Argparse library is imported to define and recognize arguments. Currently, --json, --bibtex, and --html are the three options for exported formats. Although convention indicates that "--" on the front of an argument makes it optional, these three formats are configured so that one argument is required, and only one may be selected. An optional "--title" argument is included so that the user may designate the title of the page; this is only useful when the --html option is selected. The results are displayed to the STDOUT output or can be pipelined to a file specified by the user. 
+This program imports entries structured in a dictionary-type key/value format and converts the entries to JSON, BibTeX, or HTML. The program is run from the Command Line Interface. It can read from STDIN or accept a designated file as input, and it can read to STDOUT or be redirected to a file. The Argparse library is imported to define and recognize arguments. Currently, --json, --bibtex, and --html are the three standard options for exported formats. You may also change HTML ordered list views using the --html2 argument. Although convention indicates that "--" on the front of an argument makes it optional, these three formats are configured so that one argument is required, and only one may be selected. An optional "--title" argument is included so that the user may designate the title of the page; this is only useful when the --html option is selected. An optional "--sort" argument is available to allow the user to sort articles by a specify a range of years, "start_year - end_year". The results are displayed to the STDOUT output or can be pipelined to a file specified by the user. 
 
 ```
 $ ./orsconvert.py -h
-usage: orsconvert.py [-h] (--json | --bibtex | --html) [--title TITLE] [inputfile]
+usage: orsconvert.py [-h] (--json | --bibtex | --html) [--title TITLE] [--sort SORT] [inputfile]
 
 Converts ORS file to selected filetype
 
@@ -273,6 +273,7 @@ optional arguments:
   --bibtex       Converts to BibTeX format
   --html         Converts to HTML format
   --title TITLE  Provides title for HTML page if desired
+  --sort SORT    Sort by specified range of years
 $    
 ```
 
@@ -344,10 +345,29 @@ $ ./orsconvert.py --html --title "Article Results" XXXXXXXQjHw7ugAAAAJXXXXXXX-20
 $  
 ```
 
+You also have an option of HTML structures, for example using --html2:
+
+```
+ ./orsconvert.py --html2 --title "Article Results" comprehensive.ors > results.html
+```
+
 The final solution is a converted comprehensive list of results that can be saved as a file specified by the user:
 
 ```
 $ ./orsconvert.py --html --title "Article Results" comprehensive.ors > results.html
+```
+
+### orsconvert.py sorting by year
+
+Articles may be sorted by a specified range using the command line argument --sort "x-y":
+
+```
+./orsconvert.py --html --sort "2010-2015" --title "Article Results" comprehensive.ors > all.html
+```
+Specifying only a start year will give you results up to most recent:
+
+```
+./orsconvert.py --html --sort "2010" --title "Article Results" comprehensive.ors > all.html
 ```
 
 ### orsconvert.py caveats
