@@ -1,6 +1,6 @@
 # Scholar Groups
 
-<img src="/Users/evansavaria/Documents/CS896_Nelson/Scholar-Groups-main/docs/gsflowdiagram.png" width="50%"><br />
+<img src="/docs/gsflowdiagram.png" width="50%"><br />
 Fig.1 Scholar Groups Process Flow
 
 ## <ins>Overview</ins>
@@ -10,7 +10,7 @@ This document provides *"how-to"* instructions to get you started. Design notes 
 
 The programs included in this toolkit are designed to work together:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 1**: *[htmlsave.py](/README.md)* - For each Google Scholar ID, download paginated publication pages<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 1**: *[htmlsave.py](/code/htmlsave.py)* - For each Google Scholar ID, download paginated publication pages<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 2**: *[html2ukvs.py](/code/ukvsconvert.py)* -  parse article HTML contents and convert to .ukvs format<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 3**: *[dedup.py](/code/dedup.py)* -  remove duplicate entries when multiple authors work on the same paper<br/><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 4**: *[ukvsconvert.py](/code/ukvsconvert.py)* - merge processed group of Google Scholar articles into a final report in a specified (JSON, BibTeX, or HTML) format 
@@ -211,7 +211,7 @@ Specifying only a start year will give you results up to most recent:
 ```
 ## Output : Merged_Results.html
 
-<img src="/Users/evansavaria/Documents/CS896_Nelson/Scholar-Groups-main/docs/output.png" width="50%"><br />
+<img src="/docs/output.png" width="50%"><br />
 * The completely merged HTML file can be found <a href="/docs/Merged_Results.html">here</a>.
 
 ## Disclaimer:
