@@ -100,6 +100,68 @@ def createbibtex():
                         directURL + '},\n},\n')  #  A non-conventional comma ends entries
         sys.stdout.write(bibtex_entry +"\n")
 
+def createmd():
+    sys.stdout.write('# ' + args.title +'\n')
+    #sys.stdout.write('<p> </p>\n')
+
+
+    entries = []
+
+    for line in fileinput.input(args.inputfile):
+        item_hash,item_year,item_list = line.split(' ', 2)
+        directURL, title, authors, source, citedby, citations, pageyear = item_list.split('", "')
+        directURL = directURL.replace('{ "DirectURL":"', '')
+        title = title.replace('Title":"', '')
+        authors = authors.replace('Authors":"', '')
+        source = source.replace('Source":"', '')
+        citedby = citedby.replace('CitedBy":"', '')
+        pageyear = pageyear.replace('PageYear":"', '') 
+        pageyear = pageyear.replace('"}\n', '')
+
+        try:
+            entries.append((authors, directURL, title, source, int(pageyear)))
+        except: # YEAR NOT PROVIDED - WILL FIX
+            entries.append((authors, directURL, title, source, 0))
+
+    if args.sort is not None:
+        # Start with year of first entry - should be most recent after sorting
+        curYear = entries[0][4]
+        try:
+            year_start, year_end = args.sort.split("-")
+        except ValueError:
+            # Not enough values
+            year_start, year_end = args.sort, curYear 
+
+        # Write most recent year header
+        for year in range(int(year_start), int(year_end)+1) :
+            sys.stdout.write('## ' + str(year))
+            for item in entries:
+                # If we're still within the year we're processing, just print the item.
+                if item[4] == year:
+                    sys.stdout.write('\n<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                         item[3] + '.<p> </p></li>\n')
+                    
+    else: 
+       
+        # Sort by 4th entry (year)
+        entries = sorted(entries, key = lambda entry: entry[4], reverse=True)
+
+        # Start with year of first entry - should be most recent after sorting
+        curYear = entries[0][4]
+
+        # Write most recent year header
+        sys.stdout.write('## ' + str(curYear) + '\n')
+        for item in entries:
+            # If we're still within the year we're processing, just print the item.
+            if item[4] == curYear:
+                sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                             item[3] + '.<p> </p>\n')
+            else:
+                # Otherwise, we have a new year and need to write a header first.
+                curYear = item[4]
+                sys.stdout.write('## ' + str(curYear))
+                sys.stdout.write('\n1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                             item[3] + '\n')
 
 # This function converts the entries in an UKVS file into HTML format. The entries are 
 # formatted as an ordered list. The user may specify a page title if desired. 
@@ -132,17 +194,20 @@ def createhtml():
         except: # YEAR NOT PROVIDED - WILL FIX
             entries.append((authors, directURL, title, source, 0))
 
-    if args.sort is not None:
+    if args.startyear is not None:
         # Start with year of first entry - should be most recent after sorting
         curYear = entries[0][4]
         try:
-            year_start, year_end = args.sort.split("-")
+            #year_start, year_end = args.startyear.split("-")
+            year_start = args.startyear
+            year_end = args.endyear
         except ValueError:
             # Not enough values
-            year_start, year_end = args.sort, curYear 
+            year_start, year_end = args.startyear, curYear 
 
         # Write most recent year header
-        for year in range(int(year_start), int(year_end)+1) :
+
+        for year in range(int(year_start), int(curYear)+1) :
             sys.stdout.write('<h2>' + str(year) + '</h2>\n')
             for item in entries:
                 # If we're still within the year we're processing, just print the item.
@@ -162,7 +227,7 @@ def createhtml():
 
         # Start with year of first entry - should be most recent after sorting
         curYear = entries[0][4]
-
+        
         # Write most recent year header
         sys.stdout.write('<h2>' + str(curYear) + '</h2>\n<ol>\n')
 
@@ -183,7 +248,7 @@ def createhtml():
         sys.stdout.write('</html>\n')
 
 
-# This function converts the entries in an UKVS file into HTML format. The entries are 
+# This function converts the entries in an UKVS file into HTML2 format. The entries are 
 # formatted as an ordered list. The user may specify a page title if desired. 
 
 def createhtml2():
@@ -268,8 +333,8 @@ def createhtml2():
 """
 
 The program is designed to be run from the Command Line Interface. The Argparse library
-is imported to define and recognize arguments. Currently, --json, --bibtex, and --html 
-are the three standard options for exported formats. You may also change HTML ordered list
+is imported to define and recognize arguments. Currently, --json, --bibtex, --md, and --html 
+are the four standard options for exported formats. You may also change HTML ordered list
 views using the --html2 argument. Although convention indicates that "--" on the front of 
 an argument makes it optional, these three formats are configured so that one argument is 
 required, and only one may be selected. An optional "--title" argument is included so that 
@@ -283,10 +348,12 @@ parser = argparse.ArgumentParser(description='Converts UKVS file to selected fil
 group = parser.add_mutually_exclusive_group(required=True)
 group.add_argument('--json', action='store_true', help='Converts to JSON format')
 group.add_argument('--bibtex', action='store_true', help='Converts to BIBTEX format')
+group.add_argument('--md', action='store_true', help='Converts to Markdown format')
 group.add_argument('--html', action='store_true', help='Converts to HTML format')
 group.add_argument('--html2', action='store_true', help='Converts to HTML2 format')
 parser.add_argument('--title', type=str, help='Provides title for HTML page if desired')
-parser.add_argument('--sort', type=str, help='Sort by specified range of years')
+parser.add_argument('--startyear', type=str, help='Sort by specified start year')
+parser.add_argument('--endyear', type=str, help='Sort by specified end year')
 parser.add_argument('inputfile', type=str, nargs='?', help='enter the UKVS file name')
 args = parser.parse_args()
 
@@ -297,6 +364,9 @@ if args.json:
 
 elif args.bibtex:
     createbibtex()
+
+elif args.md:
+    createmd()
 
 elif args.html:
     createhtml()
