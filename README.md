@@ -162,14 +162,13 @@ The data in an UKVS file can be sorted by "year of publication" and displayed in
 
 ```
 $ ./dedup.py *ukvs | sort -k2 -rn > comprehensive.ukvs
-$ 
 ```
 
 
-## STEP 4 : ukvscovert.py
+## STEP 4 : ukvsconvert.py
 
 ### Description:
-The ukvsconvert.py program imports entries structured in a dictionary-type key/value format and converts the entries to JSON, BibTeX, or HTML. Currently, there are two ordered list formatting options for exporting HTML format using the --html2 argument. An optional "--title" argument is included so that the user may designate the title of the page; this is only used when the --html option is selected. An optional "--sort" argument is available to allow the user to sort articles by a specify a range of years, "start_year - end_year". The results are pipelined to a file specified by the user. 
+The ukvsconvert.py program imports entries structured in a dictionary-type key/value format and converts the entries to JSON, BibTeX, Markdown, or HTML. Currently, there are two ordered list formatting options for exporting HTML format using the --html2 argument. An optional "--title" argument is included so that the user may designate the title of the page; this is only used when the --html option is selected. An optional "--startyear,--endyear" argument is available to allow the user to sort articles by a specify a range of years. The results are pipelined to a file specified by the user.
 
 ### Converting UKVS Examples:
 
@@ -183,6 +182,11 @@ $ ./ukvsconvert.py --json comprehensive.ukvs > results.json
 
 ```
 $ ./ukvsconvert.py --bibtex comprehensive.ukvs > results.bib                                                                                                                         
+```
+* Markdown format:
+
+```
+$ ./ukvsconvert.py --md --title "Article Results" comprehensive.ukvs > Merged_Results.md                                                                                                                         
 ```
 
 * HTML format: 
@@ -199,15 +203,15 @@ $ ./ukvsconvert.py --html --title "Article Results"  comprehensive.ukvs > result
 
 #### Sorting by Year:
 
-Articles may be sorted by a specified range of years using the command line argument --sort "x-y":
+Articles may be sorted by a specified range of years using the command line argument --startyear, --endyear:
 
 ```
-./ukvsconvert.py --html --sort "2010-2015" --title "Article Results" comprehensive.ukvs > all.html
+./ukvsconvert.py --html --startyear "2010" --endyear "2021" --title "Article Results" comprehensive.ukvs > all.html
 ```
-Specifying only a start year will give you results up to most recent:
+Specifying only a start or end year will give you the remaining results when an argument is missing:
 
 ```
-./ukvsconvert.py --html --sort "2010" --title "Article Results" comprehensive.ukvs > all.html
+./ukvsconvert.py --html --startyear "2010" --title "Article Results" comprehensive.ukvs > all.html
 ```
 ## Output : Merged_Results.html
 
