@@ -107,12 +107,14 @@ for a in range(1,arguments):
     # Program loops to capture articles as long as qualifier is not found and the 
     # status code of '200' is registered.
     while statuscode == 200 and article_test == True:
+        save_path ='output/data'
         new_filename = createfilename()
         if os.path.exists(new_filename):
             sys.stdout.write('Overwriting existing file with same name ...\n')
         else:
             sys.stdout.write('Creating new file ...\n')
-        html_file = open(new_filename, 'wb')
+        complete_Name = os.path.join(save_path, new_filename)
+        html_file = open(complete_Name, 'wb')
         html_file.write(page.content)
         html_file.close()
         sys.stdout.write('File saved as "' + html_file.name + '"\n')
