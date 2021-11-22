@@ -32,6 +32,7 @@ for the Google Scholar webpage made it necessary to revise the code. Having this
 a separate function facilitates future changes to the URL to be captured..
 """
 
+
 # This function provides the format of the filename for saving the HTML content
 # The file has the structure XXXXXXXauthorIDvalueXXXXXXX2021-08-14-0001-1000.html
 def createfilename():

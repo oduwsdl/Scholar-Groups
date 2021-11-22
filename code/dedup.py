@@ -17,6 +17,7 @@ sent to the STDOUT function, and the hash key is added to the array. If
 the hash is already found in the array, the link is skipped.  
 """
 
+
 # Import the UKVS file contents and compare hash key values
 ukvs_comp = []
 first_word = []
