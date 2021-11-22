@@ -21,6 +21,7 @@ However, the function has been separated from the code and left intact in case t
 is again available through the GS website.
 """
 
+
 # This function is called from the main program code to find the link for each article using 
 # Beautiful Soup analysis and return that link to the code where it was called. 
 def findinitiallink(i):

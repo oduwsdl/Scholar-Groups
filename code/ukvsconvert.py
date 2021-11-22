@@ -46,6 +46,7 @@ program allows the user to specify the title for the webpage if desired using th
 to identify them as an ordered list. 
 """
 
+
 # This function converts the entries in an UKVS file to the conventional JSON format. Each
 # entry is identified with a hash of the title followed by the year of publication.
 
@@ -123,7 +124,7 @@ def createmd():
         except: # YEAR NOT PROVIDED - WILL FIX
             entries.append((authors, directURL, title, source, 0))
 
-    if args.sort is not None:
+    if args.startyear is not None:
         # Start with year of first entry - should be most recent after sorting
         curYear = entries[0][4]
         try:
@@ -144,7 +145,7 @@ def createmd():
     else: 
        
         # Sort by 4th entry (year)
-        entries = sorted(entries, key = lambda entry: entry[4], reverse=True)
+        #entries = sorted(entries, key = lambda entry: entry[4], reverse=True)
 
         # Start with year of first entry - should be most recent after sorting
         curYear = entries[0][4]
@@ -162,7 +163,68 @@ def createmd():
                 sys.stdout.write('## ' + str(curYear))
                 sys.stdout.write('\n1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
                              item[3] + '\n')
+def createmd2():
+    sys.stdout.write('# ' + args.title +'\n')
+    #sys.stdout.write('<p> </p>\n')
 
+
+    entries = []
+
+    for line in fileinput.input(args.inputfile):
+        item_hash,item_year,item_list = line.split(' ', 2)
+        directURL, title, authors, source, citedby, citations, pageyear = item_list.split('", "')
+        directURL = directURL.replace('{ "DirectURL":"', '')
+        title = title.replace('Title":"', '')
+        authors = authors.replace('Authors":"', '')
+        source = source.replace('Source":"', '')
+        citedby = citedby.replace('CitedBy":"', '')
+        pageyear = pageyear.replace('PageYear":"', '') 
+        pageyear = pageyear.replace('"}\n', '')
+
+        try:
+            entries.append((authors, directURL, title, source, int(pageyear)))
+        except: # YEAR NOT PROVIDED - WILL FIX
+            entries.append((authors, directURL, title, source, 0))
+
+    if args.startyear is not None:
+        # Start with year of first entry - should be most recent after sorting
+        curYear = entries[0][4]
+        try:
+            year_start, year_end = args.sort.split("-")
+        except ValueError:
+            # Not enough values
+            year_start, year_end = args.sort, curYear 
+
+        # Write most recent year header
+        for year in range(int(year_start), int(year_end)+1) :
+            sys.stdout.write('## ' + str(year))
+            for item in entries:
+                # If we're still within the year we're processing, just print the item.
+                if item[4] == year:
+                    sys.stdout.write('\n<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                         item[3] + '.<p> </p></li>\n')
+                    
+    else: 
+       
+        # Sort by 4th entry (year)
+        #entries = sorted(entries, key = lambda entry: entry[4], reverse=True)
+
+        # Start with year of first entry - should be most recent after sorting
+        curYear = entries[0][4]
+
+        # Write most recent year header
+        sys.stdout.write('## ' + str(curYear) + '\n')
+        for item in entries:
+            # If we're still within the year we're processing, just print the item.
+            if item[4] == curYear:
+                sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                             item[3] + '.<p> </p>\n')
+            else:
+                # Otherwise, we have a new year and need to write a header first.
+                curYear = item[4]
+                sys.stdout.write('## ' + str(curYear))
+                sys.stdout.write('\n1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                             item[3] + '\n')
 # This function converts the entries in an UKVS file into HTML format. The entries are 
 # formatted as an ordered list. The user may specify a page title if desired. 
 
@@ -279,7 +341,7 @@ def createhtml2():
         except: # YEAR NOT PROVIDED - WILL FIX
             entries.append((authors, directURL, title, source, 0))
 
-    if args.sort is not None:
+    if args.startyear is not None:
         # Start with year of first entry - should be most recent after sorting
         curYear = entries[0][4]
         try:
@@ -349,6 +411,7 @@ group = parser.add_mutually_exclusive_group(required=True)
 group.add_argument('--json', action='store_true', help='Converts to JSON format')
 group.add_argument('--bibtex', action='store_true', help='Converts to BIBTEX format')
 group.add_argument('--md', action='store_true', help='Converts to Markdown format')
+group.add_argument('--md2', action='store_true', help='Converts to Markdown format')
 group.add_argument('--html', action='store_true', help='Converts to HTML format')
 group.add_argument('--html2', action='store_true', help='Converts to HTML2 format')
 parser.add_argument('--title', type=str, help='Provides title for HTML page if desired')
@@ -363,14 +426,17 @@ if args.json:
     createjson()    
 
 elif args.bibtex:
-    createbibtex()
+      createbibtex()
 
 elif args.md:
-    createmd()
+      createmd()
+
+elif args.md2:
+      createmd2()
 
 elif args.html:
-    createhtml()
+      createhtml()
 
 elif args.html2:
-    createhtml2()
+      createhtml2()
     
