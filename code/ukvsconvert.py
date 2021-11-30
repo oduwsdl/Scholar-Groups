@@ -257,57 +257,109 @@ def createhtml():
             entries.append((authors, directURL, title, source, 0))
 
     if args.startyear is not None:
-        # Start with year of first entry - should be most recent after sorting
-        curYear = entries[0][4]
-        try:
-            #year_start, year_end = args.startyear.split("-")
-            year_start = args.startyear
-            year_end = args.endyear
-        except ValueError:
-            # Not enough values
-            year_start, year_end = args.startyear, curYear 
+        if args.list =='All':
+            # Start with year of first entry - should be most recent after sorting
+            curYear = entries[0][4]
+            try:
+                #year_start, year_end = args.startyear.split("-")
+                year_start = args.startyear
+                year_end = args.endyear
+            except ValueError:
+                # Not enough values
+                year_start, year_end = args.startyear, curYear 
 
-        # Write most recent year header
+            # Write most recent year header
 
-        for year in range(int(year_start), int(curYear)+1) :
-            sys.stdout.write('<h2>' + str(year) + '</h2>\n')
-            for item in entries:
-                # If we're still within the year we're processing, just print the item.
-                if item[4] == year:
-                    sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                         item[3] + '.<p> </p></li>\n')
+            for year in range(int(year_start), int(curYear)+1) :
+                sys.stdout.write('<h2>' + str(year) + '</h2>\n<ol>\n')
+                for item in entries:
+                    # If we're still within the year we're processing, just print the item.
+                    if item[4] == year:
+                        sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                            item[3] + '.<p> </p></li>\n')
                     
             
-        
-        sys.stdout.write('</body>\n')
-        sys.stdout.write('</html>\n') 
+                sys.stdout.write('</ol>\n')
+            sys.stdout.write('</ol>\n</body>\n')
+            sys.stdout.write('</html>\n')
+        elif args.list =='1':
+               # Start with year of first entry - should be most recent after sorting
+            curYear = entries[0][4]
+            try:
+                #year_start, year_end = args.startyear.split("-")
+                year_start = args.startyear
+                year_end = args.endyear
+            except ValueError:
+                # Not enough values
+                year_start, year_end = args.startyear, curYear 
+
+            # Write most recent year header
+            sys.stdout.write('<ol>\n')
+            for year in range(int(year_start), int(curYear)+1) :
+                sys.stdout.write('<h2>' + str(year) + '</h2>\n')
+                for item in entries:
+                    # If we're still within the year we're processing, just print the item.
+                    if item[4] == year:
+                        sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                            item[3] + '.<p> </p></li>\n')
+                    
+            
+                
+            sys.stdout.write('</ol>\n</body>\n')
+            sys.stdout.write('</html>\n')
 
     else: 
        
         # Sort by 4th entry (year)
-        entries = sorted(entries, key = lambda entry: entry[4], reverse=True)
+        #entries = sorted(entries, key = lambda entry: entry[4], reverse=True)
 
         # Start with year of first entry - should be most recent after sorting
         curYear = entries[0][4]
         
-        # Write most recent year header
-        sys.stdout.write('<h2>' + str(curYear) + '</h2>\n<ol>\n')
+        if args.list == '1':
+            # Write most recent year header
+            sys.stdout.write('<h2>' + str(curYear) + '</h2>\n<ol>\n')
 
-        for item in entries:
-            # If we're still within the year we're processing, just print the item.
-            if item[4] == curYear:
-                sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+
+            for item in entries:
+                # If we're still within the year we're processing, just print the item.
+                if item[4] == curYear:
+                    sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
                              item[3] + '.<p> </p></li>\n')
-            else:
+                else:
                 
-                # Otherwise, we have a new year and need to write a header first.
-                curYear = item[4]
-                sys.stdout.write('<h2>' + str(curYear) + '</h2>\n')
-                sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                    # Otherwise, we have a new year and need to write a header first.
+                    curYear = item[4]
+                    sys.stdout.write('<h2>' + str(curYear) + '</h2>\n')
+                    sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
                              item[3] + '.<p> </p></li>\n')
-        sys.stdout.write("</ol>\n")
-        sys.stdout.write('</body>\n')
-        sys.stdout.write('</html>\n')
+            sys.stdout.write('</ol>\n</body>\n')
+            sys.stdout.write('</html>\n') 
+        else:
+              # Sort by 4th entry (year)
+             #entries = sorted(entries, key = lambda entry: entry[4], reverse=True)
+
+            # Start with year of first entry - should be most recent after sorting
+            curYear = entries[0][4]
+
+            # Write most recent year header
+            sys.stdout.write('<h2>' + str(curYear) + '</h2>\n<ol>\n')
+
+            for item in entries:
+             # If we're still within the year we're processing, just print the item.
+                if item[4] == curYear:
+                    sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                             item[3] + '.<p> </p></li>\n')
+                else:
+                    sys.stdout.write("</ol>\n")
+                    # Otherwise, we have a new year and need to write a header first.
+                    curYear = item[4]
+                    sys.stdout.write('<h2>' + str(curYear) + '</h2>\n<ol>\n')
+                    sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                             item[3] + '.<p> </p></li>\n')
+            sys.stdout.write("</ol>\n")
+            sys.stdout.write('</body>\n')
+            sys.stdout.write('</html>\n') 
 
 
 # This function converts the entries in an UKVS file into HTML2 format. The entries are 
@@ -342,54 +394,109 @@ def createhtml2():
             entries.append((authors, directURL, title, source, 0))
 
     if args.startyear is not None:
-        # Start with year of first entry - should be most recent after sorting
-        curYear = entries[0][4]
-        try:
-            year_start, year_end = args.sort.split("-")
-        except ValueError:
-            # Not enough values
-            year_start, year_end = args.sort, curYear 
+        if args.list =='All':
+            # Start with year of first entry - should be most recent after sorting
+            curYear = entries[0][4]
+            try:
+                #year_start, year_end = args.startyear.split("-")
+                year_start = args.startyear
+                year_end = args.endyear
+            except ValueError:
+                # Not enough values
+                year_start, year_end = args.startyear, curYear 
 
-        # Write most recent year header
-        for year in range(int(year_start), int(year_end)+1) :
-            sys.stdout.write('<h2>' + str(year) + '</h2>\n<ol>\n')
-            for item in entries:
-                # If we're still within the year we're processing, just print the item.
-                if item[4] == year:
-                    sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                         item[3] + '.<p> </p></li>\n')
+            # Write most recent year header
+
+            for year in range(int(year_start), int(curYear)+1) :
+                sys.stdout.write('<h2>' + str(year) + '</h2>\n<ol>\n')
+                for item in entries:
+                    # If we're still within the year we're processing, just print the item.
+                    if item[4] == year:
+                        sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                            item[3] + '.<p> </p></li>\n')
                     
-            sys.stdout.write("</ol>\n")
-        sys.stdout.write("</ol>\n")
-        sys.stdout.write('</body>\n')
-        sys.stdout.write('</html>\n') 
+            
+                sys.stdout.write('</ol>\n')
+            sys.stdout.write('</ol>\n</body>\n')
+            sys.stdout.write('</html>\n')
+        elif args.list =='1':
+               # Start with year of first entry - should be most recent after sorting
+            curYear = entries[0][4]
+            try:
+                #year_start, year_end = args.startyear.split("-")
+                year_start = args.startyear
+                year_end = args.endyear
+            except ValueError:
+                # Not enough values
+                year_start, year_end = args.startyear, curYear 
+
+            # Write most recent year header
+            sys.stdout.write('<ol>\n')
+            for year in range(int(year_start), int(curYear)+1) :
+                sys.stdout.write('<h2>' + str(year) + '</h2>\n')
+                for item in entries:
+                    # If we're still within the year we're processing, just print the item.
+                    if item[4] == year:
+                        sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                            item[3] + '.<p> </p></li>\n')
+                    
+            
+                
+            sys.stdout.write('</ol>\n</body>\n')
+            sys.stdout.write('</html>\n')
 
     else: 
        
         # Sort by 4th entry (year)
-        entries = sorted(entries, key = lambda entry: entry[4], reverse=True)
+        #entries = sorted(entries, key = lambda entry: entry[4], reverse=True)
 
         # Start with year of first entry - should be most recent after sorting
         curYear = entries[0][4]
+        
+        if args.list == '1':
+            # Write most recent year header
+            sys.stdout.write('<h2>' + str(curYear) + '</h2>\n<ol>\n')
 
-        # Write most recent year header
-        sys.stdout.write('<h2>' + str(curYear) + '</h2>\n<ol>\n')
 
-        for item in entries:
-            # If we're still within the year we're processing, just print the item.
-            if item[4] == curYear:
-                sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+            for item in entries:
+                # If we're still within the year we're processing, just print the item.
+                if item[4] == curYear:
+                    sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
                              item[3] + '.<p> </p></li>\n')
-            else:
-                sys.stdout.write("</ol>\n")
-                # Otherwise, we have a new year and need to write a header first.
-                curYear = item[4]
-                sys.stdout.write('<h2>' + str(curYear) + '</h2>\n<ol>\n')
-                sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                else:
+                
+                    # Otherwise, we have a new year and need to write a header first.
+                    curYear = item[4]
+                    sys.stdout.write('<h2>' + str(curYear) + '</h2>\n')
+                    sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
                              item[3] + '.<p> </p></li>\n')
-        sys.stdout.write("</ol>\n")
-        sys.stdout.write('</body>\n')
-        sys.stdout.write('</html>\n') 
+            sys.stdout.write('</ol>\n</body>\n')
+            sys.stdout.write('</html>\n') 
+        else:
+              # Sort by 4th entry (year)
+             #entries = sorted(entries, key = lambda entry: entry[4], reverse=True)
+
+            # Start with year of first entry - should be most recent after sorting
+            curYear = entries[0][4]
+
+            # Write most recent year header
+            sys.stdout.write('<h2>' + str(curYear) + '</h2>\n<ol>\n')
+
+            for item in entries:
+             # If we're still within the year we're processing, just print the item.
+                if item[4] == curYear:
+                    sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                             item[3] + '.<p> </p></li>\n')
+                else:
+                    sys.stdout.write("</ol>\n")
+                    # Otherwise, we have a new year and need to write a header first.
+                    curYear = item[4]
+                    sys.stdout.write('<h2>' + str(curYear) + '</h2>\n<ol>\n')
+                    sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                             item[3] + '.<p> </p></li>\n')
+            sys.stdout.write("</ol>\n")
+            sys.stdout.write('</body>\n')
+            sys.stdout.write('</html>\n') 
 
 
 """
@@ -417,6 +524,7 @@ group.add_argument('--html2', action='store_true', help='Converts to HTML2 forma
 parser.add_argument('--title', type=str, help='Provides title for HTML page if desired')
 parser.add_argument('--startyear', type=str, help='Sort by specified start year')
 parser.add_argument('--endyear', type=str, help='Sort by specified end year')
+parser.add_argument('--list', type=str, help='Specify Ordered List Format')
 parser.add_argument('inputfile', type=str, nargs='?', help='enter the UKVS file name')
 args = parser.parse_args()
 

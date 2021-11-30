@@ -3,6 +3,7 @@
 
 import os
 import sys
+import argparse
 import requests
 from datetime import date 
 
@@ -64,9 +65,9 @@ within a single URL link. Capturing more would require additional automation.
 # The program loops through arguments to capture one or multiple author IDs. 
 arguments = len(sys.argv)
 today = date.today()
-if arguments == 1:
+if arguments == 3:
     sys.stdout.write('No author IDs provided to process ...\n')
-for a in range(1,arguments):
+for a in range(3,arguments):
     authorID = sys.argv[a]
     sys.stdout.write('Processing Author ID ' + authorID + ' ...\n')
 
@@ -108,7 +109,10 @@ for a in range(1,arguments):
     # Program loops to capture articles as long as qualifier is not found and the 
     # status code of '200' is registered.
     while statuscode == 200 and article_test == True:
-        save_path ='output/data'
+        parser = argparse.ArgumentParser(description='Specify Output Location')
+        parser.add_argument('--output', type=str, nargs ='?', required = True, help='Output Location')
+        args, unknownargs = parser.parse_known_args()
+        save_path = args.output
         new_filename = createfilename()
         if os.path.exists(new_filename):
             sys.stdout.write('Overwriting existing file with same name ...\n')
