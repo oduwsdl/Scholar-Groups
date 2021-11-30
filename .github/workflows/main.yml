@@ -27,14 +27,14 @@ jobs:
             
       - name: htmlsave
         run: |
-           sudo rm -rf output/data/*.html
-           sudo rm -rf output/data/*.ukvs
-           python3 ./code/htmlsave.py oWQaPnwAAAAJ MOLPTqcAAAAJ OkEoChMAAAAJ -eRsYx8AAAAJ QjHw7ugAAAAJ Of8dNP0AAAAJ
+           sudo find output/data -type f -iname \*.html -delete
+           python3 ./code/htmlsave.py --output output/data oWQaPnwAAAAJ MOLPTqcAAAAJ OkEoChMAAAAJ -eRsYx8AAAAJ QjHw7ugAAAAJ Of8dNP0AAAAJ
         
       - name: html2ukvs
         run: |
           sudo apt-get install python3-bs4
           sudo apt-get install w3m
+          sudo find output/data -type f -iname \*.ukvs -delete
           python3 ./code/html2ukvs.py output/data/*html
           
       - name: dedup
@@ -43,8 +43,8 @@ jobs:
           wc output/*.ukvs
       - name: ukvsconvert
         run: |
-          ./code/ukvsconvert.py --json output/comprehensive.ukvs > output/results.json
-          ./code/ukvsconvert.py --bibtex output/comprehensive.ukvs > output/results.bib
+          ./code/ukvsconvert.py --json output/comprehensive.ukvs > output/Merged_Results.json
+          ./code/ukvsconvert.py --bibtex output/comprehensive.ukvs > output/Merged_Results.bib
           ./code/ukvsconvert.py --md --title "Article Results" output/comprehensive.ukvs > output/Merged_Results.md
           ./code/ukvsconvert.py --md2 --title "Article Results" output/comprehensive.ukvs > output/Merged_Results2.md
           ./code/ukvsconvert.py --html --title "Article Results"  output/comprehensive.ukvs > output/Merged_Results.html
