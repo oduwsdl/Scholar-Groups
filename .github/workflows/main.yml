@@ -39,7 +39,7 @@ jobs:
           
       - name: dedup
         run: |
-          ./code/dedup.py output/data/*.ukvs > output/comprehensive.ukvs
+          ./code/dedup.py output/data/*ukvs | sort -k2 -rn > output/comprehensive.ukvs
           wc output/*.ukvs
       - name: ukvsconvert
         run: |
