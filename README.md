@@ -12,7 +12,7 @@ The programs included in this toolkit are designed to work together:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 1**: *[htmlsave.py](/code/htmlsave.py)* - For each Google Scholar ID, download paginated publication pages<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 2**: *[html2ukvs.py](/code/ukvsconvert.py)* -  parse article HTML contents and convert to .ukvs format<br /><br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 3**: *[dedup.py](/code/dedup.py)* -  remove duplicate entries when multiple authors work on the same paper<br/><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 3**: *Linux Sort* - ```cat *ukvs | sort -u -k1,1 | sort -k2 -rn > comprehensive.ukvs)``` - remove duplicate entries when multiple authors work on the same paper<br/><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 4**: *[ukvsconvert.py](/code/ukvsconvert.py)* - merge processed group of Google Scholar articles into a final report in a specified (JSON, BibTeX, or HTML) format 
 
 Note: All programs operate from the Command Line Interface.
@@ -127,15 +127,15 @@ $
 If no file is listed after the executable, the program will prompt "No HTML files were identified for conversion". Some fields in the UKVS entries may be blank, such as when an article has not been cited, or missing information. Because the program is capturing information from a Google Scholar page, all the data may not be listed. 
 
 
-## STEP 3 : dedup.py
+## STEP 3 : Linux Sort Command
 ### Description:
 
-The dedup.py program will analyze a large list of entries in multiple UKVS files and remove duplicates. This is useful when compiling a database of articles by specific authors in which some articles are co-authored by members of the group. 
+The sort command ```cat *ukvs | sort -u -k1,1 | sort -k2 -rn > comprehensive.ukvs``` will analyze a large list of entries in multiple UKVS files and remove duplicates. This is useful when compiling a database of articles by specific authors in which some articles are co-authored by members of the group. 
 
 ### Example:
 
 ```
-$ ./dedup.py *ukvs > comprehensive.ukvs
+$ cat *ukvs | sort -u -k1,1 | sort -k2 -rn > comprehensive.ukvs
 $
 $ wc *.ukvs
       90    3085   47966 XXXXXXX-eRsYx8AAAAJXXXXXXX-2021-10-25-0000-0099.ukvs
@@ -158,11 +158,8 @@ $
 In the above example, all of the UKVS files were processed and unique entries were stored in the "comprehensive.ukvs" file. The "wc" function shows the total number of entries before duplicates were removed (i.e., all UKVS files excluding the comprehensive.ukvs file). This indicates there were duplicates.
 
 
-The data in an UKVS file can be sorted by "year of publication" and displayed in descending order by using a combination of the sort by key "-k", reverse results of comparison "-r", and "-n" compare according to string numerical value bash arguments as shown below.
+The data in an UKVS file is sorted by "year of publication" and displayed in descending order by using a combination of the sort by key "-k", reverse results of comparison "-r", and "-n" compare according to string numerical value bash arguments.
 
-```
-$ ./dedup.py *ukvs | sort -k2 -rn > comprehensive.ukvs
-```
 
 
 ## STEP 4 : ukvsconvert.py
@@ -213,6 +210,14 @@ Specifying only a start or end year will give you the remaining results when an 
 ```
 ./ukvsconvert.py --html --startyear "2010" --title "Article Results" comprehensive.ukvs > all.html
 ```
+#### HTML List Format:
+
+Articles may be formatted into different list types such as one list(1), seperate lists(all), or no list(none) by using the command line argument --list:
+
+```
+./ukvsconvert.py --html --startyear "2010" --endyear "2021" --list=all --title "Article Results" comprehensive.ukvs > all.html
+```
+
 ## Output : Merged_Results.html
 
 <img src="/docs/output.png" width="50%"><br />
