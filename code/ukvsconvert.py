@@ -5,6 +5,7 @@ import sys
 import argparse
 import fileinput
 
+
 """
 This program imports entries structured in a dictionary-type key/value format and converts
 the entries to JSON, BIBTEX, or HTML. The program is run from the Command Line Interface and 
