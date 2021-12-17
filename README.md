@@ -12,7 +12,7 @@ The programs included in this toolkit are designed to work together:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 1**: *[htmlsave.py](/code/htmlsave.py)* - For each Google Scholar ID, download paginated publication pages<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 2**: *[html2ukvs.py](/code/ukvsconvert.py)* -  parse article HTML contents and convert to .ukvs format<br /><br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 3**: *Linux Sort* - ```cat *ukvs | sort -u -k1,1 | sort -k2 -rn > comprehensive.ukvs)``` - remove duplicate entries when multiple authors work on the same paper<br/><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 3**: *Sort* - remove duplicate entries when multiple authors work on the same paper<br/><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**STEP 4**: *[ukvsconvert.py](/code/ukvsconvert.py)* - merge processed group of Google Scholar articles into a final report in a specified (JSON, BibTeX, or HTML) format 
 
 Note: All programs operate from the Command Line Interface.
@@ -127,7 +127,7 @@ $
 If no file is listed after the executable, the program will prompt "No HTML files were identified for conversion". Some fields in the UKVS entries may be blank, such as when an article has not been cited, or missing information. Because the program is capturing information from a Google Scholar page, all the data may not be listed. 
 
 
-## STEP 3 : Linux Sort Command
+## STEP 3 : Sort Command
 ### Description:
 
 The sort command ```cat *ukvs | sort -u -k1,1 | sort -k2 -rn > comprehensive.ukvs``` will analyze a large list of entries in multiple UKVS files and remove duplicates. This is useful when compiling a database of articles by specific authors in which some articles are co-authored by members of the group. 
