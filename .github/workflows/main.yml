@@ -37,18 +37,16 @@ jobs:
           sudo find output/data -type f -iname \*.ukvs -delete
           python3 ./code/html2ukvs.py output/data/*html
           
-      - name: dedup
+      - name: Sort
         run: |
-          ./code/dedup.py output/data/*ukvs | sort -k2 -rn > output/comprehensive.ukvs
+          cat *ukvs | sort -u -k1,1 | sort -k2 -rn > output/comprehensive.ukvs
           wc output/*.ukvs
       - name: ukvsconvert
         run: |
           ./code/ukvsconvert.py --json output/comprehensive.ukvs > output/Merged_Results.json
           ./code/ukvsconvert.py --bibtex output/comprehensive.ukvs > output/Merged_Results.bib
           ./code/ukvsconvert.py --md --title "Article Results" output/comprehensive.ukvs > output/Merged_Results.md
-          ./code/ukvsconvert.py --md2 --title "Article Results" output/comprehensive.ukvs > output/Merged_Results2.md
           ./code/ukvsconvert.py --html --title "Article Results"  output/comprehensive.ukvs > output/Merged_Results.html
-          ./code/ukvsconvert.py --html2 --title "Article Results"  output/comprehensive.ukvs > output/Merged_Results2.html
           w3m -dump Merged_Results2.html
       - name: Commit files
         id: commit
