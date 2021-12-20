@@ -71,7 +71,7 @@ def createjson():
         pageyear = pageyear.replace('": "', '": ')
         pageyear = pageyear.replace('"}\n', '')
         pageyear = ('"' + pageyear)
-        json_entry = (directURL + ',\n    ' + \
+        json_entry = (' \n{ \n    ' + directURL + ',\n    ' + \
                       title + ',\n    ' + authors + ',\n    ' + source + ',\n    ' + \
                       citedby + ',\n    ' + citations + ',\n    ' + pageyear + \
                       '\n}\n')
