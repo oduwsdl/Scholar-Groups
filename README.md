@@ -3,6 +3,7 @@
 <img src="/docs/gsflowdiagram.png" width="50%"><br />
 Fig.1 Scholar Groups Process Flow
 
+
 ## <ins>Overview</ins>
 Scholar Groups is a <ins>software toolkit</ins> developed in Python to extract scholarly literature from multiple authors using the Google Scholar search engine and grouping the results into a user specified order and format.
 
@@ -191,11 +192,6 @@ $ ./ukvsconvert.py --md --title "Article Results" comprehensive.ukvs > Merged_Re
 
 ```
 $ ./ukvsconvert.py --html --title "Article Results"  comprehensive.ukvs > results.html
-```
-
-* Other HTML structure using --html2:
-```
- ./ukvsconvert.py --html2 --title "Article Results" comprehensive.ukvs > results.html
 ```
 
 #### Sorting by Year:
