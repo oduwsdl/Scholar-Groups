@@ -4,6 +4,8 @@
 import sys
 import argparse
 import fileinput
+import json
+import re
 
 
 """
@@ -52,13 +54,20 @@ to identify them as an ordered list.
 # entry is identified with a hash of the title followed by the year of publication.
 
 def createjson():
-    for line in fileinput.input(args.inputfile):
+    sys.stdout.write('{\n' +  '"Article Results": [')
+    inp = fileinput.input(args.inputfile)
+    for idx,line in enumerate(inp):
+        if idx > 0:
+            sys.stdout.write(',\n')
         item_hash,item_year,item_list = line.split(' ', 2)
         item_list = item_list.replace('":"', '": "')
         directURL, title, authors, source, citedby, citations, pageyear = item_list.split('", "')
         directURL = directURL.replace('{ "', '"')
         directURL = (directURL + '"')
-        title = ('"' + title + '"')
+        fixed = re.sub(r'"([\s\w-]*)"([\s\w-]*)"',r'"\1\"\2\"', title)
+        fixed = re.sub(r'Van de Sompel Herbert,"', r'Van de Sompel Herbert,\"', fixed)
+        title = ('"' + fixed + '"')
+        
         authors = ('"' + authors + '"')
         if ',' in authors:
             authors = authors.replace(', ', '",\n        "')
@@ -66,17 +75,22 @@ def createjson():
             authors = (authors + '\n    ]') 
         source = ('"' + source + '"')
         citedby = ('"' + citedby + '"')
-        citations = citations.replace('": "', '": ')
-        citations = ('"' + citations)
-        pageyear = pageyear.replace('": "', '": ')
-        pageyear = pageyear.replace('"}\n', '')
-        pageyear = ('"' + pageyear)
-        json_entry = (' \n{ \n    ' + directURL + ',\n    ' + \
-                      title + ',\n    ' + authors + ',\n    ' + source + ',\n    ' + \
-                      citedby + ',\n    ' + citations + ',\n    ' + pageyear + \
-                      '\n}\n')
-        sys.stdout.write(json_entry +"\n")
-
+        if citations == '": "':
+           citations = citations.replace('": "', '": ')
+           citations = ('"' + citations)
+        else: 
+             citations = ('"' + citations + '"')
+        if pageyear == '": "':
+           pageyear = pageyear.replace('": "', '": ')
+           pageyear = pageyear.replace('"}', '')
+           pageyear = ('"' + pageyear)
+        else:
+             pageyear = ('"' + pageyear)
+        json_entry = (' \n{ \n    ' + directURL + ',\n    ' + 
+                      title + ',\n    ' + authors + ',\n    ' + source + ',\n' +
+                      citedby + ',\n    ' + citations + ',\n    ' + pageyear )
+        sys.stdout.write(json_entry)
+    sys.stdout.write(']' + '}')
 # This function converts the entries in an UKVS file to the conventional BIBTEX format. Each 
 # entry is identified as "@misc" type in the current configuration. Additionally, when the 
 # author field has multiple authors, each author is also enclosed in curly braces {}.
@@ -96,9 +110,9 @@ def createbibtex():
         source = source.replace('Source":"', 'howpublished = {')
         pageyear = pageyear.replace('PageYear":"', 'date = {') 
         pageyear = pageyear.replace('"}\n', '') 
-        bibtex_entry = ('@misc{' + item_hash + ':' + item_year + ',\n      ' + \
-                        title + '},\n      ' + authors + '},\n      ' + \
-                        pageyear + '},\n      ' + source + '},\n      ' + \
+        bibtex_entry = ('@misc{' + item_hash + ':' + item_year + ',\n      ' + 
+                        title + '},\n      ' + authors + '},\n      ' + 
+                        pageyear + '},\n      ' + source + '},\n      ' + 
                         directURL + '},\n},\n')  #  A non-conventional comma ends entries
         sys.stdout.write(bibtex_entry +"\n")
 
