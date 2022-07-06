@@ -64,16 +64,23 @@ def createjson():
         directURL, title, authors, source, citedby, citations, pageyear = item_list.split('", "')
         directURL = directURL.replace('{ "', '"')
         directURL = (directURL + '"')
-        fixed = re.sub(r'"([\s\w-]*)"([\s\w-]*)"',r'"\1\"\2\"', title)
-        fixed = re.sub(r'Van de Sompel Herbert,"', r'Van de Sompel Herbert,\"', fixed)
-        title = ('"' + fixed + '"')
+        
+        # Split the title
+        title_list = title.split('Title":')
+        # JSON encode the title
+        actual_title = json.dumps(title_list[1][2:])
+        title = 'Title": ' + actual_title
+        title = ('"' + title)
         
         authors = ('"' + authors + '"')
         if ',' in authors:
             authors = authors.replace(', ', '",\n        "')
             authors = authors.replace('": "', '": [\n        "') 
             authors = (authors + '\n    ]') 
-        source = ('"' + source + '"')
+        source_list = source.split('Source":')
+        actual_source = json.dumps(source_list[1][2:])
+        source = 'Source": ' + actual_source
+        source = ('"' + source)
         citedby = ('"' + citedby + '"')
         if citations == '": "':
            citations = citations.replace('": "', '": ')
@@ -299,5 +306,3 @@ elif args.md:
 
 elif args.html:
       createhtml()
-
-    
