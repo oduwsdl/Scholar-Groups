@@ -38,7 +38,7 @@ jobs:
       - name: Sort
         run: |
           cat output/ODU/data/*ukvs | sort -u -k1,1 | sort -k2 -rn > output/ODU/comprehensive.ukvs
-          wc ODU/*.ukvs
+          wc output/ODU/*.ukvs
       - name: ukvsconvert
         run: |
           ./code/ukvsconvert.py --json output/ODU/comprehensive.ukvs > output/ODU/Merged_Results.json
