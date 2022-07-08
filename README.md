@@ -33,7 +33,7 @@ The htmlsave.py program requires the user to enter specific author IDs for a Goo
 
 ### Example:
 ```
-mkdir output_dir
+$ mkdir output_dir
 
 $ ./htmlsave.py --output output_dir oWQaPnwAAAAJ MOLPTqcAAAAJ OkEoChMAAAAJ -eRsYx8AAAAJ QjHw7ugAAAAJ Of8dNP0AAAAJ
 Processing Author ID oWQaPnwAAAAJ ...
