@@ -59,12 +59,11 @@ jobs:
           git pull origin ${GITHUB_REF##*/}
           git push origin ${GITHUB_REF##*/}
         shell: bash
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
           ref: main
       - name: Pull to main
         run: |
-          echo ${GITHUB_REF##*/}
           git branch
           git pull ${GITHUB_REF##*/}
           git add --all
