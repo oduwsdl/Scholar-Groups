@@ -66,6 +66,7 @@ jobs:
         if: steps.commit.outputs.push == 'true'
         # uses: ad-m/github-push-action@master
         run: |
+          git status
           git push origin main
         # with:
         #      github_token: ${{ secrets.GITHUB_TOKEN }}
