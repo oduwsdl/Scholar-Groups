@@ -69,10 +69,8 @@ jobs:
         run: |
           git branch
           git merge origin/${GITHUB_REF##*/}
-          git status
           git add --all
           git add .
-          git commit -m "Merging from ${GITHUB_REF##*/}"
         shell: bash
       - name: Push changes
         if: steps.commit.outputs.push == 'true'
