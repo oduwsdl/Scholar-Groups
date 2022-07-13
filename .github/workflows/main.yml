@@ -3,15 +3,7 @@
 name: Google Scholar Toolkit
 
 # Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+on: [push, pull_request]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -64,7 +56,7 @@ jobs:
            git commit -m "Add changes" -a
            echo "::set-output name=push::true"
           fi
-          git push
+          git push origin ${GITHUB_REF##*/}
         shell: bash
       - name: Push changes
         if: steps.commit.outputs.push == 'true'
