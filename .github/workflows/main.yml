@@ -65,7 +65,7 @@ jobs:
       - name: Pull to main
         run: |
           git branch
-          git pull origin ${GITHUB_REF##*/}
+          git merge origin ${GITHUB_REF##*/}
           git status
           git add --all
           git add .
