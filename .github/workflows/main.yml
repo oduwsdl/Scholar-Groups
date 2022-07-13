@@ -60,6 +60,11 @@ jobs:
           git pull origin ${GITHUB_REF##*/}
           git push origin ${GITHUB_REF##*/}
         shell: bash
+      - name: Pull to main
+        run: |
+          git checkout origin main
+          git merge origin ${GITHUB_REF##*/}
+        shell: bash
       - name: Push changes
         if: steps.commit.outputs.push == 'true'
         uses: ad-m/github-push-action@master
