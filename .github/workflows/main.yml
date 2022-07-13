@@ -61,8 +61,7 @@ jobs:
         shell: bash
       - uses: actions/checkout@v3
         with:
-          ref: origin main
-
+          ref: main
       - name: Pull to main
         run: |
           git branch -r
