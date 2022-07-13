@@ -65,7 +65,7 @@ jobs:
       - name: Pull to main
         run: |
           echo ${GITHUB_REF##*/}
-          git pull origin ${GITHUB_REF##*/}
+          git pull ${GITHUB_REF##*/}
           git add --all
           git add .
         shell: bash
