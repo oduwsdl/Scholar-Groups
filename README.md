@@ -214,7 +214,7 @@ Specifying only a start or end year will give you the remaining results when an 
 ```
 #### HTML List Format:
 
-Articles may be formatted into different list types such as one list(1), lists seperated by year(all), lists seperated by scholar ID(scholarid),  or no list(none) by using the command line argument --list:
+Articles may be formatted into different list types such as one list(1), lists separated by year(all), lists separated by scholar ID(scholarid),  or no list(none) by using the command line argument --list:
 
 ```
 ./ukvsconvert.py --html --startyear "2010" --endyear "2021" --list=all --title "Article Results" comprehensive.ukvs > all.html
