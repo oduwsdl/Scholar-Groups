@@ -62,6 +62,7 @@ jobs:
         shell: bash
       - name: Pull to main
         run: |
+          git branch -r
           git checkout origin/main
           git merge origin ${GITHUB_REF##*/}
         shell: bash
