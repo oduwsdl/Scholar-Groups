@@ -50,6 +50,7 @@ jobs:
       - name: Commit files
         id: commit
         run: |
+          echo ${GITHUB_REF##*/}
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
           git add --all
@@ -63,7 +64,8 @@ jobs:
       - name: Push changes
         if: steps.commit.outputs.push == 'true'
         # uses: ad-m/github-push-action@master
-        run: git push origin main
+        run: |
+          git push origin main
         # with:
         #      github_token: ${{ secrets.GITHUB_TOKEN }}
           
