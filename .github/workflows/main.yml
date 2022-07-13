@@ -65,7 +65,8 @@ jobs:
       - name: Pull to main
         run: |
           git branch
-          git pull ${GITHUB_REF##*/}
+          git pull origin ${GITHUB_REF##*/}
+          git status
           git add --all
           git add .
           git commit -m "Merging from ${GITHUB_REF##*/}"
