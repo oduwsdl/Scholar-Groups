@@ -66,7 +66,7 @@ jobs:
         run: |
           echo ${GITHUB_REF##*/}
           git branch
-          git pull origin ${GITHUB_REF##*/}
+          git pull ${GITHUB_REF##*/}
           git add --all
           git add .
           git commit -m "Merging from ${GITHUB_REF##*/}"
