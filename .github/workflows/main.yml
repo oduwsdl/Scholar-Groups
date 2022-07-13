@@ -65,9 +65,10 @@ jobs:
       - name: Pull to main
         run: |
           echo ${GITHUB_REF##*/}
-          git pull ${GITHUB_REF##*/}
+          git pull origin ${GITHUB_REF##*/}
           git add --all
           git add .
+          git commit -m "Merging from ${GITHUB_REF##*/}"
         shell: bash
       - name: Push changes
         if: steps.commit.outputs.push == 'true'
