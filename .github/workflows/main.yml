@@ -62,9 +62,7 @@ jobs:
         shell: bash
       - name: Pull to main
         run: |
-          git fetch
-          git branch
-          git checkout origin main
+          git checkout origin/main
           git merge origin ${GITHUB_REF##*/}
         shell: bash
       - name: Push changes
