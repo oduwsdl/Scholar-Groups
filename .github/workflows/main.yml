@@ -64,6 +64,7 @@ jobs:
            git commit -m "Add changes" -a
            echo "::set-output name=push::true"
           fi
+          echo ${GITHUB_REF##*/}
           git pull ${GITHUB_REF##*/}
           git push origin ${GITHUB_REF##*/}
         shell: bash
