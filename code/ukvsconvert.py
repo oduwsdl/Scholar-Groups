@@ -255,35 +255,6 @@ def createhtml():
                              item[3] + '.<p> </p></li>\n')
             prevyear = year
         sys.stdout.write("</ol>")
-    elif args.list == 'scholarid':
-        scholar_accounts = dict()
-        scholar_account_years = dict()
-        for item in entries:
-            year = int(item[4])
-            if year < start or year > end:
-                continue
-
-            scholar_id = re.search('user=(.*?)&', item[1]).group(1)
-            if scholar_id not in scholar_accounts:
-                # If the scholar ID does not exist in the dictionary yet, add the Scholar ID title in along with an ordered list
-                scholar_accounts[scholar_id] = '<h2>' + scholar_id + '</h2>\n<ol>\n'
-                # Create a dictionary that contains a set for each scholar ID.
-                scholar_account_years[scholar_id] = set()
-    
-            if year not in scholar_account_years[scholar_id]:
-                # If the year is not present in the set of years for the scholar ID, add it to the set.
-                scholar_account_years[scholar_id].add(year)
-                # Create a new header for the year.
-                scholar_accounts[scholar_id] += '<h2>' + str(year) + '</h2>\n'
-
-            # Concat the entry into the scholar ID HTML
-            scholar_accounts[scholar_id] += '<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                             item[3] + '.<p> </p></li>\n'
-            
-        # Print out each list separated by scholar IDs.
-        for scholar_id in scholar_accounts.keys():
-            sys.stdout.write(scholar_accounts[scholar_id] + '</ol>')
-
     elif args.list =='none' or args.list is None:
         for item in entries:
             year = int(item[4])
