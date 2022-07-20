@@ -58,10 +58,14 @@ jobs:
            echo "::set-output name=push::true"
           fi
         shell: bash
-      - name: Push changes
-        on: [pull_request]
-        if: steps.commit.outputs.push == 'true'
+      - name: Push changes via pull request
+        if: steps.commit.outputs.push == 'true' && github.event_name == 'pull_request'
         # uses: ad-m/github-push-action@master
         run: |
-          git push origin ${{ github.event.pull_request.head.ref }}.
+          git push origin ${{ github.event.pull_request.head.ref }}
+      - name: Push changes via push
+        if: steps.commit.outputs.push == 'true' && github.event_name == 'push'
+        # uses: ad-m/github-push-action@master
+        run: |
+          git push origin ${{ secrets.GITHUB_TOKEN }}
           
