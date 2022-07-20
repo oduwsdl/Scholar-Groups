@@ -28,7 +28,7 @@ jobs:
           sudo apt-get install python3-bs4
           sudo apt-get install w3m
           sudo find output/data -type f -iname \*.ukvs -delete
-          python3 ./code/html2ukvs.py output/data/*html
+          python3 ./code/html2ukvs.py output/data/*.html -i oWQaPnwAAAAJ 2010 2021 -i MOLPTqcAAAAJ 2008 2021 -i OkEoChMAAAAJ 2009 2021 -i -eRsYx8AAAAJ 2015 2022 -i QjHw7ugAAAAJ 2017 2022 -i Of8dNP0AAAAJ 2015 2022
           
       - name: Sort
         run: |
@@ -48,7 +48,6 @@ jobs:
       - name: Commit files
         id: commit
         run: |
-          git branch
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
           git add --all
@@ -58,23 +57,10 @@ jobs:
            git commit -m "Add changes" -a
            echo "::set-output name=push::true"
           fi
-          echo ${GITHUB_REF##*/}
-          git pull origin ${GITHUB_REF##*/}
-          git push origin ${GITHUB_REF##*/}
-        shell: bash
-      - uses: actions/checkout@v2
-        with:
-          ref: main
-      - name: Pull to main
-        run: |
-          git branch
-          git merge origin/${GITHUB_REF##*/}
-          git add --all
-          git add .
         shell: bash
       - name: Push changes
         if: steps.commit.outputs.push == 'true'
-        uses: ad-m/github-push-action@master
-        with:
-             github_token: ${{ secrets.GITHUB_TOKEN }}
+        # uses: ad-m/github-push-action@master
+        run: |
+          git push origin ${GITHUB_REF##*/}
           
