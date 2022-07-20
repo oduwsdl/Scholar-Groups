@@ -6,6 +6,8 @@ import sys
 import urllib
 import hashlib
 from bs4 import BeautifulSoup
+import argparse
+import math
 
 """
 The findinitiallink(): function is used to search the saved HTML file for the link for each 
@@ -46,13 +48,25 @@ files. Additionally, the program saves the file in the same naming convention as
 of the original HTML file.
 """
 
+# If author ID starts with '-', add '\' in front of it to avoid argument parsing errors.
+sys.argv = list(map(lambda st: st.replace('-', '\-', 1) if st != '-i' and st[0] == '-' else st, sys.argv))
+
+parser = argparse.ArgumentParser()
+# Add parser argument for the files that will be converted
+parser.add_argument('files', action='append', nargs='+')
+# Add parser argument for the scholar IDs and their start years and end years.
+parser.add_argument('-i', action='append', nargs='+')
+args = parser.parse_args()
+
+files = args.files[0]
+scholar_options = { option[0]: list(map(int, option[1:])) for option in args.i }
 # Import the html file contents and open it with Beautiful Soup. The HTML file is read by 
 # byte and uses the 'lxml' conversion parser. This uses Beautiful Soup version 4.
 arguments = len(sys.argv)
 if arguments == 1:
     sys.stdout.write('No HTML articles were identified for conversion ...\n')
-for a in range(1,arguments):
-    html_file = open(sys.argv[a], 'rb')
+for file in files:
+    html_file = open(file, 'rb')
     file_name = html_file.name
     sys.stdout.write('Importing "' + file_name + '" ...\n')
     soup = BeautifulSoup(html_file, 'lxml')
@@ -65,6 +79,12 @@ for a in range(1,arguments):
     # ID using Beautiful Soup, so it is extracted from the file name using the string separator.
     file_string = file_name.split('XXXXXXX')
     author_ID = file_string[1]
+
+    scholar_id_key = author_ID.replace('-', '\-', 1) if author_ID[0] == '-' else author_ID
+    
+    startyear, endyear = -math.inf, math.inf
+    if scholar_id_key in scholar_options.keys():
+        startyear, endyear = scholar_options[scholar_id_key]
 
     """
     The program uses Beautiful Soup functions to extract specific elements. The elements are 
@@ -80,39 +100,50 @@ for a in range(1,arguments):
         item = i
         initial_link = findinitiallink(i)
         prefaceURL = 'https://scholar.google.com'
+
+        append = False
     
         # Specific elements of the HTML page contents are extracted using Beautiful Soup 
         # field selection keys. These are more precise and concise than "find" and "findall"
-        directURL = prefaceURL + initial_link
-        #popURL = createpopupURL(initial_link)  #Used previously to create popup URL link
-        title = i.a.text
-        authors = i.select_one('.gs_gray').text
-        source = i.select('.gs_gray')[-1].text
-        citedBy = i.select_one('.gsc_a_ac')['href']
-        citations = i.select_one('.gsc_a_ac').text
-        pageYear = i.select_one('.gsc_a_y').text
-        hash_string = title.lower()
-        hash_ID = hashlib.md5(hash_string.encode())
-        hashID = hash_ID.hexdigest()
 
-        # Items in the UKVS file are arrays of entries with each entry being saved as 
-        # multiple key-value pairs in a dictionary format following a hash and year key..
-        gs_lists.append((
-        hashID + ' ' + pageYear + ' { ' + \
-        '"DirectURL":"' + directURL + '", ' + \
-        #'"PopURL":"' + popURL + '", ' + \  # Removed while no longer functional in GS page
-        '"Title":"' + title + '", ' + \
-        '"Authors":"' + authors + '", ' + \
-        '"Source":"' + source + '", ' + \
-        '"CitedBy":"' + citedBy + '", ' + \
-        '"Citations":"' + citations + '", ' + \
-        '"PageYear":"' + pageYear + '"}'
-        ))
-         
-        # Save the contents as an UKVS file with the same name as the original HTML file
-        f_name, f_ext = os.path.splitext(html_file.name)
-        with open((f_name + '.ukvs'), 'w') as new_file:
-            for line in gs_lists:
-                new_file.write(''.join(line) + '\n') 
+        pageYear = i.select_one('.gsc_a_y').text
+
+        if pageYear.isnumeric():
+            if int(pageYear) >= startyear and int(pageYear) <= endyear:
+                # If the extracted page year is within the bounds of the entered start year and end year,
+                # set append to true
+                append = True
+
+        if append:    
+            directURL = prefaceURL + initial_link
+            #popURL = createpopupURL(initial_link)  #Used previously to create popup URL link
+            title = i.a.text
+            authors = i.select_one('.gs_gray').text
+            source = i.select('.gs_gray')[-1].text
+            citedBy = i.select_one('.gsc_a_ac')['href']
+            citations = i.select_one('.gsc_a_ac').text
+            hash_string = title.lower()
+            hash_ID = hashlib.md5(hash_string.encode())
+            hashID = hash_ID.hexdigest()
+
+            # Items in the UKVS file are arrays of entries with each entry being saved as 
+            # multiple key-value pairs in a dictionary format following a hash and year key..
+            gs_lists.append((
+            hashID + ' ' + pageYear + ' { ' + \
+            '"DirectURL":"' + directURL + '", ' + \
+            #'"PopURL":"' + popURL + '", ' + \  # Removed while no longer functional in GS page
+            '"Title":"' + title + '", ' + \
+            '"Authors":"' + authors + '", ' + \
+            '"Source":"' + source + '", ' + \
+            '"CitedBy":"' + citedBy + '", ' + \
+            '"Citations":"' + citations + '", ' + \
+            '"PageYear":"' + pageYear + '"}'
+            ))
+            
+            # Save the contents as an UKVS file with the same name as the original HTML file
+            f_name, f_ext = os.path.splitext(html_file.name)
+            with open((f_name + '.ukvs'), 'w') as new_file:
+                for line in gs_lists:
+                    new_file.write(''.join(line) + '\n') 
     sys.stdout.write('Saving as "' + new_file.name + '" ...\n') 
     html_file.close()
