@@ -59,7 +59,12 @@ parser.add_argument('-i', action='append', nargs='+')
 args = parser.parse_args()
 
 files = args.files[0]
-scholar_options = { option[0]: list(map(int, option[1:])) for option in args.i }
+
+scholar_options = {}
+
+if args.i:  
+    scholar_options = { option[0]: list(map(int, option[1:])) for option in args.i }
+    
 # Import the html file contents and open it with Beautiful Soup. The HTML file is read by 
 # byte and uses the 'lxml' conversion parser. This uses Beautiful Soup version 4.
 arguments = len(sys.argv)
@@ -83,8 +88,10 @@ for file in files:
     scholar_id_key = author_ID.replace('-', '\-', 1) if author_ID[0] == '-' else author_ID
     
     startyear, endyear = -math.inf, math.inf
-    if scholar_id_key in scholar_options.keys():
-        startyear, endyear = scholar_options[scholar_id_key]
+
+    if scholar_options:
+        if scholar_id_key in scholar_options.keys():
+            startyear, endyear = scholar_options[scholar_id_key]
 
     """
     The program uses Beautiful Soup functions to extract specific elements. The elements are 
