@@ -258,6 +258,24 @@
 ,
  
 { 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:j5aT6aphRxQC",
+    "Title": "Segmenting Technical Drawing Figures in US Patents",
+    "Authors": [
+        "MRU Hoque",
+        "X Wei",
+        "MH Choudhury",
+        "K Ajayi",
+        "M Gryder",
+        "J Wu",
+        "D Oyen"
+    ],
+    "Source": "",
+"CitedBy": "",
+    "Citations": "",
+    "PageYear": "2022"}
+,
+ 
+{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:iH-uZ7U-co4C",
     "Title": "Impact of Out-of-Vocabulary Words on the Twitter Experience of Blind Users",
     "Authors": [
@@ -560,7 +578,7 @@
     ],
     "Source": "Proceedings of the ACM on Human-computer Interaction 5 (EICS), 1-18, 2021",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5174084180885693282",
-    "Citations": "2",
+    "Citations": "3",
     "PageYear": "2021"}
 ,
  
@@ -592,7 +610,7 @@
     ],
     "Source": "2021 IEEE 22nd International Conference on Information Reuse and Integration\u00a0\u2026, 2021",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12778298742762891608",
-    "Citations": "1",
+    "Citations": "2",
     "PageYear": "2021"}
 ,
  
@@ -1090,7 +1108,7 @@
     ],
     "Source": "Machine Learning with Applications 4, 100026, 2021",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2749124267767577589",
-    "Citations": "13",
+    "Citations": "14",
     "PageYear": "2021"}
 ,
  
@@ -1456,7 +1474,7 @@
     ],
     "Source": "Proceedings of the ACM Symposium on Document Engineering 2020, 1-4, 2020",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=183461942671024016",
-    "Citations": "4",
+    "Citations": "5",
     "PageYear": "2020"}
 ,
  
@@ -1762,7 +1780,7 @@
     ],
     "Source": "IEEE Access 7, 110050-110073, 2019",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17654857612209874116",
-    "Citations": "8",
+    "Citations": "9",
     "PageYear": "2019"}
 ,
  
@@ -1854,7 +1872,7 @@
     ],
     "Source": "Proceedings of the 2019 ACM SIGIR international conference on theory of\u00a0\u2026, 2019",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6371472588646157990",
-    "Citations": "56",
+    "Citations": "57",
     "PageYear": "2019"}
 ,
  
@@ -2266,7 +2284,7 @@
     ],
     "Source": "Proceedings of the Conference on Artificial Intelligence for Data Discovery\u00a0\u2026, 2019",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2644872878513947428",
-    "Citations": "11",
+    "Citations": "12",
     "PageYear": "2019"}
 ,
  
@@ -2340,7 +2358,7 @@
     ],
     "Source": "2019 IEEE 20th international conference on information reuse and integration\u00a0\u2026, 2019",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15282313688887889019",
-    "Citations": "19",
+    "Citations": "20",
     "PageYear": "2019"}
 ,
  
@@ -2480,7 +2498,7 @@
     ],
     "Source": "2018 IEEE international conference on big data (Big Data), 2328-2336, 2018",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6923273801084193980",
-    "Citations": "29",
+    "Citations": "30",
     "PageYear": "2018"}
 ,
  
@@ -2515,7 +2533,7 @@
     ],
     "Source": "Proceedings of the 2018 CHI conference on human factors in computing systems\u00a0\u2026, 2018",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3557317577393485606",
-    "Citations": "17",
+    "Citations": "18",
     "PageYear": "2018"}
 ,
  
@@ -2750,7 +2768,7 @@
     ],
     "Source": "Proceedings of the 18th ACM/IEEE on Joint Conference on Digital Libraries\u00a0\u2026, 2018",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8417986476152501240",
-    "Citations": "6",
+    "Citations": "7",
     "PageYear": "2018"}
 ,
  
@@ -3153,7 +3171,7 @@
     ],
     "Source": "Proceedings of the 2017 chi conference on human factors in computing systems\u00a0\u2026, 2017",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11500370045379218843",
-    "Citations": "37",
+    "Citations": "38",
     "PageYear": "2017"}
 ,
  
@@ -3202,7 +3220,7 @@
     ],
     "Source": "2017 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 1-10, 2017",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11527415980153711472",
-    "Citations": "11",
+    "Citations": "12",
     "PageYear": "2017"}
 ,
  
@@ -3668,7 +3686,7 @@
     ],
     "Source": "International Journal on Digital Libraries 17 (2), 95-117, 2016",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6682453128895071038",
-    "Citations": "39",
+    "Citations": "40",
     "PageYear": "2016"}
 ,
  
@@ -4052,6 +4070,19 @@
 ,
  
 { 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:DXE8ND7PrJAC",
+    "Title": "Information Extraction for Scholarly Document Big Data",
+    "Authors": [
+        "J Wu",
+        "CL Giles"
+    ],
+    "Source": "The 1st International Workshop on Capturing scientific knowledge, co-located\u00a0\u2026, 2015",
+"CitedBy": "",
+    "Citations": "",
+    "PageYear": "2015"}
+,
+ 
+{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:LGlY6t8CeOMC",
     "Title": "Exploring Multiwavelength AGN Variability with Swift Archival Data",
     "Authors": [
@@ -4176,7 +4207,7 @@
     ],
     "Source": "Proceedings of the 15th ACM/IEEE-CS Joint Conference on Digital Libraries\u00a0\u2026, 2015",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10383592425174919214",
-    "Citations": "17",
+    "Citations": "18",
     "PageYear": "2015"}
 ,
  
@@ -4219,7 +4250,7 @@
     ],
     "Source": "International Journal on Digital Libraries 16 (3), 283-301, 2015",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11167571138666929071",
-    "Citations": "56",
+    "Citations": "57",
     "PageYear": "2015"}
 ,
  
@@ -4472,7 +4503,7 @@
     ],
     "Source": "Digital Libraries 2024, 2014",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7531812252357281483",
-    "Citations": "63",
+    "Citations": "64",
     "PageYear": "2014"}
 ,
  
@@ -4803,7 +4834,7 @@
     ],
     "Source": "International Journal on Digital Libraries 14 (3), 149-166, 2014",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8478860812644202965",
-    "Citations": "49",
+    "Citations": "50",
     "PageYear": "2014"}
 ,
  
@@ -5488,7 +5519,7 @@
     ],
     "Source": "",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6441286422570479973,1960308194422010819,15337944936998622532,10334020776381990363,9142554751762522520,5022024854355311617,808408200299340434,17612764941855317495,15106232412852960711,13470982000683901101,7394565343221340262,14322298753012232970",
-    "Citations": "145",
+    "Citations": "146",
     "PageYear": "2013"}
 ,
  
@@ -5637,7 +5668,7 @@
     ],
     "Source": "IEEE Transactions on intelligent transportation systems 14 (1), 284-294, 2012",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9471342812232230003",
-    "Citations": "290",
+    "Citations": "291",
     "PageYear": "2012"}
 ,
  
@@ -5938,7 +5969,7 @@
     ],
     "Source": "Proceedings of the Nokia Mobile Data Challenge Workshop, in Conjunction with\u00a0\u2026, 2012",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17431742894158375966",
-    "Citations": "58",
+    "Citations": "57",
     "PageYear": "2012"}
 ,
  
@@ -6146,7 +6177,7 @@
     ],
     "Source": "Proceedings of the 11th annual international ACM/IEEE joint conference on\u00a0\u2026, 2011",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6750249743094046194,11414170847942836166",
-    "Citations": "111",
+    "Citations": "112",
     "PageYear": "2011"}
 ,
  
@@ -6779,7 +6810,7 @@
     ],
     "Source": "Proceedings of the 2010 Symposium on eye-tracking research & applications, 65-68, 2010",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16024337164549124388",
-    "Citations": "70",
+    "Citations": "72",
     "PageYear": "2010"}
 ,
  
@@ -8255,7 +8286,7 @@
     ],
     "Source": "The Astronomical Journal 134 (1), 102, 2007",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=844258565982127282,9220839160644624140",
-    "Citations": "611",
+    "Citations": "612",
     "PageYear": "2007"}
 ,
  
@@ -8715,7 +8746,7 @@
     ],
     "Source": "ACM SIGCOMM Computer Communication Review 36 (3), 65-76, 2006",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14688276743735028025",
-    "Citations": "187",
+    "Citations": "188",
     "PageYear": "2006"}
 ,
  
@@ -9037,7 +9068,7 @@
     ],
     "Source": "Information processing & management 41 (6), 1462-1480, 2005",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16088721360821364988,14892754529006323646,10761935013883082669,6980843626702454019,15440743988699043541,6263391058726232831",
-    "Citations": "1095",
+    "Citations": "1097",
     "PageYear": "2005"}
 ,
  
@@ -9178,7 +9209,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:UeHWp8X0CEIC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:UeHWp8X0CEIC",
     "Title": "Modelling Three Quasar Intrinsic Narrow Absorption Line Systems",
     "Authors": [
         "J Wu",
@@ -9328,7 +9359,7 @@
     ],
     "Source": "IEEE INFOCOM, 2004",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4254768129184756935",
-    "Citations": "260",
+    "Citations": "261",
     "PageYear": "2004"}
 ,
  
@@ -11261,7 +11292,7 @@
     "Authors": "Open Archives Initiative",
     "Source": "",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1932599657165249890",
-    "Citations": "2",
+    "Citations": "3",
     "PageYear": ""}
 ,
  
@@ -11971,7 +12002,7 @@
     ],
     "Source": "Proc. of WADL 18, 0",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10010954439958121148",
-    "Citations": "1",
+    "Citations": "2",
     "PageYear": ""}
 ,
  
@@ -12371,19 +12402,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:DXE8ND7PrJAC",
-    "Title": "Information Extraction for Scholarly Document Big Data",
-    "Authors": [
-        "J Wu",
-        "CL Giles"
-    ],
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": ""}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=500&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:c4A-nLdbYHEC",
     "Title": "Develops and promotes interoperability standards that aim to facilitate the efficient dissemination of content. The Open Archives Initiative has its roots in an effort to\u00a0\u2026",
     "Authors": "OA Initiative",
@@ -12542,7 +12560,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:hefNtdE4IMkC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:hefNtdE4IMkC",
     "Title": "DeepPatent2: A Large-Scale Benchmarking Corpus for Technical Drawing Understanding",
     "Authors": [
         "K Ajayi",
