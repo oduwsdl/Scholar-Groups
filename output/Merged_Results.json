@@ -2505,21 +2505,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:KlAtU1dfN6UC",
-    "Title": "SteeringWheel: a locality-preserving magnification interface for low vision web browsing",
-    "Authors": [
-        "SM Billah",
-        "V Ashok",
-        "DE Porter",
-        "IV Ramakrishnan"
-    ],
-    "Source": "Proceedings of the 2018 CHI conference on human factors in computing systems\u00a0\u2026, 2018",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3557317577393485606",
-    "Citations": "18",
-    "PageYear": "2018"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:fEOibwPWpKIC",
     "Title": "ArchiveNow: Simplified, extensible, multi-archive preservation",
     "Authors": [
@@ -2602,20 +2587,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:Zph67rFs4hoC",
-    "Title": "Write-it-yourself with the aid of smartwatches: A wizard-of-oz experiment with blind people",
-    "Authors": [
-        "SM Billah",
-        "V Ashok",
-        "IV Ramakrishnan"
-    ],
-    "Source": "23rd International Conference on Intelligent User Interfaces, 427-431, 2018",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12953875398713610325",
-    "Citations": "10",
-    "PageYear": "2018"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:yB1At4FlUx8C",
     "Title": "The off-topic memento toolkit",
     "Authors": [
@@ -2687,19 +2658,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:2osOgNQ5qMEC",
-    "Title": "How perceptions of web resource boundaries differ for institutional and personal archives",
-    "Authors": [
-        "F Poursardar",
-        "F Shipman"
-    ],
-    "Source": "2018 IEEE international conference on information reuse and integration (iri\u00a0\u2026, 2018",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10120194878620841447",
-    "Citations": "5",
-    "PageYear": "2018"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:vDijr-p_gm4C",
     "Title": "NIDS: neural network based intrusion detection system",
     "Authors": [
@@ -2755,16 +2713,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:qxL8FJ1GzNcC",
-    "Title": "Non-Visual Web Browsing: From Accessibility with Screen Readers to Usability with Assistants",
-    "Authors": "VG Ashok",
-    "Source": "State University of New York at Stony Brook, 2018",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2018"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:eI34FqJmdUoC",
     "Title": "Citeseerx-2018: a cleansed multidisciplinary scholarly big dataset",
     "Authors": [
@@ -2789,51 +2737,6 @@
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8241831973967237590",
     "Citations": "4",
     "PageYear": "2018"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:p__nRnzSRKYC",
-    "Title": "Optimizing change detection in distributed digital collections: An architectural perspective of change detection",
-    "Authors": [
-        "L Meegahapola",
-        "R Alwis",
-        "E Nimalarathna",
-        "V Mallawaarachchi",
-        "..."
-    ],
-    "Source": "2017 18th IEEE/ACIS International Conference on Software Engineering\u00a0\u2026, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12872133783179572359",
-    "Citations": "2",
-    "PageYear": "2017"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:zYLM7Y9cAGgC",
-    "Title": "Web screen reading automation assistance using semantic abstraction",
-    "Authors": [
-        "V Ashok",
-        "Y Puzis",
-        "Y Borodin",
-        "IV Ramakrishnan"
-    ],
-    "Source": "Proceedings of the 22nd International Conference on Intelligent User\u00a0\u2026, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3923532522366099469",
-    "Citations": "27",
-    "PageYear": "2017"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:qjMakFHDy7sC",
-    "Title": "Non-visual web browsing: Beyond web accessibility",
-    "Authors": [
-        "IV Ramakrishnan",
-        "V Ashok",
-        "SM Billah"
-    ],
-    "Source": "International Conference on Universal Access in Human-Computer Interaction\u00a0\u2026, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2807817802826357541",
-    "Citations": "20",
-    "PageYear": "2017"}
 ,
  
 { 
@@ -2896,98 +2799,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:d1gkVwhDpl0C",
-    "Title": "What is part of that resource? User expectations for personal archiving",
-    "Authors": [
-        "F Poursardar",
-        "F Shipman"
-    ],
-    "Source": "2017 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 1-4, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7218373487757862233",
-    "Citations": "2",
-    "PageYear": "2017"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:kNdYIx-mwKoC",
-    "Title": "Speed-dial: A surrogate mouse for non-visual web browsing",
-    "Authors": [
-        "SM Billah",
-        "V Ashok",
-        "DE Porter",
-        "IV Ramakrishnan"
-    ],
-    "Source": "Proceedings of the 19th International ACM SIGACCESS Conference on Computers\u00a0\u2026, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=880757080271888815",
-    "Citations": "16",
-    "PageYear": "2017"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:R-LXmdHK_14C",
-    "Title": "Scholarly Digital Libraries as a Platform for Malware Distribution.",
-    "Authors": [
-        "N Nissim",
-        "A Cohen",
-        "J Wu",
-        "A Lanzi",
-        "L Rokach",
-        "Y Elovici",
-        "CL Giles"
-    ],
-    "Source": "SG-CRC, 107-128, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1960622085317747887",
-    "Citations": "5",
-    "PageYear": "2017"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:EYYDruWGBe4C",
-    "Title": "Detection of change frequency in web pages to optimize server-based scheduling",
-    "Authors": [
-        "L Meegahapola",
-        "R Alwis",
-        "E Nimalarathna",
-        "V Mallawaarachchi",
-        "..."
-    ],
-    "Source": "2017 Seventeenth International Conference on Advances in ICT for Emerging\u00a0\u2026, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9394421977379677156",
-    "Citations": "3",
-    "PageYear": "2017"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:sfnaS5RM6jYC",
-    "Title": "Compiling Keyphrase Candidates for Scientific Literature Based on Wikipedia.",
-    "Authors": [
-        "HH Chen",
-        "J Wu",
-        "CL Giles"
-    ],
-    "Source": "TDDL/MDQual/Futurity@ TPDL, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9731188830319712934",
-    "Citations": "2",
-    "PageYear": "2017"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:vbGhcppDl1QC",
-    "Title": "Change detection optimization in frequently changing web pages",
-    "Authors": [
-        "LB Meegahapola",
-        "P Alwis",
-        "L Nimalarathna",
-        "VG Mallawaarachchi",
-        "..."
-    ],
-    "Source": "2017 Moratuwa Engineering Research Conference (MERCon), 111-116, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5888724924192943671",
-    "Citations": "4",
-    "PageYear": "2017"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:UHK10RUVsp4C",
     "Title": "Client-side reconstruction of composite mementos using serviceworker",
     "Authors": [
@@ -3041,22 +2852,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:4Yq6kJLCcecC",
-    "Title": "HESDK: A hybrid approach to extracting scientific domain knowledge entities",
-    "Authors": [
-        "J Wu",
-        "SR Choudhury",
-        "A Chiatti",
-        "C Liang",
-        "CL Giles"
-    ],
-    "Source": "2017 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 1-4, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16706141848597789217",
-    "Citations": "14",
-    "PageYear": "2017"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:ye4kPcJQO24C",
     "Title": "Energy harvesting in nanonetworks",
     "Authors": [
@@ -3085,75 +2880,12 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:4e5Qn2KL_jwC",
-    "Title": "Scenarios for Advanced Services in an ETD Digital Library",
-    "Authors": [
-        "Y Ma",
-        "T Jiang",
-        "C Shrestha",
-        "EA Fox",
-        "J Wu",
-        "CL Giles",
-        "V Tech"
-    ],
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2017"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:NQc3cRXltbQC",
     "Title": "Standards for Web Content Interoperability",
     "Authors": "OAIOA Initiative",
     "Source": "P\u00e1gina web. Dispon\u00edvel em:< https://www. openarchives. org, 2017",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1532323297588200181",
     "Citations": "2",
-    "PageYear": "2017"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:hMsQuOkrut0C",
-    "Title": "Adaptive technique for web page change detection using multi-threaded crawlers",
-    "Authors": [
-        "L Meegahapola",
-        "R Alwis",
-        "E Heshan",
-        "V Mallawaarachchi",
-        "D Meedeniya",
-        "..."
-    ],
-    "Source": "2017 Seventh International Conference on Innovative Computing Technology\u00a0\u2026, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1621615588103850614",
-    "Citations": "5",
-    "PageYear": "2017"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:ILKRHgRFtOwC",
-    "Title": "Analysis and modeling of unified user interest",
-    "Authors": [
-        "S Jayarathna",
-        "F Shipman"
-    ],
-    "Source": "2017 IEEE International Conference on Information Reuse and Integration (IRI\u00a0\u2026, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17599529284238189186",
-    "Citations": "4",
-    "PageYear": "2017"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:Se3iqnhoufwC",
-    "Title": "Ubiquitous accessibility for people with visual impairments: Are we there yet?",
-    "Authors": [
-        "SM Billah",
-        "V Ashok",
-        "DE Porter",
-        "IV Ramakrishnan"
-    ],
-    "Source": "Proceedings of the 2017 chi conference on human factors in computing systems\u00a0\u2026, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11500370045379218843",
-    "Citations": "38",
     "PageYear": "2017"}
 ,
  
@@ -3240,21 +2972,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:iyewoVqAXLQC",
-    "Title": "A supervised learning approach to entity matching between scholarly big datasets",
-    "Authors": [
-        "J Wu",
-        "A Sefid",
-        "AC Ge",
-        "CL Giles"
-    ],
-    "Source": "Proceedings of the Knowledge Capture Conference, 1-4, 2017",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17299734986885398020",
-    "Citations": "8",
-    "PageYear": "2017"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:WqliGbK-hY8C",
     "Title": "Energy harvesting in electromagnetic nanonetworks",
     "Authors": [
@@ -3332,34 +3049,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:4MWp96NkSFoC",
-    "Title": "Change detection and classification of digital collections",
-    "Authors": [
-        "S Jayarathna",
-        "F Poursardar"
-    ],
-    "Source": "2016 IEEE International Conference on Big Data (Big Data), 1750-1759, 2016",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7900897310654772711",
-    "Citations": "5",
-    "PageYear": "2016"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:Og1tA8FjbJAC",
-    "Title": "Citeseerx data: Semanticizing scholarly papers",
-    "Authors": [
-        "J Wu",
-        "C Liang",
-        "H Yang",
-        "CL Giles"
-    ],
-    "Source": "Proceedings of the International Workshop on Semantic Big Data, 1-6, 2016",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3465417746536083720",
-    "Citations": "11",
-    "PageYear": "2016"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:sFh2DmJudxsC",
     "Title": "Web archive profiling through CDX summarization",
     "Authors": [
@@ -3391,21 +3080,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:ML0RJ9NH7IQC",
-    "Title": "Results and challenges in visualizing analytic provenance of text analysis tasks using interaction logs",
-    "Authors": [
-        "R Linder",
-        "AM Pena",
-        "S Jayarathna",
-        "ED Ragan"
-    ],
-    "Source": "Logging Interactive Visualizations and Visualizing Interaction Logs (LIVVIL\u00a0\u2026, 2016",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8704757023789596992",
-    "Citations": "8",
-    "PageYear": "2016"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:ouq6-fJ2VSQC",
     "Title": "Mementos in the Raw",
     "Authors": [
@@ -3420,36 +3094,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:_FxGoFyzp5QC",
-    "Title": "Tactile Accessibility: Does Anyone Need a Haptic Glove?",
-    "Authors": [
-        "A Soviak",
-        "A Borodin",
-        "V Ashok",
-        "Y Borodin",
-        "Y Puzis",
-        "IV Ramakrishnan"
-    ],
-    "Source": "proceedings of the 18th international ACM SIGACCESS conference on computers\u00a0\u2026, 2016",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10776360043607727810",
-    "Citations": "16",
-    "PageYear": "2016"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:u-x6o8ySG0sC",
-    "Title": "On Identifying the Bounds of an Internet Resource",
-    "Authors": [
-        "F Poursardar",
-        "F Shipman"
-    ],
-    "Source": "Proceedings of the 2016 ACM on Conference on Human Information Interaction\u00a0\u2026, 2016",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6645370427951648573",
-    "Citations": "2",
-    "PageYear": "2016"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:eMMeJKvmdy0C",
     "Title": "Combining Heritrix and PhantomJS for Better Crawling of Pages with Javascript",
     "Authors": [
@@ -3460,21 +3104,6 @@
     "Source": "",
 "CitedBy": "",
     "Citations": "",
-    "PageYear": "2016"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:AvfA0Oy_GE0C",
-    "Title": "Analyzing the perceptions of change in a distributed collection of web documents",
-    "Authors": [
-        "L Meneses",
-        "S Jayarathna",
-        "R Furuta",
-        "F Shipman"
-    ],
-    "Source": "Proceedings of the 27th ACM Conference on Hypertext and Social Media, 273-278, 2016",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9528920936740918806",
-    "Citations": "3",
     "PageYear": "2016"}
 ,
  
@@ -3523,21 +3152,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:u5HHmVD_uO8C",
-    "Title": "A Platform Agnostic Remote Desktop System for Screen Reading",
-    "Authors": [
-        "SM Billah",
-        "V Ashok",
-        "DE Porter",
-        "IV Ramakrishnan"
-    ],
-    "Source": "Proceedings of the 18th International ACM SIGACCESS Conference on Computers\u00a0\u2026, 2016",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=793783773038976840",
-    "Citations": "1",
-    "PageYear": "2016"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:XiVPGOgt02cC",
     "Title": "Detecting off-topic pages within TimeMaps in Web archives",
     "Authors": [
@@ -3548,21 +3162,6 @@
     "Source": "International Journal on Digital Libraries 17 (3), 203-221, 2016",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=18391124042977250470",
     "Citations": "11",
-    "PageYear": "2016"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:1r-w4gtu6w8C",
-    "Title": "Document Type Classification in Online Digital Libraries.",
-    "Authors": [
-        "C Caragea",
-        "J Wu",
-        "SD Gollapalli",
-        "CL Giles"
-    ],
-    "Source": "AAAI, 3997-4002, 2016",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4635037512069673196",
-    "Citations": "20",
     "PageYear": "2016"}
 ,
  
@@ -3591,23 +3190,6 @@
     "Source": "arXiv preprint arXiv:1601.05142, 2016",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11850119253685303665",
     "Citations": "2",
-    "PageYear": "2016"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:9yKSN-GCB0IC",
-    "Title": "Contextual language learning with Capti ESL Assistant",
-    "Authors": [
-        "Y Borodin",
-        "Y Puzis",
-        "A Soviak",
-        "V Ashok",
-        "A Melnyk",
-        "IV Ramakrishnan"
-    ],
-    "Source": "Proceedings of the 13th International Web for All Conference, 1-2, 2016",
-"CitedBy": "",
-    "Citations": "",
     "PageYear": "2016"}
 ,
  
@@ -3699,34 +3281,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:KS-xo-ZNxMsC",
-    "Title": "Information extraction for scholarly digital libraries",
-    "Authors": [
-        "K Williams",
-        "J Wu",
-        "Z Wu",
-        "CL Giles"
-    ],
-    "Source": "Proceedings of the 16th ACM/IEEE-CS on Joint Conference on Digital Libraries\u00a0\u2026, 2016",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15173471881183101884",
-    "Citations": "3",
-    "PageYear": "2016"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:vDijr-p_gm4C",
-    "Title": "Rationale and Architecture for Incorporating Human Oculomotor Plant Features in User Interest Modeling",
-    "Authors": [
-        "S Jayarathna",
-        "F Shipman"
-    ],
-    "Source": "Proceedings of the 2016 ACM on Conference on Human Information Interaction\u00a0\u2026, 2016",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11647221365777251595",
-    "Citations": "3",
-    "PageYear": "2016"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:FlNF6OXwGF0C",
     "Title": "Evaluating the Temporal Coherence of Archived Pages",
     "Authors": [
@@ -3750,22 +3304,6 @@
     "Source": "Proceedings of the 15th ACM/IEEE-CS on Joint Conference on Digital Libraries\u00a0\u2026, 2015",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7208270208273238913",
     "Citations": "3",
-    "PageYear": "2015"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:u-x6o8ySG0sC",
-    "Title": "Feel the Web: Towards the Design of Haptic Screen Interfaces for Accessible Web Browsing",
-    "Authors": [
-        "A Soviak",
-        "V Ashok",
-        "Y Borodin",
-        "Y Puzis",
-        "IV Ramakrishnan"
-    ],
-    "Source": "Proceedings of the 17th International ACM SIGACCESS Conference on Computers\u00a0\u2026, 2015",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1611180464067385941",
-    "Citations": "1",
     "PageYear": "2015"}
 ,
  
@@ -3847,21 +3385,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:5nxA0vEk-isC",
-    "Title": "Dataless data mining: Association rules-based distributed privacy-preserving data mining",
-    "Authors": [
-        "VG Ashok",
-        "K Navuluri",
-        "A Alhafdhi",
-        "R Mukkamala"
-    ],
-    "Source": "2015 12th International Conference on Information Technology-New Generations\u00a0\u2026, 2015",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13665191395805669013",
-    "Citations": "9",
-    "PageYear": "2015"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:p7yqEQnaZsQC",
     "Title": "The open archives initiative protocol for metadata harvesting",
     "Authors": "O Archives",
@@ -3926,21 +3449,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:jlhcAiayVhoC",
-    "Title": "Online learning of deep hybrid architectures for semi-supervised categorization",
-    "Authors": [
-        "AG Ororbia",
-        "D Reitter",
-        "J Wu",
-        "CL Giles"
-    ],
-    "Source": "Joint European Conference on Machine Learning and Knowledge Discovery in\u00a0\u2026, 2015",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13271145641057817557",
-    "Citations": "14",
-    "PageYear": "2015"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:b0M2c_1WBrUC",
     "Title": "Archiving deferred representations using a two-tiered crawling approach",
     "Authors": [
@@ -3951,25 +3459,6 @@
     "Source": "arXiv preprint arXiv:1508.02315, 2015",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16016818255331865691",
     "Citations": "13",
-    "PageYear": "2015"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:AZju0d2GQJ0C",
-    "Title": "Pdfmef: A multi-entity knowledge extraction framework for scholarly documents and semantic search",
-    "Authors": [
-        "J Wu",
-        "J Killian",
-        "H Yang",
-        "K Williams",
-        "SR Choudhury",
-        "S Tuarob",
-        "C Caragea",
-        "..."
-    ],
-    "Source": "Proceedings of the 8th International Conference on Knowledge Capture, 1-8, 2015",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8290441679925958239",
-    "Citations": "42",
     "PageYear": "2015"}
 ,
  
@@ -3988,37 +3477,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:nPTYJWkExTIC",
-    "Title": "Big scholarly data in citeseerx: Information extraction from the web",
-    "Authors": [
-        "AG Ororbia",
-        "J Wu",
-        "M Khabsa",
-        "K Williams",
-        "CL Giles"
-    ],
-    "Source": "Proceedings of the 24th International Conference on World Wide Web, 597-602, 2015",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3498321721002718452",
-    "Citations": "9",
-    "PageYear": "2015"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:eQOLeE2rZwMC",
-    "Title": "Capti-speak: a speech-enabled web screen reader",
-    "Authors": [
-        "V Ashok",
-        "Y Borodin",
-        "Y Puzis",
-        "IV Ramakrishnan"
-    ],
-    "Source": "Proceedings of the 12th International Web for All Conference, 1-10, 2015",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8641618576380451020",
-    "Citations": "30",
-    "PageYear": "2015"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:Dqu_ECg3lNoC",
     "Title": "Object Resource Stream (ORS) and CDX-JSON (CDXJ) Draft",
     "Authors": [
@@ -4033,40 +3491,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:LGlY6t8CeOMC",
-    "Title": "Exploring Multiwavelength AGN Variability with Swift Archival Data",
-    "Authors": [
-        "J Gelbord",
-        "C Gronwall",
-        "D Grupe",
-        "DV Berk",
-        "J Wu"
-    ],
-    "Source": "arXiv preprint arXiv:1505.05248, 2015",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2015"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:UeHWp8X0CEIC",
-    "Title": "Look ma, no aria: generic accessible interfaces for web widgets",
-    "Authors": [
-        "V Melnyk",
-        "V Ashok",
-        "V Melnyk",
-        "Y Puzis",
-        "Y Borodin",
-        "A Soviak",
-        "..."
-    ],
-    "Source": "Proceedings of the 12th International Web for All Conference, 1-4, 2015",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3376672395514683722",
-    "Citations": "12",
-    "PageYear": "2015"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:bFI3QPDXJZMC",
     "Title": "Quantifying Orphaned Annotations in Hypothes. is",
     "Authors": [
@@ -4077,28 +3501,6 @@
     "Source": "International Conference on Theory and Practice of Digital Libraries (TPDL\u00a0\u2026, 2015",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13189111756595133130",
     "Citations": "5",
-    "PageYear": "2015"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:tBlTYpvFGQIC",
-    "Title": "Mangiferin regulates cognitive deficits and heme oxygenase-1 induced by lipopolysaccharide in mice",
-    "Authors": [
-        "Y Fu",
-        "H Liu",
-        "C Song",
-        "F Zhang",
-        "Y Liu",
-        "J Wu",
-        "X Wen",
-        "C Liang",
-        "K Ma",
-        "L Li",
-        "..."
-    ],
-    "Source": "International immunopharmacology 29 (2), 950-956, 2015",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7329266550653489585",
-    "Citations": "15",
     "PageYear": "2015"}
 ,
  
@@ -4205,21 +3607,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:ufrVoPGSRksC",
-    "Title": "Physician attribution for inpatient care",
-    "Authors": [
-        "TR Griffin",
-        "EJ Healy",
-        "IV Ramakrishnan",
-        "VG Ashok"
-    ],
-    "Source": "US Patent App. 14/723,619, 2015",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2015"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:LgRImbQfgY4C",
     "Title": "Evaluating sliding and sticky target policies by measuring temporal drift in acyclic walks through a web archive",
     "Authors": [
@@ -4229,20 +3616,6 @@
     "Source": "International Journal on Digital Libraries 16 (2), 129-144, 2015",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2120345032396820045",
     "Citations": "18",
-    "PageYear": "2015"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:zLWjf1WUPmwC",
-    "Title": "Unified relevance feedback for multi-application user interest modeling",
-    "Authors": [
-        "S Jayarathna",
-        "A Patra",
-        "F Shipman"
-    ],
-    "Source": "Proceedings of the 15th ACM/IEEE-CS Joint Conference on Digital Libraries\u00a0\u2026, 2015",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=116642709696630407",
-    "Citations": "11",
     "PageYear": "2015"}
 ,
  
@@ -4257,21 +3630,6 @@
     "Source": "",
 "CitedBy": "",
     "Citations": "",
-    "PageYear": "2015"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:aqlVkmm33-oC",
-    "Title": "Grading degradation in an institutionally managed repository",
-    "Authors": [
-        "L Meneses",
-        "S Jayarathna",
-        "R Furuta",
-        "F Shipman"
-    ],
-    "Source": "Proceedings of the 15th ACM/IEEE-CS Joint Conference on Digital Libraries\u00a0\u2026, 2015",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6477130130300289300",
-    "Citations": "2",
     "PageYear": "2015"}
 ,
  
@@ -4303,25 +3661,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:H_jBuBxbQIAC",
-    "Title": "CiteSeerX: AI in a Digital Library Search Engine",
-    "Authors": [
-        "J Wu",
-        "K Williams",
-        "HH Chen",
-        "M Khabsa",
-        "C Caragea",
-        "A Ororbia",
-        "D Jordan",
-        "..."
-    ],
-    "Source": "Innovative Applications of Artificial Intelligence Twenty-Sixth IAAI Conference, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7703821703112017543",
-    "Citations": "114",
-    "PageYear": "2014"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:9vf0nzSNQJEC",
     "Title": "Assessing the Quality of Web Archives",
     "Authors": [
@@ -4339,19 +3678,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:IjCSPb-OGe4C",
-    "Title": "A scalable and efficient privacy preserving global itemset support approximation using bloom filters",
-    "Authors": [
-        "VG Ashok",
-        "R Mukkamala"
-    ],
-    "Source": "IFIP Annual Conference on Data and Applications Security and Privacy, 382-389, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3680721088022222454",
-    "Citations": "16",
-    "PageYear": "2014"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:4b-LE5UluQcC",
     "Title": "Thumbnail Summarization Techniques for Web Archives",
     "Authors": [
@@ -4361,41 +3687,6 @@
     "Source": "European Conference on Information Retrieval (ECIR) 2014, 2014",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16490438048094546234",
     "Citations": "14",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:NxmKEeNBbOMC",
-    "Title": "Migrating A Digital Library to A Private Cloud",
-    "Authors": [
-        "J Wu",
-        "P Teregowda",
-        "K Williams",
-        "M Khabsa",
-        "D Jordan",
-        "E Treece",
-        "Z Wu",
-        "..."
-    ],
-    "Source": "IEEE International Conference on Cloud Engineering, 97-106, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15485185549363082185",
-    "Citations": "11",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:zwpXiJ37cpgC",
-    "Title": "Scholarly Big Data Information Extraction and Integration in the CiteSeerX Digital Library",
-    "Authors": [
-        "K Williams",
-        "J Wu",
-        "S Choudhury",
-        "M Khabsa",
-        "CL Giles"
-    ],
-    "Source": "2014 IEEE 30th International Conference on Data Engineering Workshops (ICDEW\u00a0\u2026, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6486972747150846361",
-    "Citations": "68",
     "PageYear": "2014"}
 ,
  
@@ -4435,25 +3726,6 @@
     "Source": "Online verf\u00fcgbar unter http://www. openarchives. org/pmh/, zuletzt gepr\u00fcft\u00a0\u2026, 2014",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7568475080821384068",
     "Citations": "3",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:AzKEL7Gb_04C",
-    "Title": "Towards Building a Scholarly Big Data Platform: Challenges, Lessons and Opportunities",
-    "Authors": [
-        "Z Wu",
-        "J Wu",
-        "M Khabsa",
-        "K Williams",
-        "HH Chen",
-        "W Huang",
-        "S Tuarob",
-        "..."
-    ],
-    "Source": "Digital Libraries 2024, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7531812252357281483",
-    "Citations": "64",
     "PageYear": "2014"}
 ,
  
@@ -4540,23 +3812,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:EsEWqaRxkBgC",
-    "Title": "CiteSeerX: A Scholarly Big Dataset",
-    "Authors": [
-        "C Caragea",
-        "J Wu",
-        "A Ciobanu",
-        "K Williams",
-        "J Fernandez-Ramirez",
-        "..."
-    ],
-    "Source": "The 36th European Conference on Information Retrieval 8416, 311-322, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7369479007513532976",
-    "Citations": "72",
-    "PageYear": "2014"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:sq_mVe84DbIC",
     "Title": "Support for various HTTP methods on the web",
     "Authors": [
@@ -4566,21 +3821,6 @@
     ],
     "Source": "arXiv preprint arXiv:1405.2330, 2014",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14079024684147771538",
-    "Citations": "8",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:0EnyYjriUFMC",
-    "Title": "Dialogue act modeling for non-visual web access",
-    "Authors": [
-        "VG Ashok",
-        "Y Borodin",
-        "S Stoyanchev",
-        "IV Ramakrishnan"
-    ],
-    "Source": "Proceedings of the 15th Annual Meeting of the Special Interest Group on\u00a0\u2026, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12822046911724238965",
     "Citations": "8",
     "PageYear": "2014"}
 ,
@@ -4650,20 +3890,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:ZqE1mSdD_DYC",
-    "Title": "SimSeerX: A Similar Document Search Engine",
-    "Authors": [
-        "K Williams",
-        "J Wu",
-        "CL Giles"
-    ],
-    "Source": "ACM Symposium on Document Engineering 2014, 143-146, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14537240198440609073",
-    "Citations": "20",
-    "PageYear": "2014"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:O3NaXMp0MMsC",
     "Title": "Who and what links to the Internet Archive",
     "Authors": [
@@ -4689,91 +3915,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:roLk4NBRz8UC",
-    "Title": "Listen to everything you want to read with Capti narrator",
-    "Authors": [
-        "Y Borodin",
-        "Y Puzis",
-        "A Soviak",
-        "J Bouker",
-        "B Feng",
-        "R Sicoli",
-        "A Melnyk",
-        "..."
-    ],
-    "Source": "Proceedings of the 11th Web for All Conference, 1-2, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11295458930004782318",
-    "Citations": "6",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:2osOgNQ5qMEC",
-    "Title": "Wizard-of-Oz evaluation of speech-driven web browsing interface for people with vision impairments",
-    "Authors": [
-        "V Ashok",
-        "Y Borodin",
-        "S Stoyanchev",
-        "Y Puzis",
-        "IV Ramakrishnan"
-    ],
-    "Source": "Proceedings of the 11th Web for All Conference, 1-9, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2503764843440156652",
-    "Citations": "21",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:-yGd096yOn8C",
-    "Title": "Automatic Identification of Research Articles from Crawled Documents",
-    "Authors": [
-        "C Caragea",
-        "J Wu",
-        "K Williams",
-        "SD Gollapalli",
-        "M Khabsa",
-        "P Teregowda",
-        "..."
-    ],
-    "Source": "Web Search and  Data Mining Workshop on Web-scale Classification\u00a0\u2026, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=116079367101965877",
-    "Citations": "24",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:NMlhSUseqAsC",
-    "Title": "Utility-Based Control Feedback in a Digital Library Search Engine: Cases in CiteSeerX",
-    "Authors": [
-        "J Wu",
-        "O Alexander",
-        "K Williams",
-        "M Khabsa",
-        "Z Wu",
-        "CL Giles"
-    ],
-    "Source": "9th International Workshop on Feedback Computing (Feedback Computing 14), 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10643057093055596823",
-    "Citations": "5",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:JP7YXuLIOvAC",
-    "Title": "The Impact of User Corrections on A Crawl-Based Digital Library: A CiteSeerX Perspective",
-    "Authors": [
-        "J Wu",
-        "K Williams",
-        "M Khabsa",
-        "CL Giles"
-    ],
-    "Source": "10th IEEE International Conference on Collaborative Computing: Networking\u00a0\u2026, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15935339329643383583",
-    "Citations": "4",
-    "PageYear": "2014"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:hMod-77fHWUC",
     "Title": "Profiling web archive coverage for top-level domain and content language",
     "Authors": [
@@ -4785,21 +3926,6 @@
     "Source": "International Journal on Digital Libraries 14 (3), 149-166, 2014",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8478860812644202965",
     "Citations": "50",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:_kc_bZDykSQC",
-    "Title": "IPM-G: enabling collaborative filtering using multi-application interest models",
-    "Authors": [
-        "Z Zhou",
-        "S Jayarathna",
-        "A Patra",
-        "F Shipman"
-    ],
-    "Source": "2014 10th International Conference on Semantics, Knowledge and Grids, 141-144, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11844755252439369360",
-    "Citations": "1",
     "PageYear": "2014"}
 ,
  
@@ -4846,21 +3972,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:Tyk-4Ss8FVUC",
-    "Title": "A Physician Attribution Computational Model for Inpatient Care",
-    "Authors": [
-        "V Ashok",
-        "IV Ramakrishnan",
-        "E Healy",
-        "T Griffin"
-    ],
-    "Source": "Proceedings of the 2014 IEEE International Conference on Healthcare\u00a0\u2026, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4568234593637703114",
-    "Citations": "1",
-    "PageYear": "2014"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:cFHS6HbyZ2cC",
     "Title": "Towards building asset registry in emergency response",
     "Authors": [
@@ -4873,16 +3984,6 @@
     "Source": "2014 IEEE 11th International Conference on Mobile Ad Hoc and Sensor Systems\u00a0\u2026, 2014",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6857236153368649189",
     "Citations": "3",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:Y0pCki6q_DkC",
-    "Title": "Capti-Speak: a speech-enabled accessible web interface",
-    "Authors": "V Ashok",
-    "Source": "Proceedings of the 16th international ACM SIGACCESS conference on Computers\u00a0\u2026, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5329378815750354159",
-    "Citations": "1",
     "PageYear": "2014"}
 ,
  
@@ -4913,40 +4014,6 @@
     "Source": "arXiv preprint arXiv:1402.3305, 2014",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17193066731339895908",
     "Citations": "2",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:MXK_kJrjxJIC",
-    "Title": "Widget classification with applications to web accessibility",
-    "Authors": [
-        "V Melnyk",
-        "V Ashok",
-        "Y Puzis",
-        "A Soviak",
-        "Y Borodin",
-        "IV Ramakrishnan"
-    ],
-    "Source": "International Conference on Web Engineering, 341-358, 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16696618587919395535",
-    "Citations": "22",
-    "PageYear": "2014"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:CNPyR2KL9-0C",
-    "Title": "A Web Service for Scholarly Big Data Information Extraction",
-    "Authors": [
-        "K Williams",
-        "L Li",
-        "M Khabsa",
-        "J Wu",
-        "P Shih",
-        "CL Giles"
-    ],
-    "Source": "The 21th IEEE International Conference on Web Services (ICWS), 2014",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7319430043038567080",
-    "Citations": "25",
     "PageYear": "2014"}
 ,
  
@@ -5084,20 +4151,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:LkGwnXOMwfcC",
-    "Title": "Success with style: Using writing style to predict the success of novels",
-    "Authors": [
-        "VG Ashok",
-        "S Feng",
-        "Y Choi"
-    ],
-    "Source": "Proceedings of the 2013 conference on empirical methods in natural language\u00a0\u2026, 2013",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10965319278609103023",
-    "Citations": "117",
-    "PageYear": "2013"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:sJsF-0ZLhtgC",
     "Title": "Resurrecting my revolution",
     "Authors": [
@@ -5179,19 +4232,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:unp9ATQDT5gC",
-    "Title": "Fitting the Continuum Component of A Composite SDSS Quasar Spectrum Using CMA-ES",
-    "Authors": [
-        "J Wu",
-        "DE Vanden Berk"
-    ],
-    "Source": "http://arxiv.org/abs/1312.7356, 2013",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2013"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:0CzhzZyukY4C",
     "Title": "ResourceSync: The NISO/OAI resource synchronization framework",
     "Authors": [
@@ -5222,25 +4262,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:eQOLeE2rZwMC",
-    "Title": "Scalability bottlenecks of the citeseerx digial library search engine",
-    "Authors": [
-        "J Wu",
-        "PB Teregowda",
-        "M Khabsa",
-        "E Treece",
-        "D Jordan",
-        "S Carman",
-        "P Mitra",
-        "..."
-    ],
-    "Source": "LSDS-IR 2013, 2013",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10131523826744720071",
-    "Citations": "5",
-    "PageYear": "2013"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:2tRrZ1ZAMYUC",
     "Title": "An evaluation of caching policies for memento timemaps",
     "Authors": [
@@ -5250,21 +4271,6 @@
     "Source": "Proceedings of the 13th ACM/IEEE-CS joint conference on Digital libraries\u00a0\u2026, 2013",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7563130897940393078",
     "Citations": "10",
-    "PageYear": "2013"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:hqOjcs7Dif8C",
-    "Title": "2D linear oculomotor plant mathematical model: Verification and biometric applications",
-    "Authors": [
-        "O Komogortsev",
-        "C Holland",
-        "S Jayarathna",
-        "A Karpov"
-    ],
-    "Source": "ACM Transactions on Applied Perception (TAP) 10 (4), 1-18, 2013",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2372909677274722665",
-    "Citations": "25",
     "PageYear": "2013"}
 ,
  
@@ -5288,20 +4294,6 @@
     "Source": "",
 "CitedBy": "",
     "Citations": "",
-    "PageYear": "2013"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:0EnyYjriUFMC",
-    "Title": "Mining user interest from search tasks and annotations",
-    "Authors": [
-        "S Jayarathna",
-        "A Patra",
-        "F Shipman"
-    ],
-    "Source": "Proceedings of the 22nd ACM international conference on Information\u00a0\u2026, 2013",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10355821633313395066",
-    "Citations": "13",
     "PageYear": "2013"}
 ,
  
@@ -5530,25 +4522,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:qjMakFHDy7sC",
-    "Title": "X-ray and multiwavelength insights into the inner structure of high-luminosity disc-like emitters",
-    "Authors": [
-        "B Luo",
-        "WN Brandt",
-        "M Eracleous",
-        "J Wu",
-        "PB Hall",
-        "A Rafiee",
-        "DP Schneider",
-        "..."
-    ],
-    "Source": "Monthly Notices of the Royal Astronomical Society 429 (2), 1479-1493, 2013",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=985860320709489007",
-    "Citations": "6",
-    "PageYear": "2013"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:Aul-kAQHnToC",
     "Title": "HTTP mailbox-asynchronous RESTful communication",
     "Authors": [
@@ -5600,23 +4573,6 @@
     "Source": "IEEE Transactions on intelligent transportation systems 14 (1), 284-294, 2012",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9471342812232230003",
     "Citations": "291",
-    "PageYear": "2012"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:u5HHmVD_uO8C",
-    "Title": "The evolution of a crawling strategy for an academic document search engine: whitelists and blacklists",
-    "Authors": [
-        "J Wu",
-        "P Teregowda",
-        "JPF Ramírez",
-        "P Mitra",
-        "S Zheng",
-        "CL Giles"
-    ],
-    "Source": "Proceedings of the 4th Annual ACM Web Science Conference, 340-343, 2012",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12154534339376834864",
-    "Citations": "31",
     "PageYear": "2012"}
 ,
  
@@ -5718,42 +4674,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:YsMSGLbcyi4C",
-    "Title": "Specialized research datasets in the citeseerx digital library",
-    "Authors": [
-        "S Bhatia",
-        "C Caragea",
-        "HH Chen",
-        "J Wu",
-        "P Treeratpituk",
-        "Z Wu",
-        "M Khabsa",
-        "..."
-    ],
-    "Source": "D-Lib Magazine 18 (7/8), 2012",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8849171869034035231",
-    "Citations": "17",
-    "PageYear": "2012"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:WF5omc3nYNoC",
-    "Title": "Web crawler middleware for search engine digital libraries: a case study for citeseerX",
-    "Authors": [
-        "J Wu",
-        "P Teregowda",
-        "M Khabsa",
-        "S Carman",
-        "D Jordan",
-        "..."
-    ],
-    "Source": "Proceedings of the twelfth international workshop on Web information and\u00a0\u2026, 2012",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5517921961642206186",
-    "Citations": "8",
-    "PageYear": "2012"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:a67U_wXq1t0C",
     "Title": "OAI-PMH core resources",
     "Authors": "Open Archives Initiative",
@@ -5799,25 +4719,6 @@
     "Source": "Proceedings of the 12th ACM/IEEE-CS joint conference on Digital Libraries\u00a0\u2026, 2012",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4862694949144996977,17607630493834768289",
     "Citations": "25",
-    "PageYear": "2012"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:zYLM7Y9cAGgC",
-    "Title": "A Quasar Catalog with Simultaneous UV, Optical, and X-Ray Observations by Swift",
-    "Authors": [
-        "J Wu",
-        "DV Berk",
-        "D Grupe",
-        "S Koch",
-        "J Gelbord",
-        "DP Schneider",
-        "C Gronwall",
-        "..."
-    ],
-    "Source": "The Astrophysical Journal Supplement Series 201 (2), 10, 2012",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4412614030819297785",
-    "Citations": "3",
     "PageYear": "2012"}
 ,
  
@@ -5900,7 +4801,7 @@
     ],
     "Source": "Proceedings of the Nokia Mobile Data Challenge Workshop, in Conjunction with\u00a0\u2026, 2012",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17431742894158375966",
-    "Citations": "59",
+    "Citations": "57",
     "PageYear": "2012"}
 ,
  
@@ -5928,20 +4829,6 @@
     "Source": "",
 "CitedBy": "",
     "Citations": "",
-    "PageYear": "2012"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:KlAtU1dfN6UC",
-    "Title": "Two-Dimensional Linear Homeomorphic Oculomotor Plant Mathematical Model",
-    "Authors": [
-        "OV Komogortsev",
-        "CD Holland",
-        "S Jayarathna"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11151222086922694158",
-    "Citations": "3",
     "PageYear": "2012"}
 ,
  
@@ -5986,19 +4873,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:3fE2CSJIrl8C",
-    "Title": "Data mining without data: a novel approach to privacy-preserving collaborative distributed data mining",
-    "Authors": [
-        "V Ashok",
-        "R Mukkamala"
-    ],
-    "Source": "Proceedings of the 10th annual ACM workshop on Privacy in the electronic\u00a0\u2026, 2011",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16873376393710038052",
-    "Citations": "4",
-    "PageYear": "2011"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:ODN9lDrI8hIC",
     "Title": "Web Archive Globalization Workshop",
     "Authors": [
@@ -6020,16 +4894,6 @@
     "Source": "Acesso em 1, 2011",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1691139334793614146",
     "Citations": "2",
-    "PageYear": "2011"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:4aZ_i-5WJEQC",
-    "Title": "A study of UV, optical and x-ray emission from quasars",
-    "Authors": "J Wu",
-    "Source": "The Pennsylvania State University, 2011",
-"CitedBy": "",
-    "Citations": "",
     "PageYear": "2011"}
 ,
  
@@ -6058,26 +4922,6 @@
     "Source": "",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11451128755146707660",
     "Citations": "2",
-    "PageYear": "2011"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:yY3RG6sOEgwC",
-    "Title": "A study of UV, optical and X-ray properties of quasars",
-    "Authors": "J Wu",
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2011"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:hqOjcs7Dif8C",
-    "Title": "A Probabilistic Analysis of Misparking in Reservation Based Parking Garages",
-    "Authors": "VG Ashok",
-    "Source": "Old Dominion University, 2011",
-"CitedBy": "",
-    "Citations": "",
     "PageYear": "2011"}
 ,
  
@@ -6204,55 +5048,12 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:8k81kl-MbHgC",
-    "Title": "Fuzzy-based methods for privacy-preserving data mining",
-    "Authors": [
-        "R Mukkamala",
-        "VG Ashok"
-    ],
-    "Source": "2011 Eighth International Conference on Information Technology: New\u00a0\u2026, 2011",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16564331054608361245",
-    "Citations": "21",
-    "PageYear": "2011"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:W7OEmFMy1HYC",
-    "Title": "A novel two-stage self correcting GPS-free localization algorithm for GSM mobiles",
-    "Authors": [
-        "VG Ashok",
-        "A Srinivas"
-    ],
-    "Source": "2011 Fifth IEEE International Conference on Advanced Telecommunication\u00a0\u2026, 2011",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7994203034395845893",
-    "Citations": "4",
-    "PageYear": "2011"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:Fd3FjPIBfbkC",
     "Title": "Internet Engineering Task Force H. VandeSompel Internet-Draft Los Alamos National Laboratory Intended status: Informational M. Nelson Expires: December 5, 2011 Old Dominion\u00a0\u2026",
     "Authors": "R Sanderson",
     "Source": "",
 "CitedBy": "",
     "Citations": "",
-    "PageYear": "2011"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=QjHw7ugAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QjHw7ugAAAAJ:u5HHmVD_uO8C",
-    "Title": "WPv4: a re-imagined Walden\u2019s paths to support diverse user communities",
-    "Authors": [
-        "PL Bogen",
-        "D Pogue",
-        "F Poursardar",
-        "Y Li",
-        "R Furuta",
-        "F Shipman"
-    ],
-    "Source": "International Conference on Theory and Practice of Digital Libraries, 159-168, 2011",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5669856937027101623",
-    "Citations": "8",
     "PageYear": "2011"}
 ,
  
@@ -6284,21 +5085,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:Se3iqnhoufwC",
-    "Title": "Biometric identification via an oculomotor plant mathematical model",
-    "Authors": [
-        "OV Komogortsev",
-        "S Jayarathna",
-        "CR Aragon",
-        "M Mahmoud"
-    ],
-    "Source": "Proceedings of the 2010 Symposium on Eye-Tracking Research & Applications, 57-60, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10600103735397655833",
-    "Citations": "90",
-    "PageYear": "2010"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:4JMBOYKVnBMC",
     "Title": "An HTTP-based versioning mechanism for linked data",
     "Authors": [
@@ -6316,54 +5102,12 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:WF5omc3nYNoC",
-    "Title": "Highway mobility and vehicular ad-hoc networks in ns-3",
-    "Authors": [
-        "H Arbabi",
-        "MC Weigle"
-    ],
-    "Source": "Winter Simulation Conference (WSC), Proceedings of the 2010, 2991-3003, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12359318851504346451,5066428453783013233,6538397240327248951",
-    "Citations": "128",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:8k81kl-MbHgC",
-    "Title": "Cross-layer location verification enhancement in vehicular networks",
-    "Authors": [
-        "G Yan",
-        "S Olariu",
-        "MC Weigle"
-    ],
-    "Source": "2010 IEEE Intelligent Vehicles Symposium, 95-100, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10105620197357003091",
-    "Citations": "31",
-    "PageYear": "2010"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:tFsQzMahPQAC",
     "Title": "Internet Engineering Task Force H. VandeSompel Internet-Draft Los Alamos National Laboratory Intended status: Informational M. Nelson Expires: May 16, 2011 Old Dominion University",
     "Authors": "R Sanderson",
     "Source": "",
 "CitedBy": "",
     "Citations": "",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:YsMSGLbcyi4C",
-    "Title": "Active position security through dynamically tunable radar",
-    "Authors": [
-        "G Yan",
-        "W Yang",
-        "J Li",
-        "VG Ashok"
-    ],
-    "Source": "The 7th IEEE International Conference on Mobile Ad-hoc and Sensor Systems\u00a0\u2026, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8029365389113501922,1995239702999445577",
-    "Citations": "22",
     "PageYear": "2010"}
 ,
  
@@ -6386,36 +5130,6 @@
         "ML Nelson"
     ],
     "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:4TOpqqG69KYC",
-    "Title": "Using DTMon to monitor transient flow traffic",
-    "Authors": [
-        "H Arbabi",
-        "MC Weigle"
-    ],
-    "Source": "2010 IEEE Vehicular Networking Conference, 110-117, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5905218857643756925",
-    "Citations": "18",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:2osOgNQ5qMEC",
-    "Title": "VizieR Online Data Catalog: The SDSS-DR7 quasar catalog (Schneider+, 2010)",
-    "Authors": [
-        "DP Schneider",
-        "GT Richards",
-        "PB Hall",
-        "MA Strauss",
-        "SF Anderson",
-        "..."
-    ],
-    "Source": "VizieR Online Data Catalog, VII/260, 2010",
 "CitedBy": "",
     "Citations": "",
     "PageYear": "2010"}
@@ -6476,36 +5190,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:Zph67rFs4hoC",
-    "Title": "Generalized stochastic performance models for loss-based congestion control",
-    "Authors": [
-        "MC Weigle",
-        "L Cheng",
-        "J Kaur",
-        "V Kulkarni"
-    ],
-    "Source": "Computer communications 33 (4), 513-525, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4659131393772397364",
-    "Citations": "8",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:roLk4NBRz8UC",
-    "Title": "Standardization of automated analyses of oculomotor fixation and saccadic behaviors",
-    "Authors": [
-        "OV Komogortsev",
-        "DV Gobert",
-        "S Jayarathna",
-        "SM Gowda"
-    ],
-    "Source": "IEEE Transactions on biomedical engineering 57 (11), 2635-2645, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5624121814585725419",
-    "Citations": "297",
-    "PageYear": "2010"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:kugM79TKeU4C",
     "Title": "Time Maps: Metadata for Memento",
     "Authors": [
@@ -6532,20 +5216,6 @@
     "Source": "2007-04-07]. http://www. openarchives. org/OAI/OAI-organization. php, 2010",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14593884628155044829",
     "Citations": "5",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:VaXvl8Fpj5cC",
-    "Title": "Statistical Approach to Person Identification via Unique Properties of the Oculomotor Plant",
-    "Authors": [
-        "M Mahmoud",
-        "S Jayarathna",
-        "O Komogortsev"
-    ],
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
     "PageYear": "2010"}
 ,
  
@@ -6606,52 +5276,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:Tyk-4Ss8FVUC",
-    "Title": "The UV Properties of A Set of Composite Quasar Spectra and the Baldwin Effect",
-    "Authors": [
-        "J Wu",
-        "DP Schneider",
-        "DE Vanden Berk"
-    ],
-    "Source": "American Astronomical Society Meeting Abstracts# 215 215, 373.06, 2010",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:WF5omc3nYNoC",
-    "Title": "Privacy aware localization in VANET",
-    "Authors": [
-        "VG Ashok",
-        "Y Gongjun",
-        "S Olariu",
-        "A Gupta"
-    ],
-    "Source": "The 7th IEEE International Conference on Mobile Ad-hoc and Sensor Systems\u00a0\u2026, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9076559347141463368",
-    "Citations": "4",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=Of8dNP0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Of8dNP0AAAAJ:UebtZRa9Y70C",
-    "Title": "A novel parking solution for metropolitan parking garages",
-    "Authors": [
-        "VG Ashok",
-        "A Gupta",
-        "S Shiva",
-        "H Iyer",
-        "D Gowda",
-        "A Srinivas"
-    ],
-    "Source": "Proceedings of the 3rd WSEAS International Conference on Urban Planning and\u00a0\u2026, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12758711584282871095",
-    "Citations": "4",
-    "PageYear": "2010"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:bF3sBmdg0HEC",
     "Title": "Memento: TimeMap API for Web Archives",
     "Authors": [
@@ -6665,35 +5289,6 @@
     "Source": "",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17538254961104259966",
     "Citations": "3",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:hC7cP41nSMkC",
-    "Title": "Cooperative collision warning through mobility and probability prediction",
-    "Authors": [
-        "G Yan",
-        "W Yang",
-        "MC Weigle",
-        "S Olariu",
-        "D Rawat"
-    ],
-    "Source": "2010 IEEE Intelligent Vehicles Symposium, 1172-1177, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15186266848543127101",
-    "Citations": "20",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:qxL8FJ1GzNcC",
-    "Title": "Using traffic flow for cluster formation in vehicular ad-hoc networks",
-    "Authors": [
-        "MS Almalag",
-        "MC Weigle"
-    ],
-    "Source": "Local Computer Networks (LCN), 2010 IEEE 35th Conference on, 631-636, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6511476793640449687",
-    "Citations": "139",
     "PageYear": "2010"}
 ,
  
@@ -6715,37 +5310,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:9yKSN-GCB0IC",
-    "Title": "THE PHYSICAL CONDITIONS OF THE INTRINSIC N v NARROW ABSORPTION LINE SYSTEMS OF THREE QUASARS",
-    "Authors": [
-        "J Wu",
-        "JC Charlton",
-        "T Misawa",
-        "M Eracleous",
-        "R Ganguly"
-    ],
-    "Source": "The Astrophysical Journal 722 (2), 997, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17395314147753522926",
-    "Citations": "24",
-    "PageYear": "2010"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:UebtZRa9Y70C",
-    "Title": "Qualitative and quantitative scoring and evaluation of the eye movement classification algorithms",
-    "Authors": [
-        "OV Komogortsev",
-        "S Jayarathna",
-        "DH Koh",
-        "SM Gowda"
-    ],
-    "Source": "Proceedings of the 2010 Symposium on eye-tracking research & applications, 65-68, 2010",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16024337164549124388",
-    "Citations": "72",
-    "PageYear": "2010"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:AvfA0Oy_GE0C",
     "Title": "Using timed-release cryptography to mitigate the preservation risk of embargo periods",
     "Authors": [
@@ -6759,42 +5323,12 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:rmuvC79q63oC",
-    "Title": "Content Delivery in Zero-Infrastructure VANETs",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 221-236, 2009",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2009"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:V3AGJWp-ZtQC",
     "Title": "Data-driven science: a new paradigm",
     "Authors": "ML Nelson",
     "Source": "Educause Review 44 (4), 6-7, 2009",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9959993130008725069",
     "Citations": "23",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:GtLg2Ama23sC",
-    "Title": "Vehicular Mobility Models",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 343-400, 2009",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:_axFR9aDTf0C",
-    "Title": "Emerging Vehicular Applications",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 171-200, 2009",
-"CitedBy": "",
-    "Citations": "",
     "PageYear": "2009"}
 ,
  
@@ -6830,54 +5364,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:9pM33mqn1YgC",
-    "Title": "Localization in Vehicular Ad-Hoc Networks",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 323-340, 2009",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:umqufdRvDiIC",
-    "Title": "Models for Traffic Flow and Vehicle Motion",
-    "Authors": [
-        "S Olariu",
-        "MC Weigle"
-    ],
-    "Source": "Vehicular Networks, 43-72, 2009",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:4fGpz3EwCPoC",
-    "Title": "CAR-2-X Communication in Europe",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 111-142, 2009",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:MXK_kJrjxJIC",
-    "Title": "Multicast encryption infrastructure for security in sensor networks",
-    "Authors": [
-        "RR Brooks",
-        "B Pillai",
-        "M Pirretti",
-        "MC Weigle"
-    ],
-    "Source": "International Journal of Distributed Sensor Networks 5 (2), 139-157, 2009",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10311481075218002415",
-    "Citations": "10",
-    "PageYear": "2009"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:ZfRJV9d4-WMC",
     "Title": "A framework for describing web repositories",
     "Authors": [
@@ -6887,16 +5373,6 @@
     "Source": "Proceedings of the 9th ACM/IEEE-CS joint conference on Digital libraries\u00a0\u2026, 2009",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2359082135414307616",
     "Citations": "11",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:0izLItjtcgwC",
-    "Title": "Safety-Related Vehicular Applications",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 145-170, 2009",
-"CitedBy": "",
-    "Citations": "",
     "PageYear": "2009"}
 ,
  
@@ -6923,16 +5399,6 @@
     "Source": "Communications of the ACM 52 (11), 142-142, 2009",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10108868708926381310",
     "Citations": "1",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:KlAtU1dfN6UC",
-    "Title": "Use of infrastructure in VANETs",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 201-220, 2009",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4202836323720284678",
-    "Citations": "4",
     "PageYear": "2009"}
 ,
  
@@ -6990,16 +5456,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:HtEfBTGE9r8C",
-    "Title": "Delay-Tolerant Networks in VANETs",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 287-322, 2009",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2009"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:VOx2b1Wkg3QC",
     "Title": "Unsupervised creation of small world networks for the preservation of digital objects",
     "Authors": [
@@ -7019,50 +5475,6 @@
     "Source": "",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14761698485131434853",
     "Citations": "2",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:PVjk1bu6vJQC",
-    "Title": "Mental Workload and Driver Distraction with In-Vehicle Displays",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 425-450, 2009",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:bz8QjSJIRt4C",
-    "Title": "Vehicular Network Simulators",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 401-422, 2009",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:_kc_bZDykSQC",
-    "Title": "A novel parking service using wireless networks",
-    "Authors": [
-        "G Yan",
-        "MC Weigle",
-        "S Olariu"
-    ],
-    "Source": "2009 IEEE/INFORMS International Conference on Service Operations, Logistics\u00a0\u2026, 2009",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3272094598475366102",
-    "Citations": "10",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:YohjEiUPhakC",
-    "Title": "Vehicle-Infrastructure Cooperation",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 75-110, 2009",
-"CitedBy": "",
-    "Citations": "",
     "PageYear": "2009"}
 ,
  
@@ -7132,16 +5544,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:kh2fBNsKQNwC",
-    "Title": "Mobile Ad Hoc Routing in the Context of Vehicular Networks",
-    "Authors": "MC Weigle",
-    "Source": "Vehicular Networks, 239-286, 2009",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2009"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:1yQoGdGgb4wC",
     "Title": "Correlation of music charts and search engine rankings",
     "Authors": [
@@ -7186,60 +5588,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:5nxA0vEk-isC",
-    "Title": "Dynamic adaptation of joint transmission power and contention window in VANET",
-    "Authors": [
-        "DB Rawat",
-        "G Yan",
-        "DC Popescu",
-        "MC Weigle",
-        "S Olariu"
-    ],
-    "Source": "2009 IEEE 70th Vehicular Technology Conference Fall, 1-5, 2009",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17799395622027379167",
-    "Citations": "74",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:u5HHmVD_uO8C",
-    "Title": "Vehicular Networks: From Theory to Practice",
-    "Authors": "",
-    "Source": "CRC Press, 2009",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3844541203124768547,221107549934769472,10515114037720686845,2560176857726052740",
-    "Citations": "450",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:Ri6SYOTghG4C",
-    "Title": "Traffic monitoring",
-    "Authors": [
-        "M Fontaine",
-        "S Olariu",
-        "MC Weigle"
-    ],
-    "Source": "Vehicular Networks from Theory to Practice, 2009",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9227367836179878039",
-    "Citations": "23",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:eQOLeE2rZwMC",
-    "Title": "p-IVG: Probabilistic inter-vehicle geocast for dense vehicular networks",
-    "Authors": [
-        "K Ibrahim",
-        "MC Weigle",
-        "M Abuelela"
-    ],
-    "Source": "VTC Spring 2009-IEEE 69th vehicular technology conference, 1-5, 2009",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10032685998643123604",
-    "Citations": "91",
-    "PageYear": "2009"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:klLsoiHXwFYC",
     "Title": "Synchronicity: Just-In-Time Discovery of Lost Web Pages",
     "Authors": [
@@ -7262,19 +5610,6 @@
     "Source": "",
 "CitedBy": "",
     "Citations": "",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:LkGwnXOMwfcC",
-    "Title": "Using vehicular networks to collect common traffic data",
-    "Authors": [
-        "MH Arbabi",
-        "M Weigle"
-    ],
-    "Source": "Proceedings of the sixth ACM international workshop on VehiculAr\u00a0\u2026, 2009",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8358807154392691860",
-    "Citations": "43",
     "PageYear": "2009"}
 ,
  
@@ -7305,20 +5640,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:VL0QpB8kHFEC",
-    "Title": "Providing location security in vehicular ad hoc networks",
-    "Authors": [
-        "G Yan",
-        "S Olariu",
-        "MC Weigle"
-    ],
-    "Source": "IEEE Wireless Communications 16 (6), 48-55, 2009",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7024290357119691266",
-    "Citations": "107",
-    "PageYear": "2009"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:7hTFQKV_Y-MC",
     "Title": "WhathappenswhenFacebookis gone?",
     "Authors": [
@@ -7328,23 +5649,6 @@
     "Source": "ProceedingsoftheACM/IEEEjointconferenceon digitallibraries. Austin: ACM/IEEE, 2009",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9595756250492796738",
     "Citations": "2",
-    "PageYear": "2009"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:d1gkVwhDpl0C",
-    "Title": "Probing the origins of the C iv and Fe K\u03b1 baldwin effects",
-    "Authors": [
-        "J Wu",
-        "DEV Berk",
-        "WN Brandt",
-        "DP Schneider",
-        "RR Gibson",
-        "J Wu"
-    ],
-    "Source": "The Astrophysical Journal 702 (1), 767, 2009",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=18255405465085962845",
-    "Citations": "52",
     "PageYear": "2009"}
 ,
  
@@ -7419,46 +5723,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:d1gkVwhDpl0C",
-    "Title": "Providing VANET security through active position detection",
-    "Authors": [
-        "G Yan",
-        "S Olariu",
-        "MC Weigle"
-    ],
-    "Source": "Computer communications 31 (12), 2883-2897, 2008",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5323290062049213490",
-    "Citations": "365",
-    "PageYear": "2008"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:zYLM7Y9cAGgC",
-    "Title": "CASCADE: Cluster-based accurate syntactic compression of aggregated data in VANETs",
-    "Authors": [
-        "K Ibrahim",
-        "MC Weigle"
-    ],
-    "Source": "2008 IEEE Globecom Workshops, 1-10, 2008",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5407356038820572548",
-    "Citations": "113",
-    "PageYear": "2008"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:Tyk-4Ss8FVUC",
-    "Title": "ASH: Application-aware SWANS with highway mobility",
-    "Authors": [
-        "K Ibrahim",
-        "MC Weigle"
-    ],
-    "Source": "IEEE INFOCOM Workshops 2008, 1-6, 2008",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6068824723979971039",
-    "Citations": "47",
-    "PageYear": "2008"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:pyW8ca7W8N0C",
     "Title": "Creating preservation-ready web resources",
     "Authors": [
@@ -7468,20 +5732,6 @@
     "Source": "D-Lib Magazine 14 (1/2), 2008",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13294797237968032081",
     "Citations": "11",
-    "PageYear": "2008"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:IjCSPb-OGe4C",
-    "Title": "Notice: An architecture for the notification of traffic incidents",
-    "Authors": [
-        "M Abuelela",
-        "S Olariu",
-        "MC Weigle"
-    ],
-    "Source": "VTC Spring 2008-IEEE Vehicular Technology Conference, 3001-3005, 2008",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17163937154700467981",
-    "Citations": "49",
     "PageYear": "2008"}
 ,
  
@@ -7641,22 +5891,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:aqlVkmm33-oC",
-    "Title": "WEHealth: A secure and privacy preserving eHealth using NOTICE",
-    "Authors": [
-        "G Yan",
-        "Y Wang",
-        "MC Weigle",
-        "S Olariu",
-        "K Ibrahim"
-    ],
-    "Source": "Proceedings of the International Conference on Wireless Access in Vehicular\u00a0\u2026, 2008",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15281659409175429910",
-    "Citations": "16",
-    "PageYear": "2008"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:KXHmhzr5f2IC",
     "Title": "Representing Resource Maps Using the Atom Syndication Format",
     "Authors": [
@@ -7685,19 +5919,6 @@
     "Source": "",
 "CitedBy": "",
     "Citations": "",
-    "PageYear": "2008"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:YOwf2qJgpHMC",
-    "Title": "Towards an optimized and secure cascade for data aggregation in VANETs",
-    "Authors": [
-        "K Ibrahim",
-        "MC Weigle"
-    ],
-    "Source": "Proceedings of the fifth ACM international workshop on VehiculAr Inter\u00a0\u2026, 2008",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2051746460737336298",
-    "Citations": "7",
     "PageYear": "2008"}
 ,
  
@@ -7838,19 +6059,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:MXK_kJrjxJIC",
-    "Title": "2D Oculomotor Plant Mathematical Model for eye movement simulation",
-    "Authors": [
-        "OV Komogortsev",
-        "UKS Jayarathna"
-    ],
-    "Source": "2008 8th IEEE International Conference on BioInformatics and BioEngineering, 1-8, 2008",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16244271093540506354",
-    "Citations": "22",
-    "PageYear": "2008"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:NMxIlDl6LWMC",
     "Title": "A comparison of techniques for estimating IDF values to generate lexical signatures for the web",
     "Authors": [
@@ -7901,19 +6109,6 @@
     "Source": "Proceedings of the 8th ACM/IEEE-CS joint conference on Digital libraries\u00a0\u2026, 2008",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14552580614655442894",
     "Citations": "10",
-    "PageYear": "2008"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:W7OEmFMy1HYC",
-    "Title": "Optimizing CASCADE data aggregation for VANETs",
-    "Authors": [
-        "K Ibrahim",
-        "MC Weigle"
-    ],
-    "Source": "2008 5th IEEE International Conference on Mobile Ad Hoc and Sensor Systems\u00a0\u2026, 2008",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5147586415150355239",
-    "Citations": "43",
     "PageYear": "2008"}
 ,
  
@@ -8015,35 +6210,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:kNdYIx-mwKoC",
-    "Title": "Light-weight laser-aided position verification for CASCADE",
-    "Authors": [
-        "K Ibrahim",
-        "MC Weigle",
-        "G Yan"
-    ],
-    "Source": "Proc. International Conference on WAVE, 2008",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2686590260255014940",
-    "Citations": "7",
-    "PageYear": "2008"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:3fE2CSJIrl8C",
-    "Title": "SmartParking: A secure and intelligent parking system using NOTICE",
-    "Authors": [
-        "G Yan",
-        "S Olariu",
-        "MC Weigle",
-        "M Abuelela"
-    ],
-    "Source": "2008 11th International IEEE Conference on Intelligent Transportation\u00a0\u2026, 2008",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14716574746775583542",
-    "Citations": "45",
-    "PageYear": "2008"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:uk0w_JccWH8C",
     "Title": "The Open Archives Initiative Protocol for Metadata Harvesting (C. Lagoze, H. van de Sompel, M. Nelson, & S. Warner, Eds.). Open Archives Initiative",
     "Authors": "Open Archives Initiative",
@@ -8051,21 +6217,6 @@
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6240349620643400129",
     "Citations": "2",
     "PageYear": "2008"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:0EnyYjriUFMC",
-    "Title": "A traffic chaos reduction approach for emergency scenarios",
-    "Authors": [
-        "SRA Rizvi",
-        "S Olariu",
-        "ME Rizvi",
-        "MC Weigle"
-    ],
-    "Source": "2007 IEEE International Performance, Computing, and Communications\u00a0\u2026, 2007",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16856085151971954695",
-    "Citations": "11",
-    "PageYear": "2007"}
 ,
  
 { 
@@ -8137,21 +6288,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:W7OEmFMy1HYC",
-    "Title": "On the selection effect of radio quasars in the Sloan Digital Sky Survey",
-    "Authors": [
-        "Y Lu",
-        "T Wang",
-        "H Zhou",
-        "J Wu"
-    ],
-    "Source": "The Astronomical Journal 133 (4), 1615, 2007",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13377424857330021502",
-    "Citations": "43",
-    "PageYear": "2007"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:nS6_t4fuB3kC",
     "Title": "Open archives initiative object reuse and exchange",
     "Authors": [
@@ -8205,59 +6341,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:u-x6o8ySG0sC",
-    "Title": "The sloan digital sky survey quasar catalog. IV. Fifth data release",
-    "Authors": [
-        "DP Schneider",
-        "PB Hall",
-        "GT Richards",
-        "MA Strauss",
-        "DEV Berk",
-        "..."
-    ],
-    "Source": "The Astronomical Journal 134 (1), 102, 2007",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=844258565982127282,9220839160644624140",
-    "Citations": "613",
-    "PageYear": "2007"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:YsMSGLbcyi4C",
-    "Title": "Accurate data aggregation for VANETs",
-    "Authors": [
-        "K Ibrahim",
-        "MC Weigle"
-    ],
-    "Source": "Proceedings of the fourth ACM international workshop on Vehicular ad hoc\u00a0\u2026, 2007",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10461465966619045101",
-    "Citations": "38",
-    "PageYear": "2007"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:UebtZRa9Y70C",
-    "Title": "Intelligent highway infrastructure for planned evacuations",
-    "Authors": [
-        "MC Weigle",
-        "S Olariu"
-    ],
-    "Source": "2007 IEEE International Performance, Computing, and Communications\u00a0\u2026, 2007",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3848931054035620677",
-    "Citations": "17",
-    "PageYear": "2007"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:BUYA1_V_uYcC",
-    "Title": "Summary of \u201cThe Security of Vehicular Ad Hoc Networks\u201d",
-    "Authors": "M Weigle",
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2007"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:kVZqXsXrJl0C",
     "Title": "Open Archives Initative Object Reuse and Exchange (OAI-ORE)",
     "Authors": [
@@ -8289,20 +6372,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:Y0pCki6q_DkC",
-    "Title": "Continuum and Emission Line Properties of Composite Quasar Spectra from SDSS",
-    "Authors": [
-        "J Wu",
-        "D Vanden Berk",
-        "D Schneider"
-    ],
-    "Source": "American Astronomical Society Meeting Abstracts 211, 45.04, 2007",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2007"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:zYLM7Y9cAGgC",
     "Title": "Agreeing to disagree: search engines and their public interfaces",
     "Authors": [
@@ -8326,21 +6395,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:Wp0gIr-vW9MC",
-    "Title": "Optimal Layout of Multicast Groups Using Network Embedded Multicast Security in Ad Hoc Sensor Networks",
-    "Authors": [
-        "RR Brooks",
-        "B Pillai",
-        "MC Weigle",
-        "M Pirretti"
-    ],
-    "Source": "International Journal of Distributed Sensor Networks 3 (3), 273-287, 2007",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=792676219169575543",
-    "Citations": "2",
-    "PageYear": "2007"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:R3hNpaxXUhUC",
     "Title": "Using the web infrastructure to preserve web pages",
     "Authors": [
@@ -8352,21 +6406,6 @@
     "Source": "International Journal on Digital Libraries 6 (4), 327-349, 2007",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11148762679381454425",
     "Citations": "23",
-    "PageYear": "2007"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:_FxGoFyzp5QC",
-    "Title": "A novel approach to reduce traffic chaos in emergency and evacuation scenarios",
-    "Authors": [
-        "SR Rizvi",
-        "S Olariu",
-        "MC Weigle",
-        "ME Rizvi"
-    ],
-    "Source": "2007 IEEE 66th Vehicular Technology Conference, 1937-1941, 2007",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13930092993460759142",
-    "Citations": "37",
     "PageYear": "2007"}
 ,
  
@@ -8481,19 +6520,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:5nxA0vEk-isC",
-    "Title": "A junction based segmentation algorithm for offline handwritten connected character segmentation",
-    "Authors": [
-        "UKS Jayarathna",
-        "G Bandara"
-    ],
-    "Source": "2006 International Conference on Computational Inteligence for Modelling\u00a0\u2026, 2006",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14907050371702868311",
-    "Citations": "16",
-    "PageYear": "2006"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:PR6Y55bgFSsC",
     "Title": "Repository replication using smtp and nntp",
     "Authors": [
@@ -8504,20 +6530,6 @@
     "Source": "Proceedings of the 2006 international conference on Digital government\u00a0\u2026, 2006",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15334470123515673706",
     "Citations": "2",
-    "PageYear": "2006"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:qjMakFHDy7sC",
-    "Title": "Performance of competing high-speed TCP flows",
-    "Authors": [
-        "MC Weigle",
-        "P Sharma",
-        "JR Freeman"
-    ],
-    "Source": "International Conference on Research in Networking, 476-487, 2006",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8070867990477964985,4078791096031868345",
-    "Citations": "45",
     "PageYear": "2006"}
 ,
  
@@ -8548,20 +6560,6 @@
     "Source": "Research and Advanced Technology for Digital Libraries, 524-527, 2006",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13177527505470894758",
     "Citations": "7",
-    "PageYear": "2006"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:L8Ckcad2t8MC",
-    "Title": "Assessing the Impact of Multiple Active Queue Management Routers",
-    "Authors": [
-        "MC Weigle",
-        "D Vembar",
-        "Z Du"
-    ],
-    "Source": "Global Telecommunications Conference, 2006. GLOBECOM'06. IEEE, 1-6, 2006",
-"CitedBy": "",
-    "Citations": "",
     "PageYear": "2006"}
 ,
  
@@ -8638,20 +6636,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:4DMP91E08xMC",
-    "Title": "Quantifying the effects of recent protocol improvements to TCP: Impact on Web performance",
-    "Authors": [
-        "MC Weigle",
-        "K Jeffay",
-        "FD Smith"
-    ],
-    "Source": "Computer communications 29 (15), 2853-2866, 2006",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16483273799299128281",
-    "Citations": "1",
-    "PageYear": "2006"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:hC7cP41nSMkC",
     "Title": "Observed web robot behavior on decaying web subsites",
     "Authors": [
@@ -8662,22 +6646,6 @@
     "Source": "D-Lib Magazine 12 (2), 2006",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10686570287545434760,18227406052698930806",
     "Citations": "21",
-    "PageYear": "2006"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:9yKSN-GCB0IC",
-    "Title": "Tmix: a tool for generating realistic TCP application workloads in ns-2",
-    "Authors": [
-        "MC Weigle",
-        "P Adurthi",
-        "F Hernández-Campos",
-        "K Jeffay",
-        "FD Smith"
-    ],
-    "Source": "ACM SIGCOMM Computer Communication Review 36 (3), 65-76, 2006",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14688276743735028025",
-    "Citations": "189",
     "PageYear": "2006"}
 ,
  
@@ -8721,45 +6689,6 @@
     "Source": "IEEE Internet Computing 10 (2), 66-73, 2006",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12722050564135360847,11279814177361457627",
     "Citations": "61",
-    "PageYear": "2006"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:1yQoGdGgb4wC",
-    "Title": "Performance Analysis of High-Speed Transport Control Protocols",
-    "Authors": [
-        "P Sharma",
-        "MC Weigle"
-    ],
-    "Source": "Clemson University, 2006",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3657194265630903352",
-    "Citations": "8",
-    "PageYear": "2006"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:UeHWp8X0CEIC",
-    "Title": "Impact of 802.11 e EDCA on mixed TCP-based applications",
-    "Authors": [
-        "M Thottan",
-        "MC Weigle"
-    ],
-    "Source": "Proceedings of the 2nd annual international workshop on Wireless internet, 26-es, 2006",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3564597491926234782",
-    "Citations": "34",
-    "PageYear": "2006"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=OkEoChMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=OkEoChMAAAAJ:8k81kl-MbHgC",
-    "Title": "New segmentation algorithm for offline handwritten connected character segmentation",
-    "Authors": [
-        "UKS Jayarathna",
-        "G Bandara"
-    ],
-    "Source": "First International Conference on Industrial and Information Systems, 540-546, 2006",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2644949385961889804",
-    "Citations": "12",
     "PageYear": "2006"}
 ,
  
@@ -8833,16 +6762,6 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:ufrVoPGSRksC",
-    "Title": "Improving confidence in network simulations",
-    "Authors": "MC Weigle",
-    "Source": "Proceedings of the 2006 winter simulation conference, 2188-2194, 2006",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11143592984275774991,12727671642949356179",
-    "Citations": "26",
-    "PageYear": "2006"}
-,
- 
-{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:znQEAXyEQe8C",
     "Title": "URL: http://www. openarchives. org",
     "Authors": "Open Archives Initiative",
@@ -8853,7 +6772,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:r0BpntZqJG4C",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:_kc_bZDykSQC",
     "Title": "Evaluation of the NSDL and Google for obtaining pedagogical resources",
     "Authors": [
         "F McCown",
@@ -8880,21 +6799,22 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:2osOgNQ5qMEC",
-    "Title": "Delay-based early congestion detection and adaptation in TCP: impact on web performance",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:j3f4tGmQtD8C",
+    "Title": "A framework for assessing the impact of units of scholarly communication based on OAI-PMH harvesting of usage information",
     "Authors": [
-        "MC Weigle",
-        "K Jeffay",
-        "FD Smith"
+        "J Bollen",
+        "H Van de Sompel",
+        "J Smith",
+        "L Rick"
     ],
-    "Source": "Computer Communications 28 (8), 837-850, 2005",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12602033587802981765,12615594403182140510",
-    "Citations": "48",
+    "Source": "Presentation d elivered at CERN workshop on Innovations in Scholarly\u00a0\u2026, 2005",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=207848228474595279",
+    "Citations": "4",
     "PageYear": "2005"}
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:rO6llkc54NcC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:qUcmZB5y_30C",
     "Title": "Distributed, real-time computation of community preferences",
     "Authors": [
         "T Lutkenhouse",
@@ -8904,6 +6824,21 @@
     "Source": "Proceedings of the sixteenth ACM conference on Hypertext and hypermedia, 88-97, 2005",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13874289460524712734",
     "Citations": "8",
+    "PageYear": "2005"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:Y5dfb0dijaUC",
+    "Title": "IWAW05",
+    "Authors": [
+        "F McCown",
+        "S Chan",
+        "ML Nelson",
+        "J Bollen"
+    ],
+    "Source": "",
+"CitedBy": "",
+    "Citations": "",
     "PageYear": "2005"}
 ,
  
@@ -8964,17 +6899,21 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:LPZeul_q3PIC",
-    "Title": "Transport Protocol in WSN",
-    "Authors": "M Weigle",
-    "Source": "Virginia Technology/Clemson workshop, 2005",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6685455577151039152",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:bEWYMUwI8FkC",
+    "Title": "The bX project: Federating and mining usage logs from linking servers",
+    "Authors": [
+        "J Bollen",
+        "O Beit-Arie",
+        "H Van de Sompel"
+    ],
+    "Source": "CNI Coalition for Networked Information, Dec, 5-6, 2005",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12001932385824576836",
     "Citations": "2",
     "PageYear": "2005"}
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:TFP_iSt0sucC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:4TOpqqG69KYC",
     "Title": "Reconstructing websites for the lazy webmaster",
     "Authors": [
         "F McCown",
@@ -8983,13 +6922,13 @@
         "J Bollen"
     ],
     "Source": "arXiv preprint cs/0512069, 2005",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1941040769630054930,10865017191413031957",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1941040769630054930",
     "Citations": "10",
     "PageYear": "2005"}
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:u-x6o8ySG0sC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:u5HHmVD_uO8C",
     "Title": "Co-authorship networks in the digital library research community",
     "Authors": [
         "X Liu",
@@ -8998,8 +6937,8 @@
         "H Van de Sompel"
     ],
     "Source": "Information processing & management 41 (6), 1462-1480, 2005",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16088721360821364988,14892754529006323646,10761935013883082669,6980843626702454019,15440743988699043541,6263391058726232831",
-    "Citations": "1098",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16088721360821364988",
+    "Citations": "1091",
     "PageYear": "2005"}
 ,
  
@@ -9014,7 +6953,22 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:kNdYIx-mwKoC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:maZDTaKrznsC",
+    "Title": "A distributed model for tacit design knowledge exchange",
+    "Authors": [
+        "A Heylighen",
+        "F Heylighen",
+        "J Bollen",
+        "M Casaer"
+    ],
+    "Source": "CUMINCAD, 2005",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12617956739383882104",
+    "Citations": "1",
+    "PageYear": "2005"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:hqOjcs7Dif8C",
     "Title": "The availability and persistence of web references in D-Lib Magazine",
     "Authors": [
         "F McCown",
@@ -9023,13 +6977,13 @@
         "J Bollen"
     ],
     "Source": "arXiv preprint cs/0511077, 2005",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9988832340683048573,4706864940644900537,15330270164002055086,2171328661266530362,17524935502332082173,3619783040506697151",
-    "Citations": "95",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9988832340683048573",
+    "Citations": "85",
     "PageYear": "2005"}
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:_Qo2XoVZTnwC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:YOwf2qJgpHMC",
     "Title": "Archive Ingest and Handling Test",
     "Authors": [
         "ML Nelson",
@@ -9140,21 +7094,41 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:UeHWp8X0CEIC",
-    "Title": "Modelling Three Quasar Intrinsic Narrow Absorption Line Systems",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:d1gkVwhDpl0C",
+    "Title": "Toward alternative metrics of journal impact: A comparison of download and citation data",
     "Authors": [
-        "J Wu",
-        "JC Charlton",
-        "T Misawa"
+        "J Bollen",
+        "H Van de Sompel",
+        "JA Smith",
+        "R Luce"
     ],
-    "Source": "American Astronomical Society Meeting Abstracts 207, 18.11, 2005",
-"CitedBy": "",
-    "Citations": "",
+    "Source": "Information processing & management 41 (6), 1419-1440, 2005",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17693787665915420834",
+    "Citations": "325",
     "PageYear": "2005"}
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:JQOojiI6XY0C",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:3s1wT3WcHBgC",
+    "Title": "Mining and analyzing digital archive usage data to support collection development decisions",
+    "Authors": [
+        "BW Boehm",
+        "AW Lam",
+        "BH Lee",
+        "F Muliawan",
+        "G Kim",
+        "H Huang",
+        "H Chi",
+        "..."
+    ],
+    "Source": "Proceedings of the 5th ACM/IEEE-CS Joint Conference on Digital Libraries\u00a0\u2026, 2005",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11257969486553898181",
+    "Citations": "2",
+    "PageYear": "2005"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:M3NEmzRMIkIC",
     "Title": "If you harvest arXiv. org, will they come?",
     "Authors": [
         "ML Nelson",
@@ -9167,7 +7141,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:5Ul4iDaHHb8C",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:iH-uZ7U-co4C",
     "Title": "Video recommendations for the open video project",
     "Authors": [
         "J Bollen",
@@ -9182,7 +7156,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:OkCShBBh3G8C",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:ZHo1McVdvXMC",
     "Title": "Final Report\u2013Old Dominion University Archive Ingest and Handling Test (AIHT)",
     "Authors": [
         "MLN PI",
@@ -9197,7 +7171,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:hMod-77fHWUC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:qxL8FJ1GzNcC",
     "Title": "Trend analysis of the digital library community",
     "Authors": [
         "J Bollen",
@@ -9209,6 +7183,20 @@
     "Source": "D-Lib Magazine 11 (1), 1082-9873, 2005",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12358286506154365548",
     "Citations": "16",
+    "PageYear": "2005"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:-_dYPAW6P2MC",
+    "Title": "Evaluating voltage dip immunity of industrial equipment",
+    "Authors": [
+        "M Stephens",
+        "M McGranaghan",
+        "M Bollen"
+    ],
+    "Source": "CIRED 2005-18th International Conference and Exhibition on Electricity\u00a0\u2026, 2005",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3955397602472035367",
+    "Citations": "4",
     "PageYear": "2005"}
 ,
  
@@ -9228,7 +7216,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:O3NaXMp0MMsC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:aqlVkmm33-oC",
     "Title": "Initial experiences re-exporting duplicate and similarity computation with an oai-pmh aggregator",
     "Authors": [
         "TL Harrison",
@@ -9237,8 +7225,8 @@
         "M Nelson"
     ],
     "Source": "arXiv preprint cs/0401001, 2004",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=793657379169657947,18361214899929922932",
-    "Citations": "8",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=793657379169657947",
+    "Citations": "6",
     "PageYear": "2004"}
 ,
  
@@ -9278,24 +7266,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:u-x6o8ySG0sC",
-    "Title": "Stochastic models for generating synthetic HTTP source traffic",
-    "Authors": [
-        "J Cao",
-        "WS Cleveland",
-        "Y Gao",
-        "K Jeffay",
-        "FD Smith",
-        "M Weigle"
-    ],
-    "Source": "IEEE INFOCOM, 2004",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4254768129184756935",
-    "Citations": "261",
-    "PageYear": "2004"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:3s1wT3WcHBgC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:ZeXyd9-uunAC",
     "Title": "Toolkits for visualizing co-authorship graph",
     "Authors": [
         "X Liu",
@@ -9307,7 +7278,7 @@
         "L Marks"
     ],
     "Source": "Proceedings of the Fourth ACM/IEEE Joint Conference on Digital Libraries\u00a0\u2026, 2004",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11803103329468741509,15950207900803907277",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11803103329468741509",
     "Citations": "9",
     "PageYear": "2004"}
 ,
@@ -9371,7 +7342,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:ldfaerwXgEUC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:QIV2ME_5wuYC",
     "Title": "All in the family? a co-authorship analysis of JCDL conferences (1994-2003)",
     "Authors": [
         "X Liu",
@@ -9386,7 +7357,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:fPk4N6BV_jEC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:hFOr9nPyWt4C",
     "Title": "Dynamic linking of smart digital objects based on user navigation patterns",
     "Authors": [
         "A Elango",
@@ -9410,7 +7381,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:SeFeTyx0c_EC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:dhFuZR0502QC",
     "Title": "User evaluation of the nasa technical report server recommendation service",
     "Authors": [
         "ML Nelson",
@@ -9419,7 +7390,7 @@
         "CE Mackey"
     ],
     "Source": "Proceedings of the 6th annual ACM international workshop on Web information\u00a0\u2026, 2004",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5980715063677786810,8272531968180478813,289612302689599293",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5980715063677786810",
     "Citations": "11",
     "PageYear": "2004"}
 ,
@@ -9530,6 +7501,16 @@
 ,
  
 { 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:HoB7MX3m0LUC",
+    "Title": "Ant Algorithms for Web Intelligence",
+    "Authors": "J Bollen",
+    "Source": "",
+"CitedBy": "",
+    "Citations": "",
+    "PageYear": "2003"}
+,
+ 
+{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:bnK-pcrLprsC",
     "Title": "Challenges in building federation services over harvested metadata",
     "Authors": [
@@ -9547,16 +7528,20 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:Se3iqnhoufwC",
-    "Title": "Quantifying the effects of recent protocol improvements to standards-track TCP",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:uWiczbcajpAC",
+    "Title": "Usage Analysis for the Identification of Research Trends in Digital Libraries; Keepers of the Crumbling Culture: What Digital Preservation Can Learn from Library History\u00a0\u2026",
     "Authors": [
-        "MC Weigle",
-        "K Jeffay",
-        "FD Smith"
+        "J Bollen",
+        "SS Vemulapalli",
+        "W Xu",
+        "R Luce",
+        "D Marcum",
+        "A Friedlander",
+        "..."
     ],
-    "Source": "11th IEEE/ACM International Symposium on Modeling, Analysis and Simulation\u00a0\u2026, 2003",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11363974200607237357,5158098497972547399",
-    "Citations": "7",
+    "Source": "D-Lib Magazine 9 (5), n5, 2003",
+"CitedBy": "",
+    "Citations": "",
     "PageYear": "2003"}
 ,
  
@@ -9567,6 +7552,16 @@
     "Source": "",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7496481317768898704",
     "Citations": "4",
+    "PageYear": "2003"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:dfsIfKJdRG4C",
+    "Title": "Ant Algorithms for the Global Brain",
+    "Authors": "J Bollen",
+    "Source": "",
+"CitedBy": "",
+    "Citations": "",
     "PageYear": "2003"}
 ,
  
@@ -9652,12 +7647,52 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:PR6Y55bgFSsC",
-    "Title": "Investigating the use of synchronized clocks in TCP congestion control",
-    "Authors": "MAC Weigle",
-    "Source": "The University of North Carolina at Chapel Hill, 2003",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5470138878440641363",
-    "Citations": "4",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:eflP2zaiRacC",
+    "Title": "Reviewers of Volume 9",
+    "Authors": [
+        "C Adami",
+        "T Arita",
+        "N Baas",
+        "G Baldassarre",
+        "M Bedau",
+        "R Beer",
+        "J Bird",
+        "D Bisig",
+        "..."
+    ],
+    "Source": "Artificial Life 9 (445), 2003",
+"CitedBy": "",
+    "Citations": "",
+    "PageYear": "2003"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:4DMP91E08xMC",
+    "Title": "Detecting research trends in digital library readership",
+    "Authors": [
+        "J Bollen",
+        "R Luce",
+        "S Vemulapalli",
+        "W Xu"
+    ],
+    "Source": "International Conference on Theory and Practice of Digital Libraries, 24-28, 2003",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1529614830077370667",
+    "Citations": "13",
+    "PageYear": "2003"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:vDijr-p_gm4C",
+    "Title": "Usage analysis for the identification of research trends in digital libraries",
+    "Authors": [
+        "J Bollen",
+        "R Luce",
+        "SS Vemulapalli",
+        "W Xu"
+    ],
+    "Source": "D-Lib Magazine 9 (5), 1082-9873, 2003",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5662748127576185232",
+    "Citations": "62",
     "PageYear": "2003"}
 ,
  
@@ -9682,6 +7717,26 @@
     "Source": "ODU CS TR 1, 2003",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10740710769160511085,14922584710126823594",
     "Citations": "2",
+    "PageYear": "2003"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:NaGl4SEjCO4C",
+    "Title": "Development of Digital Libraries\u2013An American Perspective",
+    "Authors": "J Bollen",
+    "Source": "Journal of Documentation, 2003",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5851575539546296434",
+    "Citations": "2",
+    "PageYear": "2003"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:k_IJM867U9cC",
+    "Title": "Adaptive hypertext networks that learn the common semantics of their users",
+    "Authors": "J Bollen",
+    "Source": "Retrieved May 19th, 2003",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=848676750814307715",
+    "Citations": "3",
     "PageYear": "2003"}
 ,
  
@@ -9822,6 +7877,32 @@
 ,
  
 { 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:_FxGoFyzp5QC",
+    "Title": "Hebbian algorithms for a digital library recommendation system",
+    "Authors": [
+        "F Heylighen",
+        "J Bollen"
+    ],
+    "Source": "Proceedings. International Conference on Parallel Processing Workshop, 439-446, 2002",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5057632027698327913",
+    "Citations": "59",
+    "PageYear": "2002"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:qjMakFHDy7sC",
+    "Title": "Evaluation of digital library impact and user communities by analysis of usage patterns",
+    "Authors": [
+        "J Bollen",
+        "R Luce"
+    ],
+    "Source": "D-Lib Magazine 8 (6), 1-13, 2002",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11743142158613077323",
+    "Citations": "121",
+    "PageYear": "2002"}
+,
+ 
+{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:6XuKD3u7GOoC",
     "Title": "Open Archives Initiative Protocol for Metadata Harvesting Implementation Guidelines",
     "Authors": [
@@ -9893,14 +7974,14 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:J_g5lzvAfSwC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:Wp0gIr-vW9MC",
     "Title": "Adaptive networks of smart objects",
     "Authors": [
         "J Bollen",
         "ML Nelson"
     ],
     "Source": "Proceedings. International Conference on Parallel Processing Workshop, 487-492, 2002",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4729879271373847687,14953686346132111310",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4729879271373847687",
     "Citations": "12",
     "PageYear": "2002"}
 ,
@@ -10007,7 +8088,7 @@
 ,
  
 { 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=300&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:6FFC2c45_UYC",
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:1yQoGdGgb4wC",
     "Title": "Distributed Computing Architectures for Digital Libraries Workshop",
     "Authors": [
         "J Bollen",
@@ -10031,6 +8112,21 @@
     "Source": "",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12422429803041875598",
     "Citations": "2",
+    "PageYear": "2002"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:4OULZ7Gr8RgC",
+    "Title": "Primary Multimedia Objects and'Educational Metadata'A Fundamental Dilemma for Developers of Multimedia Archives; Evaluation of Digital Library Impact and User Communities by\u00a0\u2026",
+    "Authors": [
+        "P Shabajee",
+        "J Bollen",
+        "R Luce",
+        "E Weig"
+    ],
+    "Source": "D-Lib Magazine 8 (6), n6, 2002",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3599434101237294243",
+    "Citations": "26",
     "PageYear": "2002"}
 ,
  
@@ -10063,6 +8159,24 @@
     "Source": "International Conference on Theory and Practice of Digital Libraries, 176-189, 2002",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2447364292284223281",
     "Citations": "9",
+    "PageYear": "2002"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:hMod-77fHWUC",
+    "Title": "Reviewers of Volume 8",
+    "Authors": [
+        "C Adami",
+        "L Altenberg",
+        "S Altmeyer",
+        "N Baas",
+        "W Banzhaf",
+        "J Bongard",
+        "..."
+    ],
+    "Source": "Artificial Life 8 (383), 2002",
+"CitedBy": "",
+    "Citations": "",
     "PageYear": "2002"}
 ,
  
@@ -10106,6 +8220,20 @@
     "Source": "Journal of Digital information 2 (4), 2002",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2119584077687426206",
     "Citations": "37",
+    "PageYear": "2002"}
+,
+ 
+{ 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=jDmcdsUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=jDmcdsUAAAAJ:HDshCWvjkbEC",
+    "Title": "Digital library evaluation by analysis of user retrieval patterns",
+    "Authors": [
+        "J Bollen",
+        "S Vemulapalli",
+        "W Xu"
+    ],
+    "Source": "International Conference on Theory and Practice of Digital Libraries, 432-447, 2002",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9815121419873695932",
+    "Citations": "6",
     "PageYear": "2002"}
 ,
  
@@ -10202,1017 +8330,4 @@
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10235328895269046612",
     "Citations": "9",
     "PageYear": "2002"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:jOyC0gq838wC",
-    "Title": "The Open Archives Initiative Protocol for Metadata Harvesting. Protocol Version 1.1, 2 July",
-    "Authors": [
-        "H Van de Sompel",
-        "C Lagoze"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16831959683070845877",
-    "Citations": "2",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:iH-uZ7U-co4C",
-    "Title": "Smart objects and open archives",
-    "Authors": [
-        "ML Nelson",
-        "K Maly"
-    ],
-    "Source": "D-Lib Magazine 7 (2), 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16811572406117450996",
-    "Citations": "20",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:uAP7c9r_Rr8C",
-    "Title": "Van de: The Open Archives Initiative Protocol for Metadata Harvesting",
-    "Authors": [
-        "C Lagoze",
-        "H Sompel"
-    ],
-    "Source": "Open Archives Initiative, 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5229014301120299109",
-    "Citations": "2",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:W7OEmFMy1HYC",
-    "Title": "Arc: an OAI service provider for cross-archive searching",
-    "Authors": [
-        "X Liu",
-        "K Maly",
-        "M Zubair",
-        "ML Nelson"
-    ],
-    "Source": "Proceedings of the 1st ACM/IEEE-CS joint conference on Digital libraries, 65-66, 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4185327795621452287,16654833382439972479",
-    "Citations": "54",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:rmR93V40Y70C",
-    "Title": "Open Archives Initiative Website",
-    "Authors": "Open Archives Initiative",
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15501584894105740502",
-    "Citations": "4",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:qUcmZB5y_30C",
-    "Title": "A survey of complex object technologies for digital libraries",
-    "Authors": "ML Nelson",
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9978593777267043663",
-    "Citations": "21",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:UbXTy9l1WKIC",
-    "Title": "Odas a las bibliotecas p\u00fablicas",
-    "Authors": "ZM Muela-Meza",
-    "Source": "La Polilla: Publicaci\u00f3n Mensual de la Biblioteca Nacional Jos\u00e9 Mart\u00ed, 2001",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:XiVPGOgt02cC",
-    "Title": "A bucket architecture for the open video project",
-    "Authors": [
-        "ML Nelson",
-        "G Marchionini",
-        "G Geisler",
-        "M Yang"
-    ],
-    "Source": "Proceedings of the 1st ACM/IEEE-CS joint conference on Digital libraries\u00a0\u2026, 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=935646051905329015",
-    "Citations": "6",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:9ZlFYXVOiuMC",
-    "Title": "Better interoperability through the open archives initiative",
-    "Authors": "ML Nelson",
-    "Source": "New review of information networking 7 (1), 133-145, 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8217043944160429307",
-    "Citations": "13",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:2osOgNQ5qMEC",
-    "Title": "Arc-an OAI service provider for digital library federation",
-    "Authors": [
-        "X Liu",
-        "K Maly",
-        "M Zubair",
-        "ML Nelson"
-    ],
-    "Source": "D-Lib magazine 7 (4), 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15380534926266846701",
-    "Citations": "124",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:t4WtaE3RIIAC",
-    "Title": "Multiple Metadata/Best Metadata Return",
-    "Authors": [
-        "H Suleman",
-        "M Nelson"
-    ],
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:L7JqRCIhofwC",
-    "Title": "Kurt Maly, Mohammad Zubair, and Michael L. Nelson,\"",
-    "Authors": "X Liu",
-    "Source": "Arc\u2014An OAI Service Provider for Digital Library Federation,\" D-Lib Magazine\u00a0\u2026, 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10693379884974419204",
-    "Citations": "2",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:mVmsd5A6BfQC",
-    "Title": "Interface concepts for the open video project",
-    "Authors": [
-        "G Geisler",
-        "G Marchionini",
-        "M Nelson",
-        "R Spinks",
-        "M Yang"
-    ],
-    "Source": "Proceedings of the Annual Meeting-American Society for Information Science\u00a0\u2026, 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5223522264966728014",
-    "Citations": "29",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:4Bh_hC5jS3YC",
-    "Title": "2015",
-    "Authors": "OA Initiative–OAI",
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12880079021296564450",
-    "Citations": "2",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:2lgwpy1Hu6IC",
-    "Title": "The Open Archives Iniciative Protocol for Metadata Harvesting",
-    "Authors": [
-        "C Veure Lagoze",
-        "H Van de Sompel"
-    ],
-    "Source": "Open Archive Iniciative, January, 2001",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:xtRiw3GOFMkC",
-    "Title": "Buckets: A new digital library technology for preserving NASA research",
-    "Authors": "ML Nelson",
-    "Source": "Journal of Government Information 28 (4), 369-394, 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8488773206833764802,11471846563965285039",
-    "Citations": "5",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:xyhAN3YsZoYC",
-    "Title": "Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)",
-    "Authors": "Open Archives Initiative",
-    "Source": "2005-05-20]. http://www. openarchives. brig, 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14447292339483404112",
-    "Citations": "5",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:cTdzRpWJKHEC",
-    "Title": "Dispon\u00edvel em:< http://www. openarchives. org/index. html>",
-    "Authors": "OPEN Archives Initiative",
-    "Source": "Acesso em 3, 2001",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:gYAb_yFic6IC",
-    "Title": "Open Archives Initiative Frequently Asked Questions",
-    "Authors": "Open Archives Initiative",
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:IjCSPb-OGe4C",
-    "Title": "Buckets: smart objects for digital libraries",
-    "Authors": "ML Nelson",
-    "Source": "Old Dominion University, 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17658087278508977693",
-    "Citations": "70",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:moWhu9_CcosC",
-    "Title": "The Open Archives Initiative Protocol for Metadata Harvesting http://www. openarchives. org",
-    "Authors": [
-        "C Lagoze",
-        "HV Sompel",
-        "M Nelson",
-        "S Warner"
-    ],
-    "Source": "OAI/openarchivesprotocol. html, 2001",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2163765827693282983",
-    "Citations": "11",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:mCmIWee0OMYC",
-    "Title": "The Open Archives Initiative Protocol for Metadata Harvesting: Protocol Version 1.0, Document Version 2001-01-21",
-    "Authors": [
-        "H Van de Sompel",
-        "C Lagoze"
-    ],
-    "Source": "Technical report. Ithaca, NY: Cornell University, 2001. http://www\u00a0\u2026, 2001",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:fJljFJTiP-AC",
-    "Title": "The Open Archives Initiative Protocol for Metadata Harvesting. Open Archives Initiative, 2001",
-    "Authors": [
-        "H Van de Sompel",
-        "C Lagoze"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3826859446604550248",
-    "Citations": "5",
-    "PageYear": "2001"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:l8DKPopc-98C",
-    "Title": "Open archives initiative [WWW site]. Cornell University [cited March 24, 2013]",
-    "Authors": [
-        "H Van de Sompel",
-        "C Lagoze"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1908946666952797829",
-    "Citations": "1",
-    "PageYear": "2000"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:WbkHhVStYXYC",
-    "Title": "Preserving the pyramid of STI using buckets",
-    "Authors": [
-        "ML Nelson",
-        "K Maly"
-    ],
-    "Source": "International Journal on Grey Literature, 2000",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6993252415655668319",
-    "Citations": "2",
-    "PageYear": "2000"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:Se3iqnhoufwC",
-    "Title": "Determining the publication impact of a digital library",
-    "Authors": [
-        "NR Kaplan",
-        "ML Nelson"
-    ],
-    "Source": "Journal of the American Society for Information Science and Technology 51 (4\u00a0\u2026, 2000",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5398845366146584778",
-    "Citations": "44",
-    "PageYear": "2000"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:uc_IGeMz5qoC",
-    "Title": "Smart Objects, Dumb Archives: Insuring the Long-Term Integrity of Digital Information",
-    "Authors": "ML Nelson",
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5638041124359339839",
-    "Citations": "1",
-    "PageYear": "2000"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=MOLPTqcAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=MOLPTqcAAAAJ:Y0pCki6q_DkC",
-    "Title": "Experiments in best-effort multimedia networking for a distributed virtual environment",
-    "Authors": [
-        "TC Hudson",
-        "MC Weigle",
-        "K Jeffay",
-        "RM Taylor II"
-    ],
-    "Source": "Multimedia Computing and Networking 2001 4312, 88-98, 2000",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5688847382843113910",
-    "Citations": "14",
-    "PageYear": "2000"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:j3f4tGmQtD8C",
-    "Title": "Dynamic construction of federated digital libraries",
-    "Authors": [
-        "M Zubair",
-        "K Maly",
-        "I Ameerally",
-        "M Nelson"
-    ],
-    "Source": "Proceedings of WWW9 Conference, 2000",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12087785061463992272",
-    "Citations": "18",
-    "PageYear": "2000"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:K1TAGxA9IWwC",
-    "Title": "internet page of Open Archives Initiative website",
-    "Authors": "Santa Fe Convention of the Open Archives Initiative",
-    "Source": "Open Archives Initiative, 2000",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13215815318925284138",
-    "Citations": "3",
-    "PageYear": "2000"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:qjMakFHDy7sC",
-    "Title": "The UPS Prototype: an experimental end-user service across e-print archives",
-    "Authors": [
-        "H Van de Sompel",
-        "T Krichel",
-        "M Nelson",
-        "P Hochstenbach",
-        "V Lyapunov",
-        "..."
-    ],
-    "Source": "D-Lib Magazine 6 (2), 2000",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2853914676421520078,1512328106307431868,2131534655852038100,7223911137544067508,17102882344140435082",
-    "Citations": "90",
-    "PageYear": "2000"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:6ftYtcnYaCAC",
-    "Title": "A Digital Library for the National Committee for Aeronautics",
-    "Authors": "ML Nelson",
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:66S1BDY1aroC",
-    "Title": "Smart Objects, Dumb Archives: A User-Centric, Layered Digital Library Framework",
-    "Authors": [
-        "M Kurt",
-        "N Michael L",
-        "Z Mohammad"
-    ],
-    "Source": "NASA Langley Technical Report Server, 1999",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:hMsQuOkrut0C",
-    "Title": "SODA: objets malins, archives stupides",
-    "Authors": [
-        "ML Nelson",
-        "K Maly",
-        "M Zubair",
-        "SNT Shen"
-    ],
-    "Source": "Lecture Notes in Computer Science (\u0441\u043c. \u0432 \u043a\u043d\u0438\u0433\u0430\u0445) 1696, 0494-0494, 1999",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:HDshCWvjkbEC",
-    "Title": "Buckets: Aggregative, intelligent agents for publishing in digital libraries",
-    "Authors": [
-        "KJ Maly",
-        "SNT Shen",
-        "M Zubair",
-        "ML Nelson"
-    ],
-    "Source": "WebNet Journal: Internet Technologies, Applications & Issues 1 (1), 58-66, 1999",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6957184315569636096,7015742364420018756",
-    "Citations": "21",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:DUooU5lO8OsC",
-    "Title": "Compute as Fast as the Engineers Can Think! ULTRAFAST COMPUTING TEAM FINAL REPORT",
-    "Authors": "RT Biedron",
-    "Source": "National Aeronautics and Space Administration, Langley Research Center, 1999",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7734774328924995383",
-    "Citations": "16",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:CHSYGLWDkRkC",
-    "Title": "Structured course objects in a digital library",
-    "Authors": [
-        "K Maly",
-        "M Zubair",
-        "XM Liu",
-        "ML Nelson",
-        "SJ Zeil"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11008012863222845956",
-    "Citations": "6",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:7PzlFSSx8tAC",
-    "Title": "A digital library for the National Advisory Committee for Aeronautics",
-    "Authors": "ML Nelson",
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17029391888324756076",
-    "Citations": "17",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:tS2w5q8j5-wC",
-    "Title": "Generalizing an Existing Digital Library",
-    "Authors": [
-        "K Maly",
-        "SNT Shen",
-        "M Zubair",
-        "ML Nelson"
-    ],
-    "Source": "Old Dominion University Computer Science Technical Report TR-99-01, 1999",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17099624877329015990",
-    "Citations": "4",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:-l7FTdOV6Y0C",
-    "Title": "Consult. 14 Out. 2016",
-    "Authors": "SANTA Fé Convention For The Open Archives Initiative",
-    "Source": "Dispon\u00edvel na Internet:< http://www. openarchives. org/sfc/sfc_entry. htm, 1999",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2824553596311625477",
-    "Citations": "2",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:Y0pCki6q_DkC",
-    "Title": "Smart Objects, Dumb Archives-- A User-Centric, Layered Digital Library Framework",
-    "Authors": [
-        "K Maly",
-        "ML Nelson",
-        "M Zubair"
-    ],
-    "Source": "D-Lib Magazine 5 (3), 1999",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3426190591602408294,9167018785457687272,10814763408859577068",
-    "Citations": "58",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:cjagZD1ri60C",
-    "Title": "the Universal Preprint Service initiative. July 1999",
-    "Authors": "H Van de Sompel",
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17263263551358112914",
-    "Citations": "3",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:TRpSR8MJMSgC",
-    "Title": "Planning Grant for the Use of Digital Libraries in Undergraduate Learning in Science",
-    "Authors": [
-        "K Maly",
-        "M Zubair",
-        "S Shen",
-        "S Zeil",
-        "ML Nelson",
-        "M Kholief",
-        "MI Ameerally",
-        "..."
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12378831708729777633",
-    "Citations": "7",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:EApWrIGyWYwC",
-    "Title": "SODA: Smart Objects, Dumb Archives",
-    "Authors": [
-        "N Michael L",
-        "M Kurt",
-        "Z Mohammad",
-        "S Stewart N"
-    ],
-    "Source": "NASA Langley Technical Report Server, 1999",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1999"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:QB0F--xbfh4C",
-    "Title": "NCSTRL+: Adding Multi-Discipline and Multi-Genre Support to the Dienst Protocol Using Clusters and Buckets",
-    "Authors": [
-        "N Michael L",
-        "M Kurt",
-        "S Stewart NT",
-        "Z Mohammad"
-    ],
-    "Source": "NASA Langley Technical Report Server, 1998",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1998"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:9djSGow2EaoC",
-    "Title": "Creating a Canonical Scientific and Technical Information Classification System for NCSTRL+",
-    "Authors": [
-        "T Melissa E",
-        "N Michael L"
-    ],
-    "Source": "NASA Langley Technical Report Server, 1998",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1998"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:Dip1O2bNi0gC",
-    "Title": "A Multi-Discipline, Multi-Genre Digital Library for Research and Education.",
-    "Authors": [
-        "ML Nelson",
-        "K Maly",
-        "SNT Shen"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14415986053626450960",
-    "Citations": "1",
-    "PageYear": "1998"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:xu-w60CxnpAC",
-    "Title": "A tudomanyos es mueszaki informaciok terjesztesenek fejloedese (Ref.: Roboz Peter)",
-    "Authors": [
-        "SL Esler",
-        "ML Nelson"
-    ],
-    "Source": "TUDOMANYOS ES MUSZAKI TAJEKOZTATAS 45, 443-448, 1998",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1998"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:738O_yMBCRsC",
-    "Title": "Interoperable heterogeneous digital libraries",
-    "Authors": [
-        "M Nelson",
-        "K Maly",
-        "M Zubair"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7114351309491559813",
-    "Citations": "3",
-    "PageYear": "1998"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:eQOLeE2rZwMC",
-    "Title": "Evolution of scientific and technical information distribution",
-    "Authors": [
-        "SL Esler",
-        "ML Nelson"
-    ],
-    "Source": "Journal of the American Society for Information Science 49 (1), 82-91, 1998",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5844646418638364816",
-    "Citations": "50",
-    "PageYear": "1998"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:amGTJ5MrhowC",
-    "Title": "A Multi-Discipline, Multi-Genre Digital Library for Research and Education",
-    "Authors": [
-        "N Michael L",
-        "M Kurt",
-        "S Stewart N"
-    ],
-    "Source": "NASA Langley Technical Report Server, 1998",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1998"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:dfsIfKJdRG4C",
-    "Title": "Building a multi-discipline digital library through extending the Dienst protocol",
-    "Authors": [
-        "ML Nelson",
-        "K Maly",
-        "SNT Shen"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9760950935748422842",
-    "Citations": "6",
-    "PageYear": "1997"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:GnPB-g6toBAC",
-    "Title": "TRSkit: a simple digital library toolkit",
-    "Authors": [
-        "ML Nelson",
-        "SL Esler"
-    ],
-    "Source": "Journal of Internet Cataloging 1 (2), 41-55, 1997",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16806234446952588799",
-    "Citations": "13",
-    "PageYear": "1997"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:LIyjJRbbAUMC",
-    "Title": "Integrating Information Technologies into Large",
-    "Authors": "JM Meyer",
-    "Source": "Cases on Information Technology Management in Modern Organizations, 209, 1997",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1997"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:_Ybze24A_UAC",
-    "Title": "Building multi-discipline, multi-format digital libraries using clusters and buckets",
-    "Authors": "ML Nelson",
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1997"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:gKLIUvgTho8C",
-    "Title": "NASA Indexing Benchmarks: Evaluating Text Search Engines",
-    "Authors": [
-        "E Sandra L",
-        "N Michael L"
-    ],
-    "Source": "NASA Langley Technical Report Server, 1997",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1997"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:eGJUmgNLeWAC",
-    "Title": "Integrating Information Technologies Into Large Organizations",
-    "Authors": [
-        "G Gretchen L",
-        "M John M",
-        "N Michael L",
-        "B David J"
-    ],
-    "Source": "NASA Langley Technical Report Server, 1997",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1997"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:_xSYboBqXhAC",
-    "Title": "Lyceum: A multi-protocol digital library gateway",
-    "Authors": [
-        "MH Maa",
-        "ML Nelson",
-        "SL Esler"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16257169823214786486",
-    "Citations": "6",
-    "PageYear": "1997"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:aEPHIGigqugC",
-    "Title": "A Comparison of Performance Characteristics of Freely Available Index and Search Engines. To Appear in",
-    "Authors": [
-        "SL Esler",
-        "ML Nelson"
-    ],
-    "Source": "The Journal of Network and Computer Applications, 1997",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9695536459412017295",
-    "Citations": "2",
-    "PageYear": "1997"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:vV6vV6tmYwMC",
-    "Title": "Buckets, clusters and dienst",
-    "Authors": [
-        "ML Nelson",
-        "K Maly",
-        "SNT Shen"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=671471556297854517,1640591132609181692",
-    "Citations": "8",
-    "PageYear": "1997"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:cFHS6HbyZ2cC",
-    "Title": "Optimizing the NASA Technical Report Server",
-    "Authors": [
-        "ML Nelson",
-        "MH Maa"
-    ],
-    "Source": "Internet Research, 1996",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9773254632702947511",
-    "Citations": "5",
-    "PageYear": "1996"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:dL6bBWYs_hoC",
-    "Title": "The workstation clustering environment at NASA Langley Research Center",
-    "Authors": [
-        "ML Nelson",
-        "DE Cordner"
-    ],
-    "Source": "Proceedings of the 3rd Annual Computational Aerosciences (CAS) Workshop, 1996",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11057701658853397612",
-    "Citations": "1",
-    "PageYear": "1996"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:vbGhcppDl1QC",
-    "Title": "NASAwide electronic publishing system: Prototype STI electronic document distribution, stage-4 evaluation report",
-    "Authors": [
-        "RC Tuey",
-        "M Collins",
-        "P Caswell",
-        "B Haynes",
-        "ML Nelson",
-        "J Holm",
-        "L Buquo",
-        "..."
-    ],
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1996"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:URolC5Kub84C",
-    "Title": "Barriers to Software Reuse and the Projected Impact of World Wide Web on Software Reuse",
-    "Authors": "ML Nelson",
-    "Source": "CiteSeer, 1996",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6607024816323501306",
-    "Citations": "2",
-    "PageYear": "1996"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:gVv57TyPmFsC",
-    "Title": "The widest practicable dissemination: the NASA technical report server",
-    "Authors": [
-        "ML Nelson",
-        "G Gretchen L",
-        "B Robert L",
-        "K Yvonne D",
-        "P Sharon S",
-        "B Chris J",
-        "..."
-    ],
-    "Source": "NASA Langley Technical Report Server, 1995",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4323930295097084627,4664504948615348233,8279525758146560673",
-    "Citations": "24",
-    "PageYear": "1995"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:5awf1xo2G04C",
-    "Title": "Accessing NASA Technology with the World Wide Web",
-    "Authors": [
-        "ML Nelson",
-        "DJ Bianco"
-    ],
-    "Source": "IEEE Aerospace and Electronic Systems Magazine 10 (5), 7-13, 1995",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10487062148181098772",
-    "Citations": "1",
-    "PageYear": "1995"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:ufrVoPGSRksC",
-    "Title": "The NASA technical report server",
-    "Authors": [
-        "ML Nelson",
-        "GL Gottlich",
-        "DJ Bianco",
-        "SS Paulson",
-        "RL Binkley",
-        "YD Kellogg",
-        "..."
-    ],
-    "Source": "Internet Research, 1995",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9227108988371135982,1334144891069973372",
-    "Citations": "47",
-    "PageYear": "1995"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:SP6oXDckpogC",
-    "Title": "Recent improvements in the NASA technical report server",
-    "Authors": [
-        "MH Maa",
-        "ML Nelson"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=538497816293228258",
-    "Citations": "11",
-    "PageYear": "1995"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=500&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:BrmTIyaxlBUC",
-    "Title": "Use of World Wide Web and NCSA Mosaic at Langley",
-    "Authors": "M NELSON",
-    "Source": "The Role of Computers in Research and Development at Langley Research Center\u00a0\u2026, 1994",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7431367090049550807",
-    "Citations": "2",
-    "PageYear": "1994"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=500&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:LkGwnXOMwfcC",
-    "Title": "World Wide Web implementation of the Langley technical report server",
-    "Authors": [
-        "ML Nelson",
-        "GL Gottlich",
-        "DJ Bianco"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3276128060097701892,2723579131689539142,7339922647732222793,15342804362946399806,15476494628690795909",
-    "Citations": "53",
-    "PageYear": "1994"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=500&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:OiA2aNrLN7MC",
-    "Title": "Gretchen L. Gottlich; and David J. Bianco: September 1994",
-    "Authors": "ML Nelson",
-    "Source": "World Wide Web Implementation of the Langley Technical Report Server, NASA\u00a0\u2026, 1994",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13154200724889309106",
-    "Citations": "2",
-    "PageYear": "1994"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=400&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:DJbcl8HfkQkC",
-    "Title": "A strategy for electronic dissemination of NASA Langley technical publications",
-    "Authors": [
-        "DG Roper",
-        "MK McCaskill",
-        "SD Holland",
-        "JL Walsh",
-        "ML Nelson",
-        "SL Adkins",
-        "..."
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3460786967492078187,5709800395601442664",
-    "Citations": "16",
-    "PageYear": "1994"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=500&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:KlAtU1dfN6UC",
-    "Title": "Electronic document distribution: design of the anonymous FTP Langley technical report server",
-    "Authors": [
-        "ML Nelson",
-        "GL Gottlich"
-    ],
-    "Source": "National Aeronautics and Space Administration, Langley Research Center, 1994",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=13017811043026913499,629418279586207536",
-    "Citations": "35",
-    "PageYear": "1994"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=500&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:YV61qt6iSr0C",
-    "Title": "The World Wide Web and Technology Transfer at NASA Langley Research Center",
-    "Authors": [
-        "N Michael L",
-        "B David J"
-    ],
-    "Source": "NASA Langley Technical Report Server, 1994",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1994"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=500&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:9yKSN-GCB0IC",
-    "Title": "A comparison of queueing, cluster and distributed computing systems",
-    "Authors": [
-        "JA Kaplan",
-        "ML Nelson"
-    ],
-    "Source": "",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=286153185967656933,1939027257551673816,12391434304201656148,16725870651391517574,13848062152310363386,16930101554510392345,16752663739972255164,13336615065096521059",
-    "Citations": "156",
-    "PageYear": "1993"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=500&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:VaXvl8Fpj5cC",
-    "Title": "Intel NX to PVM 3.2 message passing conversion library",
-    "Authors": [
-        "T Arthur",
-        "ML Nelson"
-    ],
-    "Source": "",
-"CitedBy": "",
-    "Citations": "",
-    "PageYear": "1993"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=500&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:vPvvXgAX3hMC",
-    "Title": "Economics of Information",
-    "Authors": "ML Nelson",
-    "Source": "Dordrecht: Springer Netherlands, 1981",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16879885767485661594",
-    "Citations": "1",
-    "PageYear": "1981"}
-,
- 
-{ 
-    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=oWQaPnwAAAAJ&cstart=500&pagesize=100&sortby=pubdate&citation_for_view=oWQaPnwAAAAJ:H1wcazwC3NUC",
-    "Title": "SIMEON WARNER. 2002",
-    "Authors": [
-        "C Lagoze",
-        "VANDES HERBERT",
-        "N MICHAEL"
-    ],
-    "Source": "The Open Archives Initiative Protocol for Metadata Harvesting. Online: http\u00a0\u2026, 8",
-"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=18138764572454344591",
-    "Citations": "2",
-    "PageYear": "8"}
 ]}
