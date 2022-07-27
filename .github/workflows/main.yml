@@ -32,13 +32,13 @@ jobs:
           script: |
             core.setFailed('No files generated on htmlsave')
       - name: Check for empty HTML files generated on htmlsave
-        if: ${{ env.empty_html < 1 }}
+        if: ${{ env.empty_html > 1 }}
         uses: actions/github-script@v3
         with:
           script: |
             core.setFailed('Empty HTML files')
       - name: Check for corrupted HTML files generated on htmlsave
-        if: ${{ env.corrupted_html < 1 }}
+        if: ${{ env.corrupted_html > 1 }}
         uses: actions/github-script@v3
         with:
           script: |
@@ -59,7 +59,7 @@ jobs:
           script: |
             core.setFailed('No files generated on html2ukvs')
       - name: Check for empty UKVS files generated on html2ukvs
-        if: ${{ env.empty_ukvs < 1 }}
+        if: ${{ env.empty_ukvs > 1 }}
         uses: actions/github-script@v3
         with:
           script: |
