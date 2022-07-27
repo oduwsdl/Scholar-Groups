@@ -120,7 +120,7 @@ def createbibtex():
         bibtex_entry = ('@misc{' + item_hash + ':' + item_year + ',\n      ' + 
                         title + '},\n      ' + authors + '},\n      ' + 
                         pageyear + '},\n      ' + source + '},\n      ' + 
-                        directURL + '},\n},\n')  #  A non-conventional comma ends entries
+                        directURL + '},\n}\n')
         sys.stdout.write(bibtex_entry +"\n")
 
 def createmd():
