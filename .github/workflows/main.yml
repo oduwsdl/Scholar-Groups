@@ -29,7 +29,13 @@ jobs:
           sudo apt-get install w3m
           sudo find output/data -type f -iname \*.ukvs -delete
           python3 ./code/html2ukvs.py output/data/*.html -i oWQaPnwAAAAJ --start=2002 -i MOLPTqcAAAAJ --start=2011 -i -eRsYx8AAAAJ --start=2018 -i OkEoChMAAAAJ --start=2018 -i Of8dNP0AAAAJ --start=2019 -i QjHw7ugAAAAJ --start=2020 -i jDmcdsUAAAAJ --start=2002 --end=2005
-          
+          echo "num_of_html=$(ls output/*.html | wc -l)" >> $GITHUB_ENV
+      - name: Check if files are generated correctly
+        if: ${{num_of_html > 1}}
+        uses: actions/github-script@v3
+        with:
+          script: |
+            core.setFailed('No files generated')
       - name: Sort
         run: |
           cat output/data/*ukvs | sort -u -k1,1 | sort -k2 -rn > output/comprehensive.ukvs
