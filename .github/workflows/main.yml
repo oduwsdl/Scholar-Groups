@@ -21,14 +21,14 @@ jobs:
       - name: htmlsave
         run: |
            sudo find output/data -type f -iname \*.html -delete
-           python3 ./code/htmlsave.py --output output/data oWQaPnwAAAAJ MOLPTqcAAAAJ OkEoChMAAAAJ -eRsYx8AAAAJ QjHw7ugAAAAJ Of8dNP0AAAAJ
+           python3 ./code/htmlsave.py --output output/data oWQaPnwAAAAJ MOLPTqcAAAAJ OkEoChMAAAAJ -eRsYx8AAAAJ QjHw7ugAAAAJ Of8dNP0AAAAJ jDmcdsUAAAAJ
         
       - name: html2ukvs
         run: |
           sudo apt-get install python3-bs4
           sudo apt-get install w3m
           sudo find output/data -type f -iname \*.ukvs -delete
-          python3 ./code/html2ukvs.py output/data/*.html -i oWQaPnwAAAAJ 2010 2021 -i MOLPTqcAAAAJ 2008 2021 -i OkEoChMAAAAJ 2009 2021 -i -eRsYx8AAAAJ 2015 2022 -i QjHw7ugAAAAJ 2017 2022 -i Of8dNP0AAAAJ 2015 2022
+          python3 ./code/html2ukvs.py output/data/*.html -i -i oWQaPnwAAAAJ --start=2002 -i MOLPTqcAAAAJ --start=2011 -i -eRsYx8AAAAJ --start=2018 -i OkEoChMAAAAJ --start=2018 -i Of8dNP0AAAAJ --start=2019 -i QjHw7ugAAAAJ --start=2020 -i jDmcdsUAAAAJ --start=2002 --end=2005
           
       - name: Sort
         run: |
