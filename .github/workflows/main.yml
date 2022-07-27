@@ -28,7 +28,7 @@ jobs:
           sudo apt-get install python3-bs4
           sudo apt-get install w3m
           sudo find output/data -type f -iname \*.ukvs -delete
-          python3 ./code/html2ukvs.py output/data/*.html -i -i oWQaPnwAAAAJ --start=2002 -i MOLPTqcAAAAJ --start=2011 -i -eRsYx8AAAAJ --start=2018 -i OkEoChMAAAAJ --start=2018 -i Of8dNP0AAAAJ --start=2019 -i QjHw7ugAAAAJ --start=2020 -i jDmcdsUAAAAJ --start=2002 --end=2005
+          python3 ./code/html2ukvs.py output/data/*.html -i oWQaPnwAAAAJ --start=2002 -i MOLPTqcAAAAJ --start=2011 -i -eRsYx8AAAAJ --start=2018 -i OkEoChMAAAAJ --start=2018 -i Of8dNP0AAAAJ --start=2019 -i QjHw7ugAAAAJ --start=2020 -i jDmcdsUAAAAJ --start=2002 --end=2005
           
       - name: Sort
         run: |
