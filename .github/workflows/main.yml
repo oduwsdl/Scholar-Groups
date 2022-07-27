@@ -32,7 +32,7 @@ jobs:
           script: |
             core.setFailed('No files generated on htmlsave')
       - name: Check for empty HTML files generated on htmlsave
-        if: ${{ env.empty_html > 1 }}
+        if: ${{ env.empty_html < 1 }}
         uses: actions/github-script@v3
         with:
           script: |
@@ -50,7 +50,14 @@ jobs:
           sudo apt-get install w3m
           sudo find output/data -type f -iname \*.ukvs -delete
           python3 ./code/html2ukvs.py output/data/*.html -i oWQaPnwAAAAJ --start=2002 -i MOLPTqcAAAAJ --start=2011 -i -eRsYx8AAAAJ --start=2018 -i OkEoChMAAAAJ --start=2018 -i Of8dNP0AAAAJ --start=2019 -i QjHw7ugAAAAJ --start=2020 -i jDmcdsUAAAAJ --start=2002 --end=2005
+          echo "num_of_ukvs=$(ls output/*.ukvs | wc -l)" >> $GITHUB_ENV
           echo "empty_ukvs=$(find . -name '*.ukvs' -size 0 | wc -l)" >> $GITHUB_ENV
+      - name: Check if HTML files are generated on html2ukvs
+        if: ${{ env.num_of_ukvs < 1 }}
+        uses: actions/github-script@v3
+        with:
+          script: |
+            core.setFailed('No files generated on html2ukvs')
       - name: Check for empty UKVS files generated on html2ukvs
         if: ${{ env.empty_ukvs < 1 }}
         uses: actions/github-script@v3
