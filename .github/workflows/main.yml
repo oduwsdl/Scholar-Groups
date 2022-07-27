@@ -22,6 +22,27 @@ jobs:
         run: |
            sudo find output/data -type f -iname \*.html -delete
            python3 ./code/htmlsave.py --output output/data oWQaPnwAAAAJ MOLPTqcAAAAJ OkEoChMAAAAJ -eRsYx8AAAAJ QjHw7ugAAAAJ Of8dNP0AAAAJ jDmcdsUAAAAJ
+           echo "num_of_html=$(ls output/*.html | wc -l)" >> $GITHUB_ENV
+           echo "empty_html=$(find . -name '*.html' -size 0 | wc -l)" >> $GITHUB_ENV
+           echo "corrupted_html=$( grep -irm 1 '<p class=\"a2CQh\" jsname=\"VdSJob\">to continue to Google Scholar Citations</p>' --include \*.html . | wc -l)"
+      - name: Check if HTML files are generated on htmlsave
+        if: ${{ env.num_of_html < 1 }}
+        uses: actions/github-script@v3
+        with:
+          script: |
+            core.setFailed('No files generated on htmlsave')
+      - name: Check for empty HTML files generated on htmlsave
+        if: ${{ env.empty_html > 1 }}
+        uses: actions/github-script@v3
+        with:
+          script: |
+            core.setFailed('Empty HTML files')
+      - name: Check for corrupted HTML files generated on htmlsave
+        if: ${{ env.corrupted_html < 1 }}
+        uses: actions/github-script@v3
+        with:
+          script: |
+            core.setFailed('Corrupted HTML files')
         
       - name: html2ukvs
         run: |
@@ -29,13 +50,13 @@ jobs:
           sudo apt-get install w3m
           sudo find output/data -type f -iname \*.ukvs -delete
           python3 ./code/html2ukvs.py output/data/*.html -i oWQaPnwAAAAJ --start=2002 -i MOLPTqcAAAAJ --start=2011 -i -eRsYx8AAAAJ --start=2018 -i OkEoChMAAAAJ --start=2018 -i Of8dNP0AAAAJ --start=2019 -i QjHw7ugAAAAJ --start=2020 -i jDmcdsUAAAAJ --start=2002 --end=2005
-          echo "num_of_html=$(ls output/*.html | wc -l)" >> $GITHUB_ENV
-      - name: Check if files are generated correctly
-        if: ${{ env.num_of_html > 1 }}
+          echo "empty_ukvs=$(find . -name '*.ukvs' -size 0 | wc -l)" >> $GITHUB_ENV
+      - name: Check for empty UKVS files generated on html2ukvs
+        if: ${{ env.empty_ukvs < 1 }}
         uses: actions/github-script@v3
         with:
           script: |
-            core.setFailed('No files generated')
+            core.setFailed('Empty UKVS files')
       - name: Sort
         run: |
           cat output/data/*ukvs | sort -u -k1,1 | sort -k2 -rn > output/comprehensive.ukvs
