@@ -1355,6 +1355,20 @@
 ,
  
 { 
+    "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:Vztgr1qGG8IC",
+    "Title": "Opening Books and the National Corpus of Graduate Research",
+    "Authors": [
+        "W Ingram",
+        "EA Fox",
+        "J Wu"
+    ],
+    "Source": "Retrieved 2020-04-04, from https://dlib. vt. edu/content/dlib_vt_edu/en\u00a0\u2026, 2020",
+"CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15655459081606462694",
+    "Citations": "2",
+    "PageYear": "2020"}
+,
+ 
+{ 
     "DirectURL": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=-eRsYx8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-eRsYx8AAAAJ:3A3nxV7CjKIC",
     "Title": "Inter-subdiscipline Analysis Based on Mathematical Statements",
     "Authors": [
@@ -4692,7 +4706,7 @@
     ],
     "Source": "International conference on theory and practice of digital libraries, 125-137, 2012",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4108128297679378453,10931003671629281200,3896619121576475724,5817801230840096237",
-    "Citations": "110",
+    "Citations": "111",
     "PageYear": "2012"}
 ,
  
@@ -7211,7 +7225,7 @@
     ],
     "Source": "D-lib magazine 10 (12), 2004",
 "CitedBy": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=18409614638590095802",
-    "Citations": "233",
+    "Citations": "232",
     "PageYear": "2004"}
 ,
  
