@@ -101,6 +101,8 @@ for a in range(3,arguments):
     qualifier = '>There are no articles in this profile.<'
     article_test = True
 
+    corrupted_file = '<p class="a2CQh" jsname="VdSJob">to continue to Google Scholar Citations</p>'
+
     # Program checks status code to verify a valid page was received. A status code 
     # of '200' is valid. A '302' redirect to a '200' is normally accepted as well.
     statuscode = page.status_code
@@ -126,7 +128,7 @@ for a in range(3,arguments):
         begin_value = begin_value + 100
         page = requests.get(createURL())
         new_test = page.text
-        if qualifier in new_test:
+        if qualifier in new_test or corrupted_file in new_test:
             article_test = False 
         statuscode = page.status_code
         x = x+1
