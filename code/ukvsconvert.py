@@ -49,6 +49,19 @@ program allows the user to specify the title for the webpage if desired using th
 to identify them as an ordered list. 
 """
 
+def extract_json_values(item_list):
+    item_list_json = json.loads(item_list)
+
+    directURL = item_list_json['DirectURL']
+    title = item_list_json['Title']
+    authors = item_list_json['Authors']
+    citedby = item_list_json['CitedBy']
+    citations = item_list_json["Citations"]
+    pageyear = item_list_json['PageYear']
+    source = item_list_json['Source']
+
+    return [directURL, title, authors, citedby, citations, pageyear, source]
+
 
 # This function converts the entries in an UKVS file to the conventional JSON format. Each
 # entry is identified with a hash of the title followed by the year of publication.
@@ -60,43 +73,19 @@ def createjson():
         if idx > 0:
             sys.stdout.write(',\n')
         item_hash,item_year,item_list = line.split(' ', 2)
-        item_list = item_list.replace('":"', '": "')
-        directURL, title, authors, source, citedby, citations, pageyear = item_list.split('", "')
-        directURL = directURL.replace('{ "', '"')
-        directURL = (directURL + '"')
-        
-        # Split the title
-        title_list = title.split('Title":')
-        # JSON encode the title
-        actual_title = json.dumps(title_list[1][2:])
-        title = 'Title": ' + actual_title
-        title = ('"' + title)
-        
-        authors = ('"' + authors + '"')
-        if ',' in authors:
-            authors = authors.replace(', ', '",\n        "')
-            authors = authors.replace('": "', '": [\n        "') 
-            authors = (authors + '\n    ]') 
-        source_list = source.split('Source":')
-        actual_source = json.dumps(source_list[1][2:])
-        source = 'Source": ' + actual_source
-        source = ('"' + source)
-        citedby = ('"' + citedby + '"')
-        if citations == '": "':
-           citations = citations.replace('": "', '": ')
-           citations = ('"' + citations)
-        else: 
-             citations = ('"' + citations + '"')
-        if pageyear == '": "':
-           pageyear = pageyear.replace('": "', '": ')
-           pageyear = pageyear.replace('"}', '')
-           pageyear = ('"' + pageyear)
-        else:
-             pageyear = ('"' + pageyear)
-        json_entry = (' \n{ \n    ' + directURL + ',\n    ' + 
-                      title + ',\n    ' + authors + ',\n    ' + source + ',\n' +
-                      citedby + ',\n    ' + citations + ',\n    ' + pageyear )
-        sys.stdout.write(json_entry)
+        directURL, title, authors, citedby, citations, pageyear, source = extract_json_values(item_list)
+
+        items = {
+                'DirectURL' : directURL,
+                'Title' : title,
+                'Authors' : authors.split(', '),
+                'Source' : source,
+                'CitedBy' : citedby,
+                'Citations' : citations,
+                'PageYear' : pageyear
+            }
+
+        sys.stdout.write('\t' + json.dumps(items, indent=4))
     sys.stdout.write(']' + '}')
 # This function converts the entries in an UKVS file to the conventional BIBTEX format. Each 
 # entry is identified as "@misc" type in the current configuration. Additionally, when the 
@@ -106,21 +95,12 @@ def createbibtex():
     for line in fileinput.input(args.inputfile):
         #print(line)
         item_hash,item_year,item_list = line.split(' ', 2)
-        directURL, title, authors, source, citedby, citations, pageyear = item_list.split('", "')
-        directURL = directURL.replace('{ "DirectURL":"', 'url = {')
-        title = title.replace('Title":"', 'title = {')
-        authors = authors.replace('Authors":"', 'author = {')
-        if ',' in authors: 
-            authors = (authors + '}')
-            authors = authors.replace('{', '{{')
-            authors = authors.replace(', ', '} and {')
-        source = source.replace('Source":"', 'howpublished = {')
-        pageyear = pageyear.replace('PageYear":"', 'date = {') 
-        pageyear = pageyear.replace('"}\n', '') 
+        directURL, title, authors, citedby, citations, pageyear, source = extract_json_values(item_list)
+
         bibtex_entry = ('@misc{' + item_hash + ':' + item_year + ',\n      ' + 
-                        title + '},\n      ' + authors + '},\n      ' + 
-                        pageyear + '},\n      ' + source + '},\n      ' + 
-                        directURL + '},\n},\n')  #  A non-conventional comma ends entries
+                        'title = {' + title + '},\n      ' + 'author = {' + authors + '},\n      ' + 
+                        'date = {' + pageyear + '},\n      ' + 'howpublished = {' + source + '},\n      ' + 
+                        'url = {' + directURL + '},\n}\n')
         sys.stdout.write(bibtex_entry +"\n")
 
 def createmd():
@@ -135,14 +115,9 @@ def createmd():
     for line in fileinput.input(args.inputfile):
         item_hash,item_year,item_list = line.split(' ', 2)
         directURL, title, authors, source, citedby, citations, pageyear = item_list.split('", "')
-        # print(pageyear)
-        directURL = directURL.replace('{ "DirectURL":"', '')
-        title = title.replace('Title":"', '')
-        authors = authors.replace('Authors":"', '')
-        source = source.replace('Source":"', '')
-        citedby = citedby.replace('CitedBy":"', '')
-        pageyear = pageyear.replace('PageYear":"', '') 
-        pageyear = pageyear.replace('"}\n', '')
+
+        directURL, title, authors, citedby, citations, pageyear, source = extract_json_values(item_list)
+
         if source == 'Source":"':
              source = pageyear.replace('PageYear":"','') 
         else:
@@ -220,17 +195,8 @@ def createhtml():
 
     for line in fileinput.input(args.inputfile):
         item_hash,item_year,item_list = line.split(' ', 2)
-        directURL, title, authors, source, citedby, citations, pageyear = item_list.split('", "')
-        directURL = directURL.replace('{ "DirectURL":"', '')
-        title = title.replace('Title":"', '')
-        authors = authors.replace('Authors":"', '')
-        citedby = citedby.replace('CitedBy":"', '')
-        pageyear = pageyear.replace('PageYear":"', '') 
-        pageyear = pageyear.replace('"}\n', '')
-        if source == 'Source":"':
-             source = pageyear.replace('PageYear":"','') 
-        else:
-              source = source.replace('Source":"', '')
+
+        directURL, title, authors, citedby, citations, pageyear, source = extract_json_values(item_list)
 
         try:
             entries.append((authors, directURL, title, source, int(pageyear)))

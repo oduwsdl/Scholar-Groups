@@ -8,6 +8,7 @@ import hashlib
 from bs4 import BeautifulSoup
 import argparse
 import math
+import json
 
 """
 The findinitiallink(): function is used to search the saved HTML file for the link for each 
@@ -148,17 +149,18 @@ for file in files:
 
             # Items in the UKVS file are arrays of entries with each entry being saved as 
             # multiple key-value pairs in a dictionary format following a hash and year key..
-            gs_lists.append((
-            hashID + ' ' + pageYear + ' { ' + \
-            '"DirectURL":"' + directURL + '", ' + \
-            #'"PopURL":"' + popURL + '", ' + \  # Removed while no longer functional in GS page
-            '"Title":"' + title + '", ' + \
-            '"Authors":"' + authors + '", ' + \
-            '"Source":"' + source + '", ' + \
-            '"CitedBy":"' + citedBy + '", ' + \
-            '"Citations":"' + citations + '", ' + \
-            '"PageYear":"' + pageYear + '"}'
-            ))
+
+            items = {
+                'DirectURL' : directURL,
+                'Title' : title,
+                'Authors' : authors,
+                'Source' : source,
+                'CitedBy' : citedBy,
+                'Citations' : citations,
+                'PageYear' : pageYear
+            }
+
+            gs_lists.append(hashID + ' ' + pageYear + ' ' + json.dumps(items))
             
             # Save the contents as an UKVS file with the same name as the original HTML file
             f_name, f_ext = os.path.splitext(html_file.name)
