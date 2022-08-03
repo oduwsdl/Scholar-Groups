@@ -225,7 +225,7 @@ def createhtml():
                                 item[3] + '.<p> </p></li>\n')
             else:
                 sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                                year + '.<p> </p></li>\n')
+                                str(year) + '.<p> </p></li>\n')
             prevyear = year
     elif args.list == '1':
         prevyear = None
@@ -241,7 +241,7 @@ def createhtml():
                                 item[3] + '.<p> </p></li>\n')
             else:
                 sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                                year + '.<p> </p></li>\n')
+                                str(year) + '.<p> </p></li>\n')
             prevyear = year
         sys.stdout.write("</ol>")
     elif args.list =='none' or args.list is None:
@@ -254,7 +254,7 @@ def createhtml():
                                 item[3] + '.<p> </p></li>\n')
             else:
                 sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                                year + '.<p> </p></li>\n')
+                                str(year) + '.<p> </p></li>\n')
     sys.stdout.write('</body>\n')
     sys.stdout.write('</html>\n')
 
