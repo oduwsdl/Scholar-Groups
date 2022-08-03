@@ -220,8 +220,12 @@ def createhtml():
                 if prevyear is not None:
                     sys.stdout.write("</ol>")
                 sys.stdout.write('<h2>' + str(year) + '</h2>\n<ol>\n')
-            sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                             item[3] + '.<p> </p></li>\n')
+            if item[3]:
+                sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                item[3] + '.<p> </p></li>\n')
+            else:
+                sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                year + '.<p> </p></li>\n')
             prevyear = year
     elif args.list == '1':
         prevyear = None
@@ -232,8 +236,12 @@ def createhtml():
                 continue
             if year != prevyear:
                 sys.stdout.write('<h2>' + str(year) + '</h2>\n')
-            sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                             item[3] + '.<p> </p></li>\n')
+            if item[3]:
+                sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                item[3] + '.<p> </p></li>\n')
+            else:
+                sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                year + '.<p> </p></li>\n')
             prevyear = year
         sys.stdout.write("</ol>")
     elif args.list =='none' or args.list is None:
@@ -241,8 +249,12 @@ def createhtml():
             year = int(item[4])
             if year < start or year > end:
                 continue
-            sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                             item[3] + '.<p> </p></li>\n')
+            if item[3]:
+                sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                item[3] + '.<p> </p></li>\n')
+            else:
+                sys.stdout.write('<li>' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                year + '.<p> </p></li>\n')
     sys.stdout.write('</body>\n')
     sys.stdout.write('</html>\n')
 
