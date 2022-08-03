@@ -8,6 +8,7 @@ import hashlib
 from bs4 import BeautifulSoup
 import argparse
 import math
+import json
 
 """
 The findinitiallink(): function is used to search the saved HTML file for the link for each 
@@ -56,6 +57,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('files', action='append', nargs='+')
 # Add parser argument for the scholar IDs and their start years and end years.
 parser.add_argument('-i', action='append', nargs='+')
+
 args = parser.parse_args()
 
 files = args.files[0]
@@ -63,7 +65,17 @@ files = args.files[0]
 scholar_options = {}
 
 if args.i:  
-    scholar_options = { option[0]: list(map(int, option[1:])) for option in args.i }
+    # scholar_options = { option[0]: list(map(int, option[1:])) for option in args.i }
+    scholar_options = {}
+
+    for option in args.i:
+        start = [string for string in option if '--start' in string]
+        start = int(start[0].split('=')[1]) if start else None
+        end = [string for string in option if '--end' in string]
+        end = int(end[0].split('=')[1]) if end else None
+
+        scholar_options[option[0]] = [start, end]
+
     
 # Import the html file contents and open it with Beautiful Soup. The HTML file is read by 
 # byte and uses the 'lxml' conversion parser. This uses Beautiful Soup version 4.
@@ -92,6 +104,8 @@ for file in files:
     if scholar_options:
         if scholar_id_key in scholar_options.keys():
             startyear, endyear = scholar_options[scholar_id_key]
+            startyear = startyear if startyear is not None else -math.inf
+            endyear = endyear if endyear is not None else math.inf
 
     """
     The program uses Beautiful Soup functions to extract specific elements. The elements are 
@@ -135,17 +149,18 @@ for file in files:
 
             # Items in the UKVS file are arrays of entries with each entry being saved as 
             # multiple key-value pairs in a dictionary format following a hash and year key..
-            gs_lists.append((
-            hashID + ' ' + pageYear + ' { ' + \
-            '"DirectURL":"' + directURL + '", ' + \
-            #'"PopURL":"' + popURL + '", ' + \  # Removed while no longer functional in GS page
-            '"Title":"' + title + '", ' + \
-            '"Authors":"' + authors + '", ' + \
-            '"Source":"' + source + '", ' + \
-            '"CitedBy":"' + citedBy + '", ' + \
-            '"Citations":"' + citations + '", ' + \
-            '"PageYear":"' + pageYear + '"}'
-            ))
+
+            items = {
+                'DirectURL' : directURL,
+                'Title' : title,
+                'Authors' : authors,
+                'Source' : source,
+                'CitedBy' : citedBy,
+                'Citations' : citations,
+                'PageYear' : pageYear
+            }
+
+            gs_lists.append(hashID + ' ' + pageYear + ' ' + json.dumps(items))
             
             # Save the contents as an UKVS file with the same name as the original HTML file
             f_name, f_ext = os.path.splitext(html_file.name)
