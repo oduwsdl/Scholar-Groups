@@ -135,6 +135,7 @@ def createmd():
     for line in fileinput.input(args.inputfile):
         item_hash,item_year,item_list = line.split(' ', 2)
         directURL, title, authors, source, citedby, citations, pageyear = item_list.split('", "')
+        # print(pageyear)
         directURL = directURL.replace('{ "DirectURL":"', '')
         title = title.replace('Title":"', '')
         authors = authors.replace('Authors":"', '')
@@ -167,8 +168,13 @@ def createmd():
                 continue
             if year != prevyear: 
                 sys.stdout.write('## ' + str(year) + '\n')
-            sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                             item[3] + '.<p> </p>\n')
+
+            if item[3]:
+                sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                item[3] + '.<p> </p>\n')
+            else:
+                sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                str(year) + '.<p> </p>\n')
             prevyear = year
     elif args.list == '1':
         prevyear = None
@@ -178,16 +184,25 @@ def createmd():
                 continue
             if year != prevyear:
                 sys.stdout.write('   ## ' + str(year) + '\n')
-            sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                             item[3] + '.<p> </p>\n')
+            if item[3]:
+                sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                item[3] + '.<p> </p>\n')
+            else:
+                sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                str(year) + '.<p> </p>\n')
+            
             prevyear = year
     elif args.list =='none' or args.list is None:
         for item in entries:
             year = int(item[4])
             if year < start or year > end:
                 continue
-            sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
-                             item[3] + '.<p> </p>\n')
+            if item[3]:
+                sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                item[3] + '.<p> </p>\n')
+            else:
+                sys.stdout.write('1. ' + item[0] + ', <b><a href="' + item[1] + '">' + item[2] + '</a></b>, ' + \
+                                str(year) + '.<p> </p>\n')
 
 
 
