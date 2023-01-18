@@ -227,7 +227,7 @@ Articles may be formatted into different list types such as one list(1), lists s
 
 ## Disclaimer:
 
-The Scholar Groups toolkit scrapes Google Scholar, a service we do not control and it could change tomorrow.
+The Scholar Groups toolkit scrapes Google Scholar, a service we do not control and which could change tomorrow.
 
   
   
