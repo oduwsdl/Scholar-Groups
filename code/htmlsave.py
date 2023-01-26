@@ -76,7 +76,13 @@ for a in range(3,arguments):
     start_value = 0
     begin_value = start_value
     page_size = 100 
-    page = requests.get(createURL())
+    headers = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Accept-Language': 'en-us'
+    }
+    page = requests.get(createURL(),headers=headers)
     
     """
     The status code of the requests.get function enables the program to verify 
