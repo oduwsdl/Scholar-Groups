@@ -21,7 +21,7 @@ jobs:
       - name: htmlsave
         run: |
            sudo find output/data -type f -iname \*.html -delete
-           python3 ./code/htmlsave.py --output output/data oWQaPnwAAAAJ MOLPTqcAAAAJ OkEoChMAAAAJ -eRsYx8AAAAJ QjHw7ugAAAAJ Of8dNP0AAAAJ jDmcdsUAAAAJ
+           python3 ./code/htmlsave.py --output output/data oWQaPnwAAAAJ MOLPTqcAAAAJ OkEoChMAAAAJ -eRsYx8AAAAJ QjHw7ugAAAAJ Of8dNP0AAAAJ jDmcdsUAAAAJ 
            echo "num_of_html=$(ls output/*.html | wc -l)" >> $GITHUB_ENV
            echo "empty_html=$(find . -name '*.html' -size 0 | wc -l)" >> $GITHUB_ENV
            echo "corrupted_html=$( grep -irm 1 '<p class=\"a2CQh\" jsname=\"VdSJob\">to continue to Google Scholar Citations</p>' --include \*.html . | wc -l)"
